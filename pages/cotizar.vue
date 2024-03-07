@@ -3,6 +3,6 @@
 
 <template>
   <div>
-    <SectionsCallToAction/>
+    <!--<SectionsCallToAction/>-->
   </div>
 </template>
