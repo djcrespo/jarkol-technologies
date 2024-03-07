@@ -4,7 +4,7 @@ import GenericGallery from "~/components/sections/home/GenericGallery.vue";
 useHead({
   title: 'Jarkol Technologies',
   meta: [
-    { name: 'description', content: 'Podux Podcast landing page website.' },
+    { name: 'description', content: 'Transformamos desafíos geotérmicos y geofísicos en oportunidades, guiándolo hacia el futuro de la exploración energética.' },
   ],
   link: [
     { rel: 'icon', type: 'image/png', href: '/jarkol/logo/jarkol.png' }
