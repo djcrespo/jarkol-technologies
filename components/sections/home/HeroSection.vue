@@ -16,27 +16,27 @@
             </div>
             <div
                 class="grid lg:grid-cols-2 gap-10 xl:gap-14 relative pt-24 lg:max-w-none max-w-2xl md:max-w-3xl mx-auto">
-                <div class="lg:py-6">
+                <div class="lg:py-6 flex flex-col justify-center items-center">
                     <div class="text-center lg:text-left">
-                        <span class="px-2 py-1 rounded-md bg-gray-100 dark:bg-body text-primary ">New season
-                            available</span>
-                        <h1 class="text-gray-800 pt-4 dark:text-white font-bold text-4xl md:text-5xl lg:text-6xl">
-                            Find and listen <br> Favorite <span
-                                class="text-transparent bg-clip-text bg-gradient-to-br from-primary to-[#8cd66a]">Podcast</span>
-                            on internet
-                        </h1>
+                      <img class="h-30 w-auto" src="/jarkol/logo/logo-ori.png" alt="Jarkol Technologies">
+                      <!--
+                      <h1 class="text-gray-800 pt-4 dark:text-white font-bold text-4xl md:text-5xl lg:text-7xl">
+                        Jarkol Technologies
+                      </h1>
+                        <span class="px-2 py-0 rounded-md bg-gray-100 dark:bg-body text-primary ">Technology & engineering services</span>
+                        -->
                     </div>
 
                     <p class="text-gray-600 dark:text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, beatae omnis ipsa magnam neque
-                        ut nam nesciunt esse fugit praesentium hic magni possimus illo consequatur.
+                      Donde la Innovación Encuentra el Rendimiento.
                     </p>
 
                     <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
                         <AtomsLinkBtn href="#" variant="primary" class="w-full sm:w-max flex justify-center">
-                            Join us
+                            Contacto
                         </AtomsLinkBtn>
 
+                        <!--
                         <AtomsLinkBtn href="#" variant="costum" costum-span-class="px-6 md:px-7 hover:bg-primary/10"
                             costum-text-color="text-primary ">
                             <div class="flex items-center gap-3">
@@ -54,7 +54,9 @@
                                 </span>
                             </div>
                         </AtomsLinkBtn>
+                        -->
                     </div>
+                  <!--
                     <div class="pt-8 lg:pt-10 w-max mx-auto lg:mx-0">
                         <div class="flex items-center text-center flex-col sm:flex-row gap-4 sm:gap-0">
                             <div class="flex items-center">
@@ -76,22 +78,23 @@
                             </div>
                         </div>
                     </div>
+                  -->
                 </div>
                 <div class="lg:h-full  hidden md:flex">
 
                     <div
-                        class="flex w-full h-96 min-h-[24rem] lg:min-h-[none] lg:w-full lg:h-full items-center relative">
+                        class="flex w-full h-96 min-h-[35rem] lg:min-h-[none] lg:w-full lg:h-full items-center relative">
                         <div
                             class="absolute z-0 top-1/2  -translate-y-1/2 w-5/6 right-0 h-[calc(80%+20px)] bg-gradient-to-tr opacity-25 from-primary to-pink-300 dark:from-[#570cac] dark:to-primary blur-2xl">
                         </div>
                         <div
                             class="absolute w-3/5 h-full z-10 p-1 -translate-y-1/2 top-1/2 right-3 rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border">
-                            <img src="/images/sidebiew.webp" alt="In studio" width="500" height="auto" loading="lazy"
+                            <img src="/jarkol/images/img2.jpg" alt="In studio" width="500" height="auto" loading="lazy"
                                 class="w-full h-full rounded-2xl object-cover">
                         </div>
                         <div
                             class="absolute  -translate-y-1/2 top-1/2 h-[calc(80%-2rem)] w-[calc(40%-20px)] p-1 rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border ">
-                            <img src="/images/sidebiew.webp" alt="Happy in studio" width="200" height="auto"
+                            <img src="/jarkol/images/img1.jpg" alt="Happy in studio" width="200" height="auto"
                                 loading="lazy" class="w-full h-full rounded-2xl object-cover">
                         </div>
                     </div>
@@ -100,3 +103,5 @@
         </AtomsContainer>
     </section>
 </template>
+<script setup lang="ts">
+</script>

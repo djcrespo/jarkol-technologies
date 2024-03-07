@@ -4,30 +4,35 @@
             <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 gap-y-10">
                 <div class="col-span-2 md:col-span-4 lg:col-span-2">
                     <NuxtLink to="/" class=" flex items-center gap-2">
+                      <!--
                         <span class="flex">
                             <span class="w-3 h-6 rounded-l-full flex bg-primary"></span>
                             <span class="w-3 h-6 rounded-r-full flex bg-[#f88fc2] mt-2"></span>
                         </span>
                         <span class="text-xl font-bold text-gray-700 dark:text-white">Podux</span>
+                      -->
+                      <img class="h-8 w-auto" src="/jarkol/logo/jarkol.png" alt="Jarkol Technologies">
                     </NuxtLink>
 
+                    <!--
                     <p class="text-gray-600 dark:text-gray-300 pt-6">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nemo, veritatis
+                        Jarkol Technologies.
                     </p>
+                    -->
                 </div>
 
-                <BlocksFooterNavBlock title="Enterprise" :links="quickLinks" />
-                <BlocksFooterNavBlock title="Ressources" :links="ressourcesLinks" />
-                <BlocksFooterNavBlock title="Support" :links="supportLinks" />
-                <BlocksFooterNavBlock title="Enterprise" :links="quickLinks" />
+                <BlocksFooterNavBlock title="Contacto" :links="quickLinks" />
+                <BlocksFooterNavBlock title="Servicios" :links="ressourcesLinks" />
+                <BlocksFooterNavBlock title="Productos" :links="supportLinks" />
             </div>
         </AtomsContainer>
+      <!--
         <div class="py-2 bg-gray-200 dark:bg-[rgb(10,16,29)]">
             <AtomsContainer>
                 <div class="flex justify-between items-center gap-5 text-gray-600 dark:text-gray-300">
                     <div class="">
                         &copy; {{ new Date().getFullYear() }} Allright Reserved. Designed by <NuxtLink target="_blank"
-                            to="#" class="font-bold text-primary">Kat Mj</NuxtLink>
+                            to="#" class="font-bold text-primary">Didier Crespo</NuxtLink>
                     </div>
 
                     <div class="flex items-center gap-x-3">
@@ -52,11 +57,13 @@
                 </div>
             </AtomsContainer>
         </div>
+        -->
     </footer>
 </template>
 
 <script lang="ts" setup>
 const quickLinks = [
+    /*
     {
         href: "#",
         text: "About us"
@@ -73,8 +80,10 @@ const quickLinks = [
         href: "#",
         text: "Solution"
     }
+    */
 ]
 const ressourcesLinks = [
+    /*
     {
         href: "#",
         text: "Developpers"
@@ -87,9 +96,11 @@ const ressourcesLinks = [
         href: "#",
         text: "Pricing"
     }
+    */
 ]
 
 const supportLinks = [
+    /*
     {
         href: "#",
         text: "Contact-us"
@@ -106,6 +117,7 @@ const supportLinks = [
         href: "#",
         text: "FAQ"
     }
+    */
 ]
 
 

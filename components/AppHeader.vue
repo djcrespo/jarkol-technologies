@@ -9,20 +9,20 @@ function toggleNav(event: MouseEvent): void {
 
 const navLinks = [
     {
-        text: "Podcast",
-        href: "/"
+        text: "Nosotros",
+        href: "/nosotros"
     },
     {
-        text: "Solution",
-        href: "/"
+        text: "Servicios",
+        href: "/servicios"
     },
     {
-        text: "Blog",
-        href: "/"
+        text: "Clientes",
+        href: "/clientes"
     },
     {
-        text: "About",
-        href: "/"
+        text: "Contacto",
+        href: "/contacto"
     }
 ]
 
@@ -34,11 +34,14 @@ const navLinks = [
                 <!-- app logo -->
                 <div class="inline-flex relative bg-inherit">
                     <NuxtLink to="/" class=" flex items-center gap-2">
+                        <!--
                         <span class="flex">
                             <span class="w-3 h-6 rounded-l-full flex bg-primary"></span>
                             <span class="w-3 h-6 rounded-r-full flex bg-[#f88fc2] mt-2"></span>
                         </span>
-                        <span class="text-lg text-gray-700 dark:text-white">Podux</span>
+                        <span class="text-lg text-gray-700 dark:text-white">Jarkol Technologies</span>
+                        -->
+                      <img class="h-8 w-auto" src="/jarkol/logo/jarkol.png" alt="Jarkol Technologies">
                     </NuxtLink>
                 </div>
                 <div 
@@ -56,14 +59,17 @@ const navLinks = [
                 <div class="flex items-center bg-inherit gap-1 lg:gap-3 min-w-max">
                     <ElementsThemeSwitcher />
                     <div class="hidden lg:flex lg:items-center gap-4">
-                        <AtomsLinkBtn href="#" variant="secondary">
-                            Signin
+                        <AtomsLinkBtn href="/cotizar" variant="secondary">
+                            Cotizar
                         </AtomsLinkBtn>
+                        <!--
                         <AtomsLinkBtn href="#" variant="primary">
                             Join Us
                         </AtomsLinkBtn>
+                        -->
                     </div>
 
+                  <!-- Login
                     <div class="flex lg:hidden items-center">
                         <ElementsDropDown>
                             <template #trigger>
@@ -95,6 +101,7 @@ const navLinks = [
                             </template>
                         </ElementsDropDown>
                     </div>
+                    -->
 
                     <div class="flex lg:hidden border-l border-box-border pl-2">
                         <button @click="toggleNav" class="outline-none w-7 h-auto flex flex-col relative">

@@ -11,6 +11,10 @@ module.exports = {
     "Error.{js,ts,vue}",
     "error.{js,ts,vue}",
     "content/**/*.md",
+    "./node_modules/flowbite/**/*.{js,ts}"
+  ],
+  plugins: [
+    require('flowbite/plugin')
   ],
   darkMode: "class",
   theme: {
@@ -33,5 +37,5 @@ module.exports = {
         xs: "400px",
       },
     },
-  },
+  }
 };
