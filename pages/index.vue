@@ -12,15 +12,17 @@ useHead({
 })
 </script>
 <template>
-    <div>
+    <div class="lg:pb-2.5">
         <!-- Nombre de la empresa con fondo grande -->
         <SectionsHomeHeroSection/>
-        <!-- Galería generica -->
-        <SectionsHomeGenericGallery />
+        <!-- Seccion de noticias -->
+        <SectionsHomeNoticies />
+        <!--<SectionsHomeGalleryNoticies />-->
         <!-- "Community outreach" -->
         <SectionsAboutPodux/>
-        <!-- Galeria de servicios -->
+        <!-- Galeria de servicios
         <SectionsHomeServices />
+        -->
         <!-- Contacto -->
         <!--
         <SectionsHomeClients />

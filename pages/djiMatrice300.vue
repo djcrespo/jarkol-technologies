@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  title: 'Servicios | Jarkol Technologies',
+  title: 'DJI Matrice 300 | Jarkol Technologies',
   meta: [
     { name: 'description', content: 'Transformamos desafíos geotérmicos y geofísicos en oportunidades, guiándolo hacia el futuro de la exploración energética.' },
   ],

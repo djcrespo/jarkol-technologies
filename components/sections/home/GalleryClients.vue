@@ -10,7 +10,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="pt-20 pb-20 md:pt-24 md:pb-24">
+  <section class="lg:pt-5 lg:pb-20 md:pt-24 md:pb-24">
     <AtomsContainer>
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div class="flex flex-col justify-center">
