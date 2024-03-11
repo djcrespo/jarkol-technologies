@@ -17,12 +17,12 @@
                         </span>
                     </div>
                     <div class="relative">
-                        <AtomsTitle texte="About us" />
-                        <p class="text-gray-600 dark:text-gray-300 pt-8">
-                          From tackling personal decisions to reaching important milestones, our job is to guide you on the path of success. As professional Engineering Consultants, we guarantee great results.
+                        <AtomsTitle texte="Nosotros" />
+                        <p class="text-gray-600 text-justify dark:text-gray-300 pt-8">
+                          Desde abordar decisiones personales hasta alcanzar hitos importantes, nuestro trabajo es guiarlo por el camino del éxito. Como consultores de ingeniería profesionales, garantizamos excelentes resultados.
                         </p>
-                      <p class="text-gray-600 dark:text-gray-300 pt-8">
-                        We are a service company for the Energy and Extraction Industry, with direct experience in Oil and Gas, Mining and Geothermal, particularly in drilling operations, geophysical logging with both wireline and while drilling tools and production parameters monitoring, focused on the introduction of new, better and more accesible technologies in the Latin American market.
+                      <p class="text-gray-600 text-justify dark:text-gray-300 pt-8">
+                        Somos una empresa de servicios para la Industria Energética y Extractiva, con experiencia directa en Petróleo y Gas, Minería y Geotérmica, particularmente en operaciones de perforación, registro geofísico tanto con cable como durante la perforación con herramientas y monitoreo de parámetros de producción, enfocados en la introducción de nuevos, Mejores y más accesibles tecnologías en el mercado latinoamericano.
                       </p>
                         <!--
                         <div class="grid grid-cols-1 gap-4 max-w-lg pt-7">

@@ -13,7 +13,7 @@
           <strong>Caracterización Avanzada de Yacimientos</strong>: Uso del LiDAR y fotogrametría para obtener modelos detallados del subsuelo y superficie, esenciales en la exploración geotérmica y geofísica.
         </p>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          <strong>Levantamientos Geológicos y Topográficos</strong>: Precisión en la cartografía de terrenos complejos, facilitando la identificación de recursos <naturales class=""></naturales>
+          <strong>Levantamientos Geológicos y Topográficos</strong>: Precisión en la cartografía de terrenos complejos, facilitando la identificación de recursos naturales.
         </p>
       </div>
     </div>

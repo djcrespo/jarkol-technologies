@@ -11,10 +11,12 @@ module.exports = {
     "Error.{js,ts,vue}",
     "error.{js,ts,vue}",
     "content/**/*.md",
-    "./node_modules/flowbite/**/*.{js,ts}"
+    "./node_modules/flowbite/**/*.{js,ts}",
+    "./node_modules/tw-elements/js/**/*.js"
   ],
   plugins: [
-    require('flowbite/plugin')
+    require('flowbite/plugin'),
+    require("tw-elements/plugin.cjs")
   ],
   darkMode: "class",
   theme: {
@@ -24,10 +26,12 @@ module.exports = {
         "box-bg": "rgb(var(--color-box))",
         "box-shadow": "rgb(var(--box-sd))",
         "box-border": "rgb(var(--box-border))",
-        primary: "#00D8A5",
-        secondary: "#7E43AD",
+        primary: "#3B408C",
+        secondary: "#169ED0",
         "body-color": "#462C64",
         "gray-color": "",
+        "jarkolOne": "#169ED0",
+        "jarkolTwo": "#3B408C"
       },
       zIndex: {
         60: "60",
