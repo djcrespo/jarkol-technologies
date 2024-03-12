@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "flowbite": "^2.3.0",
+    "tailwindcss-animated": "^1.0.1",
     "tw-elements": "^2.0.0"
   }
 }

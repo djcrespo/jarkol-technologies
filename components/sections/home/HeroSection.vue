@@ -1,5 +1,5 @@
 <template>
-    <section class="relative w-full">
+    <section class="relative w-full animate-fade animate-delay-300 animate-ease-linear">
         <div class="absolute top-0 inset-x-0 h-64 flex items-start">
             <div
                 class="h-24 w-2/3 bg-gradient-to-br from-primary opacity-20 blur-2xl dark:from-[#570cac] dark:invisible dark:opacity-40">
@@ -18,7 +18,7 @@
                 class="grid lg:grid-cols-2 gap-10 xl:gap-14 relative pt-24 lg:max-w-none max-w-2xl md:max-w-3xl mx-auto">
                 <div class="lg:py-6 flex flex-col justify-center items-center">
                     <div class="text-center lg:text-left">
-                      <img class="h-30 w-auto" src="/jarkol/logo/logo-ori.png" alt="Jarkol Technologies">
+                      <img class="h-30 w-auto animate-fade-up" src="/jarkol/logo/logo-ori.png" alt="Jarkol Technologies">
                       <!--
                       <h1 class="text-gray-800 pt-4 dark:text-white font-bold text-4xl md:text-5xl lg:text-7xl">
                         Jarkol Technologies
@@ -85,17 +85,9 @@
                     <div
                         class="flex w-full h-96 min-h-[35rem] lg:min-h-[none] lg:w-full lg:h-full items-center relative">
                         <div
-                            class="absolute z-0 top-1/2  -translate-y-1/2 w-5/6 right-0 h-[calc(80%+20px)] bg-gradient-to-tr opacity-25 from-primary to-pink-300 dark:from-[#570cac] dark:to-primary blur-2xl">
-                        </div>
-                        <div
-                            class="absolute w-3/5 h-full z-10 p-1 -translate-y-1/2 top-1/2 right-3 rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border">
-                            <img src="/jarkol/images/img2.jpg" alt="In studio" width="500" height="auto" loading="lazy"
-                                class="w-full h-full rounded-2xl object-cover">
-                        </div>
-                        <div
-                            class="absolute  -translate-y-1/2 top-1/2 h-[calc(80%-2rem)] w-[calc(40%-20px)] p-1 rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border ">
-                            <img src="/jarkol/images/img1.jpg" alt="Happy in studio" width="200" height="auto"
-                                loading="lazy" class="w-full h-full rounded-2xl object-cover">
+                            class="absolute w-full h-auto z-10 p-1 -translate-y-1/2 top-1/2 right-3 rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border">
+                            <img src="/jarkol/images/img2.jpg" alt="In studio" width="auto" height="full" loading="lazy"
+                                class="rounded-2xl object-cover">
                         </div>
                     </div>
                 </div>

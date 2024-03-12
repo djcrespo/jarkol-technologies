@@ -14,7 +14,8 @@ useHead({
 <template>
     <div class="lg:pb-2.5">
         <!-- Nombre de la empresa con fondo grande -->
-        <SectionsHomeHeroSection/>
+        <!--<SectionsHomeHeroSection/>-->
+        <SectionsHomeGalleryHero />
         <!-- Seccion de noticias -->
         <div class="bg-jarkolTwo my-4 pb-6">
           <section>
@@ -31,6 +32,7 @@ useHead({
           </section>
           <SectionsHomeNoticies />
         </div>
+        <!-- Carrousel de servicios -->
         <!--<SectionsHomeGalleryNoticies />-->
         <!-- "Community outreach" -->
         <SectionsAboutPodux/>

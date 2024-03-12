@@ -14,14 +14,12 @@ useHead({
   <section class="lg:pt-20 lg:pb-20 md:pt-24 md:pb-24">
     <AtomsContainer>
       <section>
-        <SectionsServicesHeroServices />
+        <SectionsServicesCompanyHero />
         <div class="grid lg:grid-cols-2 md:grid-cols-1 gap-4">
-          <SectionsServicesMapping />
-          <SectionsServicesInspection />
-          <SectionsServicesApplications />
-          <SectionsServicesOthersApplications />
-          <SectionsServicesOtherServices />
-          <SectionsServicesInnovation />
+          <SectionsServicesCompanyServiceOne />
+          <SectionsServicesCompanyServiceTwo />
+          <SectionsServicesCompanyServiceThree />
+          <SectionsServicesCompanyServiceFour />
         </div>
       </section>
     </AtomsContainer>

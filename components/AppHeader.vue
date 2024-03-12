@@ -28,7 +28,7 @@ const navLinks = [
 
 </script>
 <template>
-    <header class="absolute inset-x-0 top-0 py-3 z-50">
+    <header class="absolute inset-x-0 top-0 py-3 z-50 bg-white">
         <AtomsContainer class-name="relative">
             <nav class="flex items-center justify-between w-full relative">
                 <!-- app logo -->

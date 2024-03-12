@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-20 pb-2.5 md:pt-24 md:pb-10">
+  <section class="pt-20 pb-2.5 md:pt-24 md:pb-10 animate-fade-up">
     <AtomsContainer>
 
       <section class="bg-white dark:bg-gray-900">

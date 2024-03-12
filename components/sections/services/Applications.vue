@@ -2,7 +2,7 @@
 
   <div class="max-w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a>
-      <img class="rounded-t-lg" src="jarkol/services/technical_consulting.jpg" alt="" />
+      <img class="rounded-t-lg" src="/jarkol/services/technical_consulting.jpg" alt="" />
     </a>
     <div class="p-5">
       <a>
@@ -26,5 +26,3 @@
   </div>
 
 </template>
-<script setup lang="ts">
-</script>
