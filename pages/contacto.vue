@@ -2,14 +2,12 @@
   <AtomsContainer>
     <section class="lg:pt-20 lg:pb-20 md:pt-24 md:pb-24">
       <HeroContact />
-      <div class="grid lg:grid-cols-2 gap-4">
+      <div>
         <GoogleMaps />
-        <FormContact />
       </div>
-    </section>
-    <section class="lg:pt-20 lg:pb-20 md:pt-24 md:pb-24">
-      <div class="lg:max-w-full">
+      <div class="lg:pt-4 md:pt-4 grid lg:grid-cols-2 gap-4">
         <Contact />
+        <FormContact />
       </div>
     </section>
   </AtomsContainer>

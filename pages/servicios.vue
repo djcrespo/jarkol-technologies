@@ -15,7 +15,7 @@ useHead({
     <AtomsContainer>
       <section>
         <SectionsServicesCompanyHero />
-        <div class="grid lg:grid-cols-2 md:grid-cols-1 gap-4">
+        <div class="grid lg:grid-cols-2 md:grid-cols-1 gap-4 animate-fade animate-delay-700">
           <SectionsServicesCompanyServiceOne />
           <SectionsServicesCompanyServiceTwo />
           <SectionsServicesCompanyServiceThree />

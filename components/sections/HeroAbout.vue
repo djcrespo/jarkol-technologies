@@ -92,7 +92,7 @@
                         </div>
                         <div
                             class="absolute  -translate-y-1/2 top-1/2 h-[calc(80%-2rem)] w-[calc(40%-20px)] p-1 rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border ">
-                            <img src="/jarkol/images/img1.jpg" alt="Happy in studio" width="200" height="auto"
+                            <img src="/jarkol/images/img1_rotated.jpg" alt="Happy in studio" width="200" height="auto"
                                 loading="lazy" class="w-full h-full rounded-2xl object-cover">
                         </div>
                     </div>
