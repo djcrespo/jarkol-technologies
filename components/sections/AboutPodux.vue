@@ -1,10 +1,10 @@
 <template>
-    <section class="pt-20 md:pt-24">
+    <section class="pt-10 pb-10 md:pt-24">
         <AtomsContainer>
             <div class="grid md:grid-cols-2 gap-8 xl:gap-14 relative">
-                <div class="flex md:h-full ">
+                <div class="flex md:h-full">
                     <div
-                        class="w-full md:h-full rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border">
+                        class="lg:w-full md:w-auto md:h-auto rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border">
                         <img src="/jarkol/images/img4.jpg" alt="Illustratuin about" width="500"
                             class="w-full h-full object-cover rounded-2xl">
                     </div>

@@ -14,14 +14,25 @@ useHead({
 <template>
     <div class="lg:pb-2.5">
         <!-- Nombre de la empresa con fondo grande -->
-        <!--<SectionsHomeHeroSection/>-->
-        <div class="relative">
-          <div class="z-[2] w-full h-full absolute flex items-center justify-center">
-            <div class="p-8 bg-white/70">
-              <img class="h-36 w-auto animate-fade-up" src="/jarkol/logo/logo-ori.png" alt="Jarkol Technologies">
+        <!--
+        <div class="relative md:p-10">
+          <div class="z-[2] lg:w-full lg:h-full absolute flex items-center justify-center">
+            <div class="lg:p-8 bg-white/70">
+              <img class="lg:h-36 lg:w-auto animate-fade-up" src="/jarkol/logo/logo-ori.png" alt="Jarkol Technologies">
             </div>
           </div>
-          <div class="z-[1] relative bg-black/80">
+          <div class="z-[1] bg-black/80">
+            <SectionsHomeGalleryHero />
+          </div>
+        </div>
+        -->
+        <div class="pt-20 relative">
+          <div class="z-[2] lg:w-full lg:h-full md:w-max-full md:h-auto absolute flex items-center justify-center my-4">
+            <div class="p-8 bg-white/70">
+              <img class="lg:h-36 md:h-full w-auto animate-fade-up" src="/jarkol/logo/logo-ori.png" alt="Jarkol Technologies">
+            </div>
+          </div>
+          <div class="z-[1] bg-black/80">
             <SectionsHomeGalleryHero />
           </div>
         </div>
@@ -32,29 +43,10 @@ useHead({
               <h5 class="text-3xl font-extrabold tracking-tight leading-none text-white md:text-3xl lg:text-4xl dark:text-white">
                 Novedades
               </h5>
-              <!--
-              <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-30 dark:text-gray-400">
-                El SUPREME300 no es solo un sensor; es una obra maestra tecnológica, diseñada meticulosamente para soportar las condiciones más exigentes. Capaz de operar de manera continua en temperaturas de hasta 300 °C, esta tecnología pionera garantiza mediciones precisas y confiables en los ambientes más extremos, asegurando la máxima eficiencia y seguridad para su proyecto geotérmico.
-              </p>
-              -->
             </div>
           </section>
           <SectionsHomeNoticies />
         </div>
-        <!-- Carrousel de servicios -->
-        <!--<SectionsHomeGalleryNoticies />-->
-        <!-- "Community outreach" -->
         <SectionsAboutPodux/>
-        <!--<SectionsTestComponent />-->
-        <!-- Galeria de servicios
-        <SectionsHomeServices />
-        -->
-        <!-- Contacto -->
-        <!--
-        <SectionsHomeClients />
-        <SectionsHomePopularPodcasts/>
-        <SectionsWhyUs/>
-        <SectionsCallToAction/>
-        -->
     </div>
 </template>

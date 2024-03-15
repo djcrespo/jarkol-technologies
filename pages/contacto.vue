@@ -1,11 +1,11 @@
 <template>
   <AtomsContainer>
-    <section class="lg:pt-20 lg:pb-20 md:pt-24 md:pb-24">
+    <section class="lg:pt-10 lg:pb-10 md:pt-24 md:pb-24">
       <HeroContact />
-      <div>
+      <div class="max-w-full flex items-center justify-center animate-fade-up animate-delay-300">
         <GoogleMaps />
       </div>
-      <div class="lg:pt-4 md:pt-4 grid lg:grid-cols-2 gap-4">
+      <div class="lg:pt-10 md:pt-10 grid lg:grid-cols-2 gap-4">
         <Contact />
         <FormContact />
       </div>
