@@ -9,8 +9,16 @@ function toggleNav(event: MouseEvent): void {
 
 const navLinks = [
     {
+      text: "Inicio",
+      href: "/"
+    },
+    {
         text: "Nosotros",
         href: "/nosotros"
+    },
+    {
+      text: "Productos",
+      href: "/productos"
     },
     {
         text: "Servicios",

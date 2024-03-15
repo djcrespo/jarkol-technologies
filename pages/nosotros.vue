@@ -13,10 +13,10 @@ useHead({
 <template>
   <section class="lg:pt-20 lg:pb-20 md:pt-24 md:pb-24">
     <AtomsContainer>
-      <SectionsHeroAbout />
-      <SectionsHomeHeroInfo />
-      <SectionsHomeHeroMisionAndVision />
-      <SectionsHomeHeroCommunities />
+      <SectionsHeroAbout class="animate-fade-up" />
+      <!--<SectionsHomeHeroInfo />-->
+      <SectionsHomeHeroMisionAndVision class="animate-fade-up animate-delay-300" />
+      <SectionsHomeHeroCommunities class="animate-fade-up animate-delay-400" />
     </AtomsContainer>
   </section>
 </template>

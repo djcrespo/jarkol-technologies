@@ -17,11 +17,11 @@ useHead({
         <!--<SectionsHomeHeroSection/>-->
         <div class="relative">
           <div class="z-[2] w-full h-full absolute flex items-center justify-center">
-            <div class="p-8 bg-white/50">
-              <img class="h-48 w-auto animate-fade-up" src="/jarkol/logo/logo-ori.png" alt="Jarkol Technologies">
+            <div class="p-8 bg-white/70">
+              <img class="h-36 w-auto animate-fade-up" src="/jarkol/logo/logo-ori.png" alt="Jarkol Technologies">
             </div>
           </div>
-          <div class="z-[1] relative bg-black/70">
+          <div class="z-[1] relative bg-black/80">
             <SectionsHomeGalleryHero />
           </div>
         </div>
