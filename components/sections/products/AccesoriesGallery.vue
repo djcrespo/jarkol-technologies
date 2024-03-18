@@ -15,7 +15,7 @@ onMounted(() => {
     <AtomsContainer>
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div v-for="object in accessories">
-          <ProductCard :image="object.image" :title="object.title" />
+          <ProductCard :image='("/jarkol/products/images/accesories/" + object.image)' :title="object.title" />
         </div>
       </div>
     </AtomsContainer>

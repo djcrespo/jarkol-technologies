@@ -2,102 +2,103 @@
   {
     "title": "Bujes superiores e inferiores",
     "description": "",
-    "image": ""
+    "image": "upperAndLowerBushinas.png"
   },
   {
     "title": "Bujes bowen",
     "description": "",
-    "image": ""
+    "image": "bowenStyleBushinas.png"
   },
   {
     "title": "Juntas Exteriores",
     "description": "",
-    "image": ""
+    "image": "outerSeals.png"
   },
   {
     "title": "Cruces de Control de Presión",
     "description": "",
-    "image": ""
+    "image": "pressureControlCrossovers.png"
   },
   {
     "title": "Juntas Interiores",
     "description": "",
-    "image": ""
+    "image": "innerSeals.png"
   },
   {
     "title": "Gomas de Empaquetado y limpieza",
     "description": "",
-    "image": ""
+    "image": "packoffAndLinewiperRubbers.png"
   },
   {
     "title": "Anillo metálico Tipo “C” ",
     "description": "",
-    "image": ""
+    "image": "cRing.png"
   },
   {
     "title": "O-RING para PPS71",
     "description": "",
-    "image": ""
+    "image": "oRing.png"
   },
   {
     "title": "Junta tórica de 50.8 mm (2”) para Molinete",
     "description": "",
-    "image": ""
+    "image": "oRingJunta.png"
   },
   {
     "title": "Batería de litio HT para PPS71",
     "description": "",
-    "image": ""
+    "image": "litiumBattery.png"
   },
   {
     "title": "Grasa para Juntas tóricas 450°",
     "description": "",
-    "image": ""
+    "image": "grasaGTornicas.png"
   },
   {
     "title": "Cabezal Bullnose",
     "description": "",
-    "image": ""
+    "image": "bullnose.png"
   },
   {
     "title": "Propelas de Alta Temperatura para Spinner",
     "description": "",
-    "image": ""
+    "image": "propelasSpinner.png"
   },
   {
     "title": "Imanes para Propelas",
     "description": "",
-    "image": ""
+    "image": "imanesPropelas.png"
   },
   {
     "title": "Porta Magneto para Spinner",
     "description": "",
-    "image": ""
+    "image": "magnetCarrierForSpinner.png"
   },
   {
     "title": "Anillo Retenedor 37C",
     "description": "",
-    "image": ""
+    "image": "retainingRing.png"
   },
   {
     "title": "Enchufe Spinner",
     "description": "",
-    "image": ""
-  },
-  {
-    "title": "Retenedor del Eje 45C",
-    "description": "",
-    "image": ""
+    "image": "spinnerPlug.png"
   },
   {
     "title": "Calza Espaciadora",
     "description": "",
-    "image": ""
+    "image": "batterySpacer.png"
+  },
+
+  {
+    "title": "Retenedor del Eje 45C",
+    "description": "",
+    "image": "retenedorEje45C.png"
   },
   {
     "title": "Silicón o aceite de alta temperatura para nudo de cable (7/32”)",
     "description": "",
-    "image": ""
+    "image": "siliconAltaTemperatura.png"
   },
   {
     "title": "Recuperador con arpón central externo para alambre en interior de pozos",
