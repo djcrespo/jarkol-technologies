@@ -9,7 +9,7 @@
 <template>
   <div class="flex flex-col justify-center">
 
-    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition duration-300 ease-in-out hover:scale-110">
       <a class="py-6 flex justify-center">
         <img class="rounded-t-lg" style="height: 200px" :src="image" :alt="title" />
       </a>

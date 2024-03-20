@@ -103,86 +103,57 @@
   {
     "title": "Recuperador con arpón central externo para alambre en interior de pozos",
     "description": "",
-    "image": ""
+    "image": "lanzaCentral.png"
   },
   {
     "title": "Recuperador con arpón interno de tres cucharas para alambre en interior de pozos",
     "description": "",
-    "image": ""
+    "image": "recLinAcero.png"
   },
   {
     "title": "Muestreador de fondo con zapata de bola para interior de pozo",
     "description": "",
-    "image": ""
+    "image": "fondoZapata.png"
   },
   {
     "title": "Muestreador de fondo con zapata de aleta para interior de pozo",
     "description": "",
-    "image": ""
+    "image": "fondoZapata.png"
   },
   {
     "title": "Estopero Hidráulico para Lubricador",
     "description": "",
-    "image": ""
+    "image": "hidraulicoLubricador.png"
   },
   {
     "title": "Tuerca unión de apriete a mano de 50.8 mm (2”) para lubricador",
     "description": "",
-    "image": ""
-  },
-  {
-    "title": "Abrazadera o candado de sujeción para alambre de 2.33 mm (0.0917”) de diámetro",
-    "description": "",
-    "image": ""
+    "image": "tuercaUnionLubricador.png"
   },
   {
     "title": "Tuerca unión de apriete a mano de 76.2 mm (3”) para lubricador",
     "description": "",
-    "image": ""
+    "image": "tuercaUnionLubricador.png"
   },
+  {
+    "title": "Abrazadera o candado de sujeción para alambre de 2.33 mm (0.0917”) de diámetro",
+    "description": "",
+    "image": "abrazaderaSujecion.png"
+  },
+
   {
     "title": "Sensor de Temperatura RTD PT1000; 4-Wire de 350° para herramienta PPS71 de PPS",
     "description": "",
-    "image": ""
+    "image": "sensorTemperatura.png"
   },
   {
     "title": "Centralizador de resorte para ajuste para herramienta PPS71",
     "description": "",
-    "image": ""
+    "image": "centralizadorResorte.png"
   },
   {
     "title": "Sensor de presión de silicon-zafiro con rango de 5,000 o 1,000 PSI para herramienta PPS71",
     "description": "",
-    "image": ""
-  },
-  {
-    "title": "Estopero Hidráulico para Lubricador",
-    "description": "",
-    "image": ""
-  },
-  {
-    "title": "Estopero Hidráulico para Lubricador",
-    "description": "",
-    "image": ""
-  },
-  {
-    "title": "Estopero Hidráulico para Lubricador",
-    "description": "",
-    "image": ""
-  },
-  {
-    "title": "Estopero Hidráulico para Lubricador",
-    "description": "",
-    "image": ""
-  },
-  {
-    "title": "Estopero Hidráulico para Lubricador",
-    "description": "",
-    "image": ""
-  },
-  {
-    "title": "Estopero Hidráulico para Lubricador",
-    "description": "",
-    "image": ""
+    "image": "sensorPresion.png"
   }
 ]
