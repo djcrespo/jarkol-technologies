@@ -27,7 +27,7 @@ useHead({
         </div>
         -->
         <div class="pt-20 relative">
-          <div class="z-[2] lg:w-full lg:h-full md:w-max-full md:h-auto absolute flex items-center justify-center my-4">
+          <div class="z-[2] lg:w-full lg:h-full md:w-max-fullso md:h-auto absolute flex items-center justify-center my-4">
             <div class="p-8 bg-white/70">
               <img class="lg:h-36 md:h-full w-auto animate-fade-up" src="/jarkol/logo/logo-ori.png" alt="Jarkol Technologies">
             </div>

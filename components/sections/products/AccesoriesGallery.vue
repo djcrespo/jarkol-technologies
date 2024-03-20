@@ -13,7 +13,7 @@ onMounted(() => {
 <template>
   <section class="lg:pt-5 lg:pb-20 md:pt-24 md:pb-24">
     <AtomsContainer>
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
         <div v-for="object in accessories">
           <ProductCard :image='("/jarkol/products/images/accesories/" + object.image)' :title="object.title" />
         </div>
