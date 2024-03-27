@@ -1,68 +1,90 @@
 [
   {
-    "name": "CFE"
+    "name": "CFE",
+    "image": "cfe.png"
   },
   {
-    "name": "PEMEX"
+    "name": "PEMEX",
+    "image": "Pemex-Logo.png"
   },
   {
-    "name": "HALLIBURTON"
+    "name": "HALLIBURTON",
+    "image": "Halliburton-Logo.png"
   },
   {
-    "name": "GRUPO DRAGON"
+    "name": "GRUPO DRAGON",
+    "image": "dragon.webp"
   },
   {
-    "name": "CARSO ENERGY"
+    "name": "CARSO ENERGY",
+    "image": "carso.webp"
   },
   {
-    "name": "IMP"
+    "name": "IMP",
+    "image": "imp.png"
   },
   {
-    "name": "WEATHERFORD"
+    "name": "WEATHERFORD",
+    "image": "Weatherford-Logo.png"
   },
   {
-    "name": "GEOLIS"
+    "name": "GEOLIS",
+    "image": "Logo_Geolis_Horizontal-1.png"
   },
   {
-    "name": "MC WELL SERVICES"
+    "name": "MC WELL SERVICES",
+    "image": "wellservices.png"
   },
   {
-    "name": "VINCO"
+    "name": "VINCO",
+    "image": "vinco.png"
   },
   {
-    "name": "ENAL"
+    "name": "ENAL",
+    "image": "enal.png"
   },
   {
-    "name": "GEOKERY"
+    "name": "GEOKERY",
+    "image": "geokeri.webp"
   },
   {
-    "name": "IVDAM"
+    "name": "IVDAM",
+    "image": "ivdam.png"
   },
   {
-    "name": "DIAMANTE"
+    "name": "DIAMANTE",
+    "image": "diamante.png"
   },
   {
-    "name": "SERTECPET"
+    "name": "SERTECPET",
+    "image": "sertecpet.png"
   },
   {
-    "name": "PB"
+    "name": "PB",
+    "image": "pb.png"
   },
   {
-    "name": "CECSA"
+    "name": "CECSA",
+    "image": "cecsa2.png"
   },
   {
-    "name": "C.I.E.S.S.A."
+    "name": "C.I.E.S.S.A.",
+    "image": "ciessa.png"
   },
   {
-    "name": "GEOPROSPECTION"
+    "name": "GEOPROSPECTION",
+    "image": "geoprospection.png"
   },
   {
-    "name": "CUBO"
+    "name": "CUBO",
+    "image": "petroleum.png"
   },
   {
-    "name": "TP MEXICANA"
+    "name": "TP MEXICANA",
+    "image": "tp.png"
   },
   {
-    "name": "SERVICIO Y SUMINISTROS BLESS"
+    "name": "SERVICIO Y SUMINISTROS BLESS",
+    "image": "b.png"
   }
 ]
