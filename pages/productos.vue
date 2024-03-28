@@ -13,9 +13,12 @@ useHead({
 <template>
   <div>
     <AtomsContainer>
+      <!-- Header productos -->
       <SectionsProductsProductHero />
       <!-- Galeria de productos -->
       <SectionsProductsGallery />
+      <!-- Header accesorios -->
+      <SectionsProductsAccesoriesHero />
       <!-- Galeria de accesorios -->
       <SectionsProductsAccesoriesGallery />
       <!-- Galeria de otros -->
