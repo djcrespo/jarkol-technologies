@@ -12,16 +12,17 @@ useHead({
 
 <template>
   <div>
-    <AtomsContainer>
-      <!-- Header productos -->
+    <AtomsContainer class="pb-3">
+      <SectionsProductsSondasHero />
+      <SectionsProductsSondasCaracteristicasSondas />
+      <SectionsProductsRegistrosHero />
+      <SectionsProductsRegistrosCaracteristicasRegistros />
+      <!--
       <SectionsProductsProductHero />
-      <!-- Galeria de productos -->
       <SectionsProductsGallery />
-      <!-- Header accesorios -->
       <SectionsProductsAccesoriesHero />
-      <!-- Galeria de accesorios -->
       <SectionsProductsAccesoriesGallery />
-      <!-- Galeria de otros -->
+      -->
     </AtomsContainer>
   </div>
 </template>

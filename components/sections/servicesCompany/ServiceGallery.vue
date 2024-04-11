@@ -1,33 +1,24 @@
+<script setup lang="ts">
+import services from "public/jarkol/services/services.json"
+import ServiceCard from "~/components/sections/servicesCompany/ServiceCard.vue"
+
+interface Service {
+  name: string,
+  specific_services: Array<string>
+}
+
+const servicesData: Service[] = services
+</script>
+
 <template>
   <AtomsContainer>
     <div id="default-carousel" class="relative w-full" data-carousel="slide">
       <!-- Carousel wrapper -->
       <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
         <!-- Item 1 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <SectionsServicesCompanyServiceOne />
-          <!--<img src="/docs/images/carousel/carousel-1.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">-->
+        <div v-for="service in servicesData" class="hidden duration-700 ease-in-out" data-carousel-item>
+          <ServiceCard :name="service.name" :specific_services="service.specific_services"/>
         </div>
-        <!-- Item 2 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <SectionsServicesCompanyServiceTwo />
-          <!--<img src="/docs/images/carousel/carousel-2.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">-->
-        </div>
-        <!-- Item 3 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <SectionsServicesCompanyServiceThree />
-          <!--<img src="/docs/images/carousel/carousel-3.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">-->
-        </div>
-        <!-- Item 4 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <SectionsServicesCompanyServiceFour />
-          <!--<img src="/docs/images/carousel/carousel-4.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">-->
-        </div>
-        <!-- Item 5
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="/docs/images/carousel/carousel-5.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        -->
       </div>
       <!-- Slider indicators -->
       <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">

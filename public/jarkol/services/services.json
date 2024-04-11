@@ -1,0 +1,44 @@
+[
+  {
+    "name": "PTA",
+    "specific_services": [
+      "Gradientes",
+      "Determinación cualitativa de zonas de aporte",
+      "Curvas decremento - incremento 'falloff' interferencias",
+      "Daño-skin de la información",
+      "Límites del yacimiento (depende de las condiciones del pozo)"
+    ]
+  },
+  {
+    "name": "PLT",
+    "specific_services": [
+      "Perfil de flujo",
+      "Velocidad de flujo",
+      "Cálculo de gastos",
+      "Intervalos de aporte",
+      "Tipos de fluidos"
+    ]
+  },
+  {
+    "name": "Estudios de productividad",
+    "specific_services": [
+      "Capacidad del aperjo (cálculo del volumen del pozo)",
+      "Análisis de curvas diagnóstico",
+      "Petrofísica",
+      "Evaluación de registros de presión fluyente y cerrado",
+      "Análisis nadal"
+    ]
+  },
+  {
+    "name": "Estudios de validación de registros y campañas de reprocesamiento",
+    "specific_services": []
+  },
+  {
+    "name": "Asistencia técnica epsecializada",
+    "specific_services": []
+  },
+  {
+    "name": "Cursos",
+    "specific_services": []
+  }
+]

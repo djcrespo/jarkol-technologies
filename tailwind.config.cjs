@@ -11,7 +11,8 @@ module.exports = {
     "Error.{js,ts,vue}",
     "error.{js,ts,vue}",
     "content/**/*.md",
-    "./node_modules/flowbite/**/*.{js,ts}",
+    './node_modules/flowbite-vue/**/*.{js,jsx,ts,tsx,vue}',
+    './node_modules/flowbite/**/*.{js,jsx,ts,tsx}',
     "./node_modules/tw-elements/js/**/*.js"
   ],
   plugins: [

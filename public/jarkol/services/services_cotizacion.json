@@ -1,0 +1,87 @@
+[
+  {
+    "servicio": "Registros de Fondo",
+    "tipoDeServicio": "Registro PT",
+    "preguntasDeReferencia": [
+      "Localización de los servicios /Ubicación del pozo",
+      "Requiere Unidad de Línea de Acero?",
+      "Requiere Sistema de Control de Presión"
+    ]
+  },
+  {
+    "servicio": "Registros de Fondo",
+    "tipoDeServicio": "Registro PTS",
+    "preguntasDeReferencia": [
+      "Cantidad de Registros",
+      "Requiere Procesamiento e Interpretación Avanzada?",
+      "Profundidad promedio de los pozos"
+    ]
+  },
+  {
+    "servicio": "Corrida de Calibración con ULA",
+    "tipoDeServicio": null,
+    "preguntasDeReferencia": [
+      "Rango de Temperatura en fondo esperado",
+      "Rango de Presión en fondo esperado",
+      "Rango de Temperatura en superficie",
+      "Rango de presión en superficie"
+    ]
+  },
+  {
+    "servicio": "Exploración Geofísica",
+    "tipoDeServicio": "Georadar (GPR)",
+    "preguntasDeReferencia": [
+      "¿Objetivo del levantamiento?"
+    ]
+  },
+  {
+    "servicio": "Exploración Geofísica",
+    "tipoDeServicio": "Fotogrametría área con Dron",
+    "preguntasDeReferencia": [
+      "Localización de los Servicios"
+    ]
+  },
+  {
+    "servicio": "Exploración Geofísica",
+    "tipoDeServicio": "Fotogrametría área con Dron (LiDAR)",
+    "preguntasDeReferencia": null
+  },
+  {
+    "servicio": "Exploración Geofísica",
+    "tipoDeServicio": "TEM",
+    "preguntasDeReferencia": [
+      "Área de prospección aproximada"
+    ]
+  },
+  {
+    "servicio": "Exploración Geofísica",
+    "tipoDeServicio": "Tomografía Eléctrica",
+    "preguntasDeReferencia": null
+  },
+  {
+    "servicio": "Exploración Geofísica",
+    "tipoDeServicio": "Sísmica Cross-hole",
+    "preguntasDeReferencia": [
+      "Solicitud o información adicional"
+    ]
+  },
+  {
+    "servicio": "CALIBRACION-CONVERSION DE SONDA",
+    "tipoDeServicio": "Servicio de Calibración de sonda",
+    "preguntasDeReferencia": [
+      "¿Tipo de sonda?",
+      "Fecha de última calibración",
+      "¿Rango de presión?"
+    ]
+  },
+  {
+    "servicio": "CALIBRACION-CONVERSION DE SONDA",
+    "tipoDeServicio": "Servicio de Conversión de sondas",
+    "preguntasDeReferencia": [
+      "¿Rango de temperatura?",
+      "Marca de la sonda para conversión",
+      "Requiere recolección?",
+      "¿Ubicación?"
+    ]
+  }
+]
