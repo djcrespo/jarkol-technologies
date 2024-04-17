@@ -1,0 +1,188 @@
+[
+  {
+    "producto": "Sondas",
+    "tipo_producto": "Supreme300",
+    "condiciones_adquisicion": "Venta",
+    "preguntas_referencia": [
+      {
+        "pregunta": "¿Rango de presión?",
+        "valores": [10000, 16000, 20000, 25000],
+        "unidad": "psi"
+      },
+      {
+        "pregunta": "¿Rango de temperatura?",
+        "valores": [150, 177, 200, 350],
+        "unidad": "°C"
+      },
+      {
+        "pregunta": "¿Profundidad de monitoreo?",
+        "valores": [],
+        "unidad": ""
+      },
+      {
+        "pregunta": "¿Diámetro de la tubería a la profundidad del sensor?",
+        "valores": [],
+        "unidad": ""
+      },
+      {
+        "pregunta": "¿Concentración de H2S?",
+        "valores": [],
+        "unidad": ""
+      }
+    ]
+  },
+  {
+    "producto": "Sondas",
+    "tipo_producto": "PPS25",
+    "condiciones_adquisicion": "Renta",
+    "preguntas_referencia": [
+      {
+        "pregunta": "¿Rango de presión?",
+        "valores": [10000, 16000, 20000, 25000],
+        "unidad": "psi"
+      },
+      {
+        "pregunta": "¿Rango de temperatura?",
+        "valores": [150, 177, 200, 350],
+        "unidad": "°C"
+      },
+      {
+        "pregunta": "¿Profunidad de monitoreo?",
+        "valores": [],
+        "unidad": ""
+      }
+    ]
+  },
+  {
+    "producto": "Sondas",
+    "tipo_producto": "PPS25 XM",
+    "condiciones_adquisicion": "",
+    "preguntas_referencia": [
+      {
+        "pregunta": "¿Rango de presión?",
+        "valores": [10000, 16000, 20000, 25000],
+        "unidad": "psi"
+      },
+      {
+        "pregunta": "¿Rango de temperatura?",
+        "valores": [150, 177, 200, 350],
+        "unidad": "°C"
+      },
+      {
+        "pregunta": "¿Profunidad de monitoreo?",
+        "valores": [],
+        "unidad": ""
+      }
+    ]
+  },
+  {
+    "producto": "Sondas",
+    "tipo_producto": "PPS28",
+    "condiciones_adquisicion": "",
+    "preguntas_referencia": []
+  },
+  {
+    "producto": "Sondas",
+    "tipo_producto": "PPS33",
+    "condiciones_adquisicion": "Venta",
+    "preguntas_referencia": [
+      {
+        "pregunta": "Tipo de transductor:",
+        "valores": ["Záfiro", "Cuarzo"],
+        "unidad": ""
+      },
+      {
+        "pregunta": "¿Concentración de H2S (ppm)?",
+        "valores": [],
+        "unidad": ""
+      }
+    ]
+  },
+  {
+    "producto": "Sondas",
+    "tipo_producto": "PPS71",
+    "condiciones_adquisicion": "",
+    "preguntas_referencia": [
+      {
+        "pregunta": "¿Concentración de H2S (ppm)?",
+        "valores": [],
+        "unidad": ""
+      }
+    ]
+  },
+  {
+    "producto": "Sondas",
+    "tipo_producto": "PPS71 Elite",
+    "condiciones_adquisicion": "",
+    "preguntas_referencia": []
+  },
+  {
+    "producto": "CONSUMIBLES",
+    "tipo_producto": "O-Ring",
+    "condiciones_adquisicion": "Venta",
+    "preguntas_referencia": [
+      {
+        "pregunta": "¿Cantidad de piezas?",
+        "valores": [],
+        "unidad": ""
+      },
+      {
+        "pregunta": "¿Para qué sonda?",
+        "valores": [],
+        "unidad": ""
+      }
+    ]
+  },
+  {
+    "producto": "CONSUMIBLES",
+    "tipo_producto": "C-Ring",
+    "condiciones_adquisicion": "",
+    "preguntas_referencia": [
+      {
+        "pregunta": "¿Para qué sonda?",
+        "valores": [],
+        "unidad": ""
+      }
+    ]
+  },
+  {
+    "producto": "CONSUMIBLES",
+    "tipo_producto": "Spinner O-Ring",
+    "condiciones_adquisicion": "",
+    "preguntas_referencia": []
+  },
+  {
+    "producto": "CONSUMIBLES",
+    "tipo_producto": "Otro",
+    "condiciones_adquisicion": "",
+    "preguntas_referencia": [
+      {
+        "pregunta": "Nombre del consumible",
+        "valores": [],
+        "unidad": ""
+      }
+    ]
+  },
+  {
+    "producto": "CONSUMIBLES",
+    "tipo_producto": "Batería de Litio",
+    "condiciones_adquisicion": "",
+    "preguntas_referencia": [
+      {
+        "pregunta": "Tamaño de la batería",
+        "valores": [],
+        "unidad": ""
+      },
+      {
+        "pregunta": "¿Para qué sonda?",
+        "valores": [],
+        "unidad": ""
+      },
+      {
+        "pregunta": "Rango de Temperatura?",
+        "valores": [],
+        "unidad": ""
+      }
+    ]
+  }
+]

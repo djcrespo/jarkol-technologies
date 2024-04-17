@@ -13,6 +13,6 @@ useHead({
 <template>
   <section class="lg:pt-20 lg:pb-20 md:pt-24 md:pb-24">
     <SectionsCotizacionHeroCotizacion />
-    <SectionsCotizacionFormCotizacion />
   </section>
+  <SectionsCotizacionFormCotizacion />
 </template>
