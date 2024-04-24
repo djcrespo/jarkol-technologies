@@ -4,32 +4,6 @@
       class="relative"
       data-twe-carousel-init
       data-twe-ride="carousel">
-    <!--Carousel indicators
-    <div
-        class="absolute inset-x-0 bottom-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
-        data-twe-carousel-indicators>
-      <button
-          type="button"
-          data-twe-target="#carouselExampleCrossfade"
-          data-twe-slide-to="0"
-          data-twe-carousel-active
-          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-          aria-current="true"
-          aria-label="Slide 1"></button>
-      <button
-          type="button"
-          data-twe-target="#carouselExampleCrossfade"
-          data-twe-slide-to="1"
-          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-          aria-label="Slide 2"></button>
-      <button
-          type="button"
-          data-twe-target="#carouselExampleCrossfade"
-          data-twe-slide-to="2"
-          class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-          aria-label="Slide 3"></button>
-    </div>
-    -->
 
     <!--Carousel items-->
     <div
@@ -41,9 +15,9 @@
           data-twe-carousel-item
           data-twe-carousel-active>
         <img
-            src="/jarkol/backgrounds/news/img1.jpg"
+            src="/jarkol/bg_v2/buenas/img1.jpg"
             class="opacity-70 block w-full"
-            alt="Wild Landscape" />
+            alt="Jarkol Technologies" />
       </div>
       <!--Second item-->
       <div
@@ -51,19 +25,9 @@
           data-twe-carousel-fade
           data-twe-carousel-item>
         <img
-            src="/jarkol/backgrounds/news/img2.jpg"
+            src="/jarkol/bg_v2/buenas/img2.jpg"
             class="opacity-70 block w-full"
-            alt="Camera" />
-      </div>
-      <!--Third item-->
-      <div
-          class="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
-          data-twe-carousel-fade
-          data-twe-carousel-item>
-        <img
-            src="/jarkol/backgrounds/news/img3.jpg"
-            class="opacity-70 block w-full"
-            alt="Exotic Fruits" />
+            alt="Jarkol Technologies" />
       </div>
     </div>
 

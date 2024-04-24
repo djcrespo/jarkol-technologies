@@ -5,7 +5,7 @@
                 <div class="flex md:h-full">
                     <div
                         class="lg:w-full md:w-auto md:h-auto rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border">
-                        <img src="/jarkol/images/img4.jpg" alt="Illustratuin about" width="500"
+                        <img src="/jarkol/images/img4.jpg" alt="About us" width="500"
                             class="w-full h-full object-cover rounded-2xl">
                     </div>
                 </div>
@@ -17,7 +17,7 @@
                         </span>
                     </div>
                     <div class="relative">
-                        <AtomsTitle texte="Nosotros" />
+                        <AtomsTitle texte="Impulsamos su Éxito con Soluciones Geocientíficas de Alto Impacto" />
                         <p class="text-gray-600 text-justify dark:text-gray-300 pt-8">
                           Desde abordar decisiones personales hasta alcanzar hitos importantes, nuestro trabajo es guiarlo por el camino del éxito. Como consultores de ingeniería profesionales, garantizamos excelentes resultados.
                         </p>

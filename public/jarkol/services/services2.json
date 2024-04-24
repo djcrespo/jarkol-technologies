@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Procesamiento sísmico",
+    "image": "",
+    "characteristics": [
+      "Mejora de imagen del subsuelo mediante la muestra de atributos sísmicos convencionales y espaciales",
+      "Continuidad estructural y estratigráfica en límites de yacimientos",
+      "Delimitación de nivel estraigráfico en el dominio de la profundidad y mejora de imagen en yacimientos de interés",
+      "Calibración de trayectorias de pozoz y áreas de oportunidad para su exploración"
+    ]
+  },
+  {
+    "ame": "Estudio de modelos de deformación tectónica",
+    "image": "",
+    "characteristics": [
+      "Historia de deformación en yacimientos fracturados",
+      "Elaboración de modelos de fracturas en YNF",
+      "Modelos de fracturas asociados al control de producción de hidrocarburos",
+      "Control del nivel de contacto Agua-Aceite, mediante el conocimiento del modelo de fracturas"
+    ]
+  },
+  {
+    "name": "Estudios petrofísicos y sísmicos",
+    "image": "",
+    "characteristics": [
+      "Identificación de límite vertical y horizontal de estructura de yacimientos mediante registros geofísicos de pozos",
+      "Determinación de modelos petrofísicos mediante el uso de propiedades petrofísicas del subsuelo",
+      "Relación de modelos petrofísicos y sísmicos mediante la combinación de propiedades físicas del subsuelo",
+      "Determinación y localización de contacto agua-aceite mediante registros geofísicos de pozos"
+    ]
+  },
+  {
+    "name": "Flujo de inversión sísmica",
+    "image": "",
+    "characteristics": [
+      "Análisis de datos sísmicos pre-apilamiento en el dominio de Gathers",
+      "Calibración de modelos de velocidades derivadas del picado de velocidades RMS y velocidades de pozos",
+      "Correlación y extracción de ondiculas representativas del subsuelo en yacimientos específicos, mediante información geológica y geofísica",
+      "Determinación de modelos sísmicos de inversión orientados a la caracterización de yacimientos"
+    ]
+  },
+  {
+    "name": "Análisis de información sísmica de pozos",
+    "image": "",
+    "characteristics": [
+      "Las ondas sísmicas generadas a una determinada profundidad se registran a lo largo de todo el levantamiento",
+      "Gather's resultado de la adquisión de Perfil Sísmico de Velocidad (VSP-Offset Cero) en pozos",
+      "Selección de velocidad de onda compresional derivada de la adquisión de tomografía entre pozos (sísmica Cross-Hole) para la caracterización de propiedades de el subsuelo"
+    ]
+  },
+  {
+    "name": "Estudios electromagnéticos en el dominio de tiempo (TEM)",
+    "image": "",
+    "characteristics": [
+      "Contrastes de conductividad y/o resistividad en el subsuelo",
+      "Caracterización de flujos en el subsuelo en orientaciones prefenciales",
+      "Caracterización de anomalías en el subsuelo, debido a la detección de los cambios de Resistividad y/o Conductividad Eléctrica"
+    ]
+  },
+  {
+    "name": "Estudio de Georradar",
+    "image": "",
+    "characteristics": [
+      "Aplicaciones especializadas de exploración con georradar (GPR)",
+      "Perfiles obtenidos con la técnica de Georradar (Detección de zonas cavernosas)",
+      "Perfiles de conversión de dominio, Amplitud - Profundidad (Para detección de zonas cavernosas)"
+    ]
+  }
+]

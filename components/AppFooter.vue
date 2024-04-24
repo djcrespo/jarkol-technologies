@@ -8,9 +8,15 @@
                         <img class="h-8 w-auto" src="/jarkol/logo/jarkol.png" alt="Jarkol Technologies">
                       </NuxtLink>
                     </div>
-                    <div class="text-sm">
-                        &copy; {{ new Date().getFullYear() }} Jarkol Techonologies S.A. de C.V. Todos los derechos reservados. Diseñado por <NuxtLink target="_blank"
-                            to="#" class="font-bold text-primary">Didier Crespo</NuxtLink>
+                    <div class="text-center">
+                        <p class="text-base">
+                          <strong>
+                            Donde la Innovación Encuentra el Rendimiento
+                          </strong>
+                        </p>
+                        <p class="text-sm">
+                          &copy; {{ new Date().getFullYear() }} Jarkol Techonologies S.A. de C.V. Todos los derechos reservados. Diseñado por <NuxtLink target="_blank" to="#" class="font-bold text-primary">Didier Crespo</NuxtLink>
+                        </p>
                     </div>
 
                     <div class="flex items-center gap-x-3">
