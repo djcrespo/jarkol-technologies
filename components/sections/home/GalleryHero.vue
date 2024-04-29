@@ -95,4 +95,3 @@ onMounted(async () => {
   initTWE({ Carousel });
 });
 </script>
-COPY

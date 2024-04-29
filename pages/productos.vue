@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  title: 'Podructos | Jarkol Technologies',
+  title: 'Productos | Jarkol Technologies',
   meta: [
     { name: 'description', content: 'Transformamos desafíos geotérmicos y geofísicos en oportunidades, guiándolo hacia el futuro de la exploración energética.' },
   ],
@@ -13,16 +13,16 @@ useHead({
 <template>
   <div>
     <AtomsContainer class="pb-3">
+      <!--
       <SectionsProductsSondasHero />
       <SectionsProductsSondasCaracteristicasSondas />
       <SectionsProductsRegistrosHero />
       <SectionsProductsRegistrosCaracteristicasRegistros />
-      <!--
-      <SectionsProductsProductHero />
-      <SectionsProductsGallery />
-      <SectionsProductsAccesoriesHero />
-      <SectionsProductsAccesoriesGallery />
       -->
+      <SectionsProductsProductHero class="animate-fade-up" />
+      <SectionsProductsGallery />
+      <SectionsProductsAccesoriesHero class="animate-fade-up" />
+      <SectionsProductsAccesoriesGallery />
     </AtomsContainer>
   </div>
 </template>
