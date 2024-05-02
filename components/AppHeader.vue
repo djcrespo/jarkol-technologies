@@ -49,14 +49,14 @@ const navLinks = [
                         </span>
                         <span class="text-lg text-gray-700 dark:text-white">Jarkol Technologies</span>
                         -->
-                      <img class="h-8 w-auto" src="/jarkol/logo/jarkol.png" alt="Jarkol Technologies">
+                      <img class="h-11 w-auto" src="/jarkol/logo/jarkol.png" alt="Jarkol Technologies">
                     </NuxtLink>
                 </div>
-                <div 
-                    class="absolute top-full px-5 sm:px-8 md:px-12 lg:px-0 
-                    lg:pt-0 lg:top-0 invisible opacity-40 lg:opacity-100 bg-body rounded-xl border border-box-border shadow-lg shadow-box-shadow 
+                <div
+                    class="absolute top-full px-5 sm:px-8 md:px-12 lg:px-0
+                    lg:pt-0 lg:top-0 invisible opacity-40 lg:opacity-100 bg-body rounded-xl border border-box-border shadow-lg shadow-box-shadow
                     lg:border-none lg:shadow-none lg:rounded-none
-                    lg:bg-transparent w-full lg:w-max py-6 lg:py-0 lg:visible lg:relative flex 
+                    lg:bg-transparent w-full lg:w-max py-6 lg:py-0 lg:visible lg:relative flex
                     transition-all duration-300 ease-linear origin-top translate-y-6 lg:translate-y-0"
                     :class="navIsOpen?'!visible !opacity-100 !translate-y-0':''">
                     <ul class="text-gray-700 dark:text-gray-100 w-full flex lg:items-center gap-y-4 lg:gap-x-8 flex-col lg:flex-row">
