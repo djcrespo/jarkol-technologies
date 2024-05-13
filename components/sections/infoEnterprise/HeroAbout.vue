@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[url('public/jarkol/backgrounds/news/Img1.jpg')] bg-cover bg-center">
+  <div class="bg-[url('public/jarkol/backgrounds/news/img1.jpg')] bg-cover bg-center">
     <div class="bg-white bg-opacity-70">
       <section class="pb-10 relative w-full">
         <div class="absolute top-0 inset-x-0 h-64 flex items-start">
