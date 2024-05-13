@@ -5,7 +5,6 @@
     </div>
     <AtomsContainer>
       <div class="grid lg:grid-cols-2 md:grid-cols-1 gap-5 flex flex-col justify-center">
-
         <div class="max-w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <a class="flex justify-center" href="#">
             <img class="w-auto h-[160px] rounded-t-lg" src="/jarkol/logo/aaaimx_whithe.png" alt="" />
