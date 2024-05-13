@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-30 md:pt-30 bg-[url('public/jarkol/bg_v2/buenas2/4.jpqg')] bg-cover bg-center">
+  <div class="pt-30 md:pt-30 bg-[url('public/jarkol/bg_v2/buenas2/4.jpg')] bg-cover bg-center">
     <div class="bg-white bg-opacity-70">
       <section class="pt-30 md:pt-30" style="padding-top: 10rem;">
         <AtomsContainer>
