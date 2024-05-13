@@ -1,15 +1,17 @@
 <template>
-  <section class="pt-20 pb-2.5 md:pt-24 md:pb-10">
-    <AtomsContainer>
-
-      <section class="bg-white dark:bg-gray-900">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-10">
-          <h3 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Accesorios</h3>
-        </div>
+  <div class="bg-[url('public/jarkol/images/img4.jpg')] bg-cover bg-center">
+    <div class="bg-[#3B408C] bg-opacity-70">
+      <section class="py-40 md:py-30">
+        <AtomsContainer>
+          <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-10">
+            <h3 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white">
+              Accesorios
+            </h3>
+          </div>
+        </AtomsContainer>
       </section>
-
-    </AtomsContainer>
-  </section>
+    </div>
+  </div>
 </template>
 
 <script setup lang="ts">

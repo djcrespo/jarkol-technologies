@@ -13,6 +13,6 @@ useHead({
 <template>
   <div>
     <SectionsHomeHeroClients />
-    <SectionsHomeGalleryClients />
+    <SectionsHomeGalleryClients class="animate-fade-up" />
   </div>
 </template>

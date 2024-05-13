@@ -14,11 +14,6 @@
                             Donde la Innovación Encuentra el Rendimiento
                           </strong>
                         </p>
-                        <!--
-                        <p class="text-sm">
-                          &copy; {{ new Date().getFullYear() }} Jarkol Techonologies S.A. de C.V. Todos los derechos reservados. Diseñado por <NuxtLink target="_blank" to="#" class="font-bold text-primary">Didier Crespo</NuxtLink>
-                        </p>
-                        -->
                         <p class="text-sm">
                           &copy; {{ new Date().getFullYear() }} Jarkol Techonologies S.A. de C.V. Todos los derechos reservados.
                         </p>

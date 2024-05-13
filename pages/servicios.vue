@@ -16,8 +16,8 @@ import Gallery from "~/components/sections/servicesCompany/Gallery.vue"
 </script>
 
 <template>
+  <SectionsServicesCompanyHero class="animate-fade-up" />
   <AtomsContainer class="py-3">
-    <SectionsServicesCompanyHero class="animate-fade-up" />
     <Gallery />
   </AtomsContainer>
 </template>

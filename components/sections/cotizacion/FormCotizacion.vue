@@ -90,6 +90,7 @@
   }
 
   // Methods
+
   const viewValues = () => {
     console.log(formProduct);
   }

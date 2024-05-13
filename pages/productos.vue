@@ -12,16 +12,18 @@ useHead({
 
 <template>
   <div>
+    <SectionsProductsPrincipalProductsHero class="animate-fade-up" />
     <AtomsContainer class="pb-3">
-      <!--
-      <SectionsProductsSondasHero />
-      <SectionsProductsSondasCaracteristicasSondas />
-      <SectionsProductsRegistrosHero />
-      <SectionsProductsRegistrosCaracteristicasRegistros />
-      -->
-      <SectionsProductsProductHero class="animate-fade-up" />
+      <SectionsProductsPrincipalProductsSection />
+    </AtomsContainer>
+
+    <SectionsProductsProductHero class="animate-fade-up" />
+    <AtomsContainer class="pb-3">
       <SectionsProductsGallery />
-      <SectionsProductsAccesoriesHero class="animate-fade-up" />
+    </AtomsContainer>
+
+    <SectionsProductsAccesoriesHero class="animate-fade-up" />
+    <AtomsContainer class="pb-3">
       <SectionsProductsAccesoriesGallery />
     </AtomsContainer>
   </div>

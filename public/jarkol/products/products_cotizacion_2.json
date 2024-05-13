@@ -18,7 +18,14 @@
         "pregunta": "¿Profundidad de monitoreo?",
         "valores": [],
         "unidad": ""
-      },
+      }
+    ]
+  },
+  {
+    "producto": "Sondas",
+    "tipo_producto": "ExtremeVISION",
+    "condiciones_adquisicion": "Venta",
+    "preguntas_referencia": [
       {
         "pregunta": "¿Diámetro de la tubería a la profundidad del sensor?",
         "valores": [],

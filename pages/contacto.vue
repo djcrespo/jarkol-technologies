@@ -5,10 +5,8 @@
       <div class="max-w-full flex items-center justify-center animate-fade-up animate-delay-300">
         <GoogleMaps />
       </div>
-      <div class="lg:pt-10 md:pt-10 grid lg:grid-cols-2 gap-4">
-        <Contact />
-        <FormContact />
-      </div>
+      <SectionsContactInfoContact />
+      <FormContact />
     </section>
   </AtomsContainer>
 </template>
