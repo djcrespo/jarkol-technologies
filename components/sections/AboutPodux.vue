@@ -40,8 +40,8 @@
                         </div>
                         -->
                         <div class="pt-10 flex justify-center">
-                            <AtomsLinkBtn href="#" variant="primary">
-                                Contacto
+                            <AtomsLinkBtn href="nosotros" variant="primary">
+                                Conocer más
                             </AtomsLinkBtn>
                         </div>
                     </div>

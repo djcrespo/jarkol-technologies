@@ -26,15 +26,17 @@ useHead({
           </div>
         </div>
         <!-- Seccion de noticias -->
-        <div class="bg-jarkolTwo my-4 pb-8">
-          <section>
-            <div class="py-3 px-2 mx-auto max-w-screen-xl text-center lg:py-4 flex items-center justify-center">
-              <h5 class="text-5xl font-extrabold tracking-tight leading-none text-white md:text-3xl lg:text-4xl dark:text-white">
-                Novedades
-              </h5>
-            </div>
-          </section>
-          <SectionsHomeNoticies />
+        <div class="pt-30 md:pt-30 bg-[url('public/jarkol/backgrounds/news/img2.jpg')] bg-cover bg-center">
+          <div class="bg-jarkolTwo bg-opacity-70 my-4 pb-8">
+            <section>
+              <div class="py-3 px-2 mx-auto max-w-screen-xl text-center lg:py-4 flex items-center justify-center">
+                <h5 class="text-5xl font-extrabold tracking-tight leading-none text-white md:text-3xl lg:text-4xl dark:text-white">
+                  Novedades
+                </h5>
+              </div>
+            </section>
+            <SectionsHomeNoticies />
+          </div>
         </div>
         <SectionsAboutPodux/>
     </div>
