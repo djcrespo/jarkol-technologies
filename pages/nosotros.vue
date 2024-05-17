@@ -14,7 +14,7 @@ useHead({
   <section class="lg:pt-5 lg:pb-20 md:pt-12 md:pb-24">
     <SectionsInfoEnterpriseHeroAbout class="animate-fade-up" />
     <AtomsContainer>
-      <SectionsInfoEnterprise class="animate-fade-up animate-delay-300" />
+      <SectionsInfoEnterprise />
       <SectionsInfoEnterpriseHeroCommunities class="animate-fade-up animate-delay-400" />
       <SectionsInfoEnterpriseHeroMisionAndVision class="animate-fade-up animate-delay-500" />
     </AtomsContainer>

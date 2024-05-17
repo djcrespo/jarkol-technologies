@@ -44,6 +44,33 @@
     ]
   },
   {
+    "name": "Etapas y seguimiento VCDSE y control de calidad",
+    "image": "",
+    "description": "",
+    "points": [
+      "Personal técnico especializado con conocimiento y experiencia en cada disciplina, con alto dominio en el manejo y operación de software especializado, asimismo, la habilidad de interactuar con las diferentes disciplinas para la operación eficiente del proyecto",
+      "Metodología estructurada y con secuencias organizadas, que permita el buen desempeño de las actividades del proyecto para el cumplimiento de los objetivos",
+      "Software, Hardware y metodologías de vanguardia aplicadas con el fin de garantizar las mejores soluciones y en consecuencia, reducir el riesgo e incertidumbre en dichas soluciones",
+      "Garantizar los procesos en la calidad de revisión y validación de resultados, asi como el cumplimiento del tiempo de entrega de dichos resultados, con el propósito de eficientar las actividades técnico-financieras para el proyecto"
+    ]
+  },
+  {
+    "name": "Estudios de Sísmica de reflexión aplicada a la caracterización de yacimientos geotérmicos",
+    "image": "",
+    "description": "",
+    "points": [
+      "La visualización de datos geológicos en el dominio 3D permite a los analistas e intérpretes a comprender las relaciones espaciales entre diferentes tipos de datos del subsuelo, ejemplo; datos geológicos, geofísico y de pozos",
+      "Con los resultados de la sísmica 3D permitirá mapear con precisión el subsuelo y así localizar los lugares más favorables para la exploración de los recursos geotérmicos",
+      "Casos de sísmica 3D aplicados en: Babaría-Alemania (2019), Suiza (Septiembre 2021)"
+    ]
+  },
+  {
+    "name": "Estudios aerofotogramétricos (Vuelo Dron)",
+    "image": "",
+    "description": "",
+    "points": []
+  },
+  {
     "name": "Análisis de información sísmica de pozos",
     "image": "",
     "description": "",
@@ -51,6 +78,18 @@
       "Las ondas sísmicas generadas a una determinada profundidad se registran a lo largo de todo el levantamiento",
       "Gather's resultado de la adquisión de Perfil Sísmico de Velocidad (VSP-Offset Cero) en pozos",
       "Selección de velocidad de onda compresional derivada de la adquisión de tomografía entre pozos (sísmica Cross-Hole) para la caracterización de propiedades de el subsuelo"
+    ]
+  },
+  {
+    "name": "Métodos potenciales aplicados a la caracterización del subsuelo",
+    "image": "",
+    "description": "Identificación y visualización de anomalías especificas con objeto de determinar con precisión su extensión y configuración, es decir, caracterizar su geometría para la toma de desiciones en la industria de la exploración y estudios del subsuelo",
+    "points": [
+      "Resistividad",
+      "Velocidad",
+      "Polarización inducida",
+      "Susceptibilidad magnética (terrestre, aérea)",
+      "Datos gravimétricos"
     ]
   },
   {
@@ -64,6 +103,15 @@
     ]
   },
   {
+    "name": "Estudios electromagnéticos en el dominio EMDF",
+    "image": "",
+    "description": "",
+    "points": [
+      "Apoyo en la construcción de obras civiles: carreteras, vías férreas, puentes, compuertas, presas",
+      "Estudios del subsuelo: Localización de cavidades (zonas cavernosas), Localización de fallas y fracturas, mediciones de espesor de zonas vadosas, zona saturada"
+    ]
+  },
+  {
     "name": "Estudio de Georradar",
     "image": "",
     "description": "",
@@ -71,6 +119,18 @@
       "Aplicaciones especializadas de exploración con georradar (GPR)",
       "Perfiles obtenidos con la técnica de Georradar (Detección de zonas cavernosas)",
       "Perfiles de conversión de dominio, Amplitud - Profundidad (Para detección de zonas cavernosas)"
+    ]
+  },
+  {
+    "name": "Magnometría aérea",
+    "image": "",
+    "description": "",
+    "points": [
+      "Exploración Geotérmica y de Hidrocarburos: identificación de estructuras geológicas propicias para la acumuluación de hidrocarburos o evaluación de recursos geotérmicos",
+      "Exploración de minerales: detección y mapeo de depósitos minerales magnéticamente susceptibles",
+      "Monitoreo ambiental y de riesgos naturales: detección de zonas de debilidad que impiden riesgos para el medio ambiente o la seguridad pública",
+      "Estudios de aguas subterráneas: para comprender las características de los sistemas cuíferos basándose en la permeabilidad magnética de las rocas",
+      "Vigilancia de infraestructura subterránea: mnonitoreo de tuberías y cables enterrados, así como para detectar posibles fugas o anomalías estructurales"
     ]
   }
 ]
