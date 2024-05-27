@@ -5,6 +5,7 @@
   import { onMounted, watch } from 'vue'
   import { initFlowbite } from 'flowbite'
   import { useNuxtApp } from '#app'
+  import { useRouter } from 'vue-router'
 
   // Interfaces
   interface Service {
@@ -55,6 +56,7 @@
 
   // Data
   const nuxtApp = useNuxtApp()
+  const router = useRouter()
   const servicesData: Service2[] = services;
   const products2Data: Product2[] = products2;
 
@@ -88,6 +90,12 @@
   }
 
   // Methods
+
+  const reloadPage = () => {
+    router.push({ path: router.currentRoute.value.fullPath }).then(() => {
+      window.location.reload()
+    })
+  }
 
   const viewValues = async () => {
     // console.log(form);
@@ -142,6 +150,7 @@
          date: new Date()
        }
      }
+     reloadPage()
    } catch (error) {
      console.log(error)
    }
