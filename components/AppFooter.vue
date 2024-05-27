@@ -11,7 +11,7 @@
                     <div class="text-center">
                         <p class="text-base">
                           <strong>
-                            Donde la Innovación Encuentra el Rendimiento
+                            Transformando Retos en Oportunidades
                           </strong>
                         </p>
                         <p class="text-sm">

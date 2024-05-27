@@ -1,10 +1,16 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    runtimeConfig: {
+        public: {
+            apiBaseUrl: process.env.API_BASE_URL || 'http://localhost:8000/'
+        }
+    },
     modules: [
         '@nuxtjs/color-mode',
         '@nuxt/image',
         '@nuxtjs/tailwindcss',
-        '@nuxtjs/google-fonts'
+        '@nuxtjs/google-fonts',
+        '@nuxtjs/i18n'
     ],
     css:[
         '~/assets/css/app.css'
@@ -25,4 +31,10 @@ export default defineNuxtConfig({
             autoprefixer: {}
         }
     },
+    plugins: [
+        '~/plugins/axios.ts'
+    ],
+    i18n: {
+        // Module Options
+    }
 })

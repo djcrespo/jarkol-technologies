@@ -60,6 +60,6 @@ import { Carousel } from "tw-elements";
 
 onMounted(async () => {
   const { Carousel, initTWE } = await import("tw-elements");
-  initTWE({ Carousel });
+  initTWE({ Carousel }, { interval: 10000 });
 });
 </script>

@@ -4,6 +4,7 @@
   import products2 from "public/jarkol/products/products_cotizacion_2.json"
   import { onMounted, watch } from 'vue'
   import { initFlowbite } from 'flowbite'
+  import { useNuxtApp } from '#app'
 
   // Interfaces
   interface Service {
@@ -40,13 +41,11 @@
     },
     contact: {
       phone: string,
-      email: string
+      mail: string,
+      subject: string
     },
     address: {
       street: string,
-      extern_number: string,
-      internal_number: string,
-      extra_streets: string,
       postal_code: string
     },
     info: {
@@ -55,6 +54,7 @@
   }
 
   // Data
+  const nuxtApp = useNuxtApp()
   const servicesData: Service2[] = services;
   const products2Data: Product2[] = products2;
 
@@ -64,10 +64,10 @@
   let selectProduct2 = ref<any | null>(null);
   let selectService2 = ref<any | null>(null);
 
-  const formProduct: any = {}
-  const formService: any = {}
+  let formProduct: any = {}
+  let formService: any = {}
 
-  const form: Cotizar = {
+  let form: Cotizar = {
     type: option ? 'Servicio' : 'Producto',
     client: {
       first_name: '',
@@ -75,13 +75,11 @@
     },
     contact: {
       phone: '',
-      email: ''
+      mail: '',
+      subject: 'nueva cotización'
     },
     address: {
       street: '',
-      extern_number: '',
-      internal_number: '',
-      extra_streets: '',
       postal_code: ''
     },
     info: {
@@ -91,13 +89,70 @@
 
   // Methods
 
-  const viewValues = () => {
-    console.log(formProduct);
+  const viewValues = async () => {
+    // console.log(form);
+    console.log({
+      person: form.client,
+      contact: form.contact,
+      address: {
+        street: form.address.street,
+        postal_code: String(form.address.postal_code)
+      },
+      objectCotizacion: JSON.stringify(
+          {
+            type: form.type,
+            object: form.type ? formProduct : formService,
+            selectOption: form.type ? selectProduct2 : selectService2
+          }
+      )
+    })
+   try {
+     await nuxtApp.$axios.post('enviar-cotizacion', {
+       person: form.client,
+       contact: form.contact,
+       address: form.address,
+       objectCotizacion: JSON.stringify(
+           {
+             type: form.type,
+             object: form.type ? formProduct : formService,
+             selectOption: form.type ? selectProduct2.value : selectService2.value
+           }
+       )
+     })
+     selectProduct2 = ref<any | null>(null);
+     selectService2 = ref<any | null>(null);
+     formProduct = {}
+     formService = {}
+     form = {
+       type: option ? 'Servicio' : 'Producto',
+       client: {
+         first_name: '',
+         last_name: ''
+       },
+       contact: {
+         phone: '',
+         mail: '',
+         subject: 'nueva cotización'
+       },
+       address: {
+         street: '',
+         postal_code: ''
+       },
+       info: {
+         date: new Date()
+       }
+     }
+   } catch (error) {
+     console.log(error)
+   }
   }
 
-  const viewValue = () => {
-    console.log(selectService)
-    console.log(selectProduct)
+  const sendCotizacion = async () => {
+    try {
+
+    } catch (error) {
+      console.log(error)
+    }
   }
 
   // watch
@@ -194,7 +249,7 @@
           </div>
           <div class="mx-2 mb-5">
             <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Correo electrónico</label>
-            <input v-model="form.contact.email" type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
+            <input v-model="form.contact.mail" type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
           </div>
           <div class="mx-2 mb-5">
             <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Teléfono</label>
@@ -204,25 +259,10 @@
         <div class="mx-10">
           <!-- Dirección del cliente -->
           <label class="block mb-2 text-lg font-medium text-gray-900 dark:text-white">Dirección</label>
-
-          <div class="mx-2 mb-5">
-            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Calle</label>
-            <input v-model="form.address.street" type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
-          </div>
           <div class="mb-5 grid grid-cols-2">
             <div class="mx-2">
-              <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Número exterior</label>
-              <input v-model="form.address.extern_number" type="text" id="last_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
-            </div>
-            <div class="mx-2">
-              <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Número interior (opcional)</label>
-              <input v-model="form.address.internal_number" type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
-            </div>
-          </div>
-          <div class="mb-5 grid grid-cols-2">
-            <div class="mx-2">
-              <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Cruzamientos</label>
-              <input v-model="form.address.extra_streets" type="text" id="phone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
+              <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Dirección</label>
+              <input v-model="form.address.street" type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
             </div>
             <div class="mx-2">
               <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Código postal</label>
@@ -233,7 +273,7 @@
       </div>
 
       <div class="w-full text-center">
-        <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" @click.prevent="viewValues">Enviar</button>
+        <button class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" @click.prevent="viewValues">Enviar</button>
       </div>
     </form>
   </section>
