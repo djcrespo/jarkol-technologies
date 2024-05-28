@@ -5,7 +5,7 @@
       <!-- First item -->
       <div class="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[900ms] ease-in-out motion-reduce:transition-none" data-twe-carousel-fade data-twe-carousel-item data-twe-carousel-active>
         <div class="relative">
-          <img class="w-full bg-cover" src="/jarkol/bg_v2/buenas3/1.jpg" alt="Jarkol Technologies" />
+          <img class="w-full bg-cover" src="/jarkol/bg_v2/buenas3/8.jpg" alt="Jarkol Technologies" />
           <div class="absolute inset-0 bg-black opacity-50"></div>
           <div class="absolute inset-0 flex justify-center items-center text-center text-white lg:text-6xl md:text-2xl sm:text-lg font-bold p-4">
             <div class="max-w-full overflow-hidden break-words">
@@ -29,7 +29,7 @@
       <!-- Third item -->
       <div class="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[900ms] ease-in-out motion-reduce:transition-none" data-twe-carousel-fade data-twe-carousel-item>
         <div class="relative">
-          <img src="/jarkol/bg_v2/buenas3/3.jpg" class="block w-full" alt="Jarkol Technologies" />
+          <img src="/jarkol/bg_v2/buenas3/6.jpg" class="block w-full" alt="Jarkol Technologies" />
           <div class="absolute inset-0 bg-black opacity-50"></div>
           <div class="absolute inset-0 flex justify-center items-center text-center text-white lg:text-6xl md:text-2xl sm:text-lg font-bold p-4">
             <div class="max-w-full overflow-hidden break-words">
