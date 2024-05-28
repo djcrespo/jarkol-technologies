@@ -15,27 +15,28 @@ onMounted( () => {
     <AtomsContainer>
       <div class="grid md:grid-cols-3 gap-7 justify-center items-center">
         <CardsPrincipalProductCard
-            image="/jarkol/products/images/principalProducts/exremeVision.png"
+            image="/jarkol/novedades/extremevision.png"
             title="ExtremeVISION"
-            description="descripcion"
-            short_description="La Revolución en Monitoreo Geotérmico."
+            description=""
+            short_description=""
             :points="[]"
             :index="0"
         />
         <CardsPrincipalProductCard
-            image="/jarkol/products/images/principalProducts/supreme300.png"
+            image="/jarkol/novedades/Supreme300.png"
             title="Supreme300"
-            description="Hola"
-            short_description="La Revolución en Monitoreo Geotérmico."
+            description=""
+            short_description=""
             :points="[]"
             :index="1"
         />
         <CardsPrincipalProductCard
-            image="/jarkol/products/images/principalProducts/exremeVision.png"
+            image="/jarkol/novedades/PPS71-Elite.png"
             title="PPS71 ELITE"
-            description="descripcion"
+            description=""
+            short_description=""
             :points="[]"
-            :index="4"
+            :index="2"
         />
       </div>
     </AtomsContainer>
