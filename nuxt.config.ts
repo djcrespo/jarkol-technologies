@@ -9,8 +9,7 @@ export default defineNuxtConfig({
         '@nuxtjs/color-mode',
         '@nuxt/image',
         '@nuxtjs/tailwindcss',
-        '@nuxtjs/google-fonts',
-        '@nuxtjs/i18n'
+        '@nuxtjs/google-fonts'
     ],
     css:[
         '~/assets/css/app.css'
@@ -32,9 +31,7 @@ export default defineNuxtConfig({
         }
     },
     plugins: [
-        '~/plugins/axios.ts'
-    ],
-    i18n: {
-        // Module Options
-    }
+        '~/plugins/axios.ts',
+        '~/plugins/i18n.ts'
+    ]
 })

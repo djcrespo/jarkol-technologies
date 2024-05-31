@@ -9,7 +9,7 @@
           <div class="absolute inset-0 bg-black opacity-50"></div>
           <div class="absolute inset-0 flex justify-center items-center text-center text-white lg:text-6xl md:text-2xl sm:text-lg font-bold p-4">
             <div class="max-w-full overflow-hidden break-words">
-              Líderes en Soluciones Geotérmicas y Exploración Geofísica con Enfoques Innovadores y Multidisciplinarios.
+              {{ t('home.hero.title_1') }}
             </div>
           </div>
         </div>
@@ -21,7 +21,7 @@
           <div class="absolute inset-0 bg-black opacity-50"></div>
           <div class="absolute inset-0 flex justify-center items-center text-center text-white lg:text-6xl md:text-2xl sm:text-lg font-bold p-4">
             <div class="max-w-full overflow-hidden break-words">
-              Impulsamos su Éxito con Soluciones Geocientíficas de Alto Impacto.
+              {{ t('home.hero.title_2') }}
             </div>
           </div>
         </div>
@@ -33,7 +33,7 @@
           <div class="absolute inset-0 bg-black opacity-50"></div>
           <div class="absolute inset-0 flex justify-center items-center text-center text-white lg:text-6xl md:text-2xl sm:text-lg font-bold p-4">
             <div class="max-w-full overflow-hidden break-words">
-              Transformamos desafíos geotérmicos y geofísicos en oportunidades, guiándolo hacia el futuro de la exploración energética.
+              {{ t('home.hero.title_3') }}
             </div>
           </div>
         </div>
@@ -45,7 +45,7 @@
           <div class="absolute inset-0 bg-black opacity-50"></div>
           <div class="absolute inset-0 flex justify-center items-center text-center text-white lg:text-6xl md:text-2xl sm:text-lg font-bold p-4">
             <div class="max-w-full overflow-hidden break-words">
-              Contáctenos hoy y descubra cómo podemos llevar su proyecto al próximo nivel.
+              {{ t('home.hero.title_4') }}
             </div>
           </div>
         </div>
@@ -56,7 +56,9 @@
 
 <script setup lang="ts">
 import { onMounted } from "vue";
-import { Carousel } from "tw-elements";
+import { useI18n } from 'vue-i18n';
+
+const { t } = useI18n()
 
 onMounted(async () => {
   const { Carousel, initTWE } = await import("tw-elements");

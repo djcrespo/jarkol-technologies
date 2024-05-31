@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import GenericGallery from "~/components/sections/home/GenericGallery.vue";
+import { useI18n } from 'vue-i18n';
 
 useHead({
   title: 'Jarkol Technologies',
@@ -10,7 +11,14 @@ useHead({
     { rel: 'icon', type: 'image/png', href: '/jarkol/logo/jarkol.png' }
   ],
 })
+
+const { t, locale } = useI18n()
+
+const changeLocale = (newLocale: string) => {
+  locale.value = newLocale
+}
 </script>
+
 <template>
     <div class="lg:pb-2.5">
         <div class="pt-20 relative">
@@ -31,7 +39,7 @@ useHead({
             <section>
               <div class="py-3 px-2 mx-auto max-w-screen-xl text-center lg:py-4 flex items-center justify-center">
                 <h5 class="text-5xl font-extrabold tracking-tight leading-none text-white md:text-3xl lg:text-4xl dark:text-white">
-                  Novedades
+                  {{ t('home.news') }}
                 </h5>
               </div>
             </section>

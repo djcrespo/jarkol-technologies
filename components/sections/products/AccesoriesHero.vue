@@ -5,7 +5,7 @@
         <AtomsContainer>
           <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-10">
             <h3 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white">
-              Accesorios
+              {{ t('products.text_2') }}
             </h3>
           </div>
         </AtomsContainer>
@@ -15,5 +15,8 @@
 </template>
 
 <script setup lang="ts">
-import Cotizar from "~/pages/cotizar.vue";
+import {useI18n} from "vue-i18n";
+
+const { t } = useI18n()
+
 </script>

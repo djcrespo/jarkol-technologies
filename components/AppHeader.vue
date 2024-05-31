@@ -1,4 +1,7 @@
 <script lang="ts" setup>
+import {useI18n} from "vue-i18n";
+import { computed } from 'vue'
+
 const navIsOpen = useState('navIsOpen', () => false)
 
 
@@ -7,34 +10,43 @@ function toggleNav(event: MouseEvent): void {
     navIsOpen.value = !navIsOpen.value
 }
 
-const navLinks = [
-    {
-      text: "Inicio",
-      href: "/"
-    },
-    {
-        text: "Nosotros",
-        href: "/nosotros"
-    },
-    {
-      text: "Productos",
-      href: "/productos"
-    },
-    {
-        text: "Servicios",
-        href: "/servicios"
-    },
-    {
-        text: "Clientes",
-        href: "/clientes"
-    },
-    {
-        text: "Contacto",
-        href: "/contacto"
-    }
-]
+const { t, locale } = useI18n()
 
+const currentLocale = computed(() => locale.value)
+
+const navLinks = computed(() => [
+  {
+    text: t('header.page_1'),
+    href: "/"
+  },
+  {
+    text: t('header.page_2'),
+    href: "/nosotros"
+  },
+  {
+    text: t('header.page_3'),
+    href: "/productos"
+  },
+  {
+    text: t('header.page_4'),
+    href: "/servicios"
+  },
+  {
+    text: t('header.page_5'),
+    href: "/clientes"
+  },
+  {
+    text: t('header.page_6'),
+    href: "/contacto"
+  }
+])
+
+
+const changeLocale = (newLocale: string) => {
+  locale.value = newLocale
+}
 </script>
+
 <template>
     <header class="absolute inset-x-0 top-0 py-3 z-50 bg-white">
         <AtomsContainer class-name="relative">
@@ -65,17 +77,29 @@ const navLinks = [
                 </div>
 
                 <div class="flex items-center bg-inherit gap-1 lg:gap-3 min-w-max">
-                    <ElementsThemeSwitcher />
                     <div class="hidden lg:flex lg:items-center gap-4">
                         <AtomsLinkBtn href="/cotizar" variant="secondary">
-                            Cotizar
+                            {{ t('header.page_7') }}
                         </AtomsLinkBtn>
-                        <!--
-                        <AtomsLinkBtn href="#" variant="primary">
-                            Join Us
-                        </AtomsLinkBtn>
-                        -->
                     </div>
+
+                  <div class="hidden lg:flex lg:items-center gap-4">
+                    <button
+                        v-if="currentLocale === 'es'"
+                        @click="changeLocale('en')"
+                        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+                    >
+                      English
+                    </button>
+
+                    <button
+                        v-else
+                        @click="changeLocale('es')"
+                        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+                    >
+                      Español
+                    </button>
+                  </div>
 
                   <!-- Login
                     <div class="flex lg:hidden items-center">

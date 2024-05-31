@@ -11,11 +11,11 @@
                     <div class="text-center">
                         <p class="text-base">
                           <strong>
-                            Transformando Retos en Oportunidades
+                            {{ t('footer.text_1') }}
                           </strong>
                         </p>
                         <p class="text-sm">
-                          &copy; {{ new Date().getFullYear() }} Jarkol Techonologies S.A. de C.V. Todos los derechos reservados.
+                          &copy; {{ new Date().getFullYear() + ' ' + t('footer.text_2')}}
                         </p>
                     </div>
 
@@ -39,6 +39,10 @@
 </template>
 
 <script lang="ts" setup>
+import { useI18n } from 'vue-i18n';
+
+const { t } = useI18n()
+
 const quickLinks = [
     /*
     {
