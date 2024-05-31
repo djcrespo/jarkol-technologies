@@ -1,11 +1,11 @@
 <template>
-  <section class="lg:pt-20 lg:pb-5 md:pt-24 md:pb-24">
-    <div>
-      <AtomsContainer>
-        <section class="bg-white dark:bg-gray-900">
+  <div class="bg-[url('public/jarkol/bg_v2/buenas3/8.jpg')] bg-cover bg-center">
+    <div class="bg-[#3B408C] bg-opacity-70">
+      <section class="py-40 md:py-30">
+        <AtomsContainer>
           <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-10">
-            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white animate-fade-up">Nuestros clientes</h1>
-            <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-30 dark:text-gray-400 animate-fade-up animate-delay-300">
+            <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white animate-fade-up">Nuestros clientes</h1>
+            <p class="mb-8 text-lg font-normal text-white lg:text-xl sm:px-16 lg:px-30 dark:text-gray-400 animate-fade-up animate-delay-300">
               Nos enorgullece colaborar con los principales líderes de la industria energética en México y con destacados exponentes a nivel mundial. Ofreciendo en conjunto soluciones integrales y de alta calidad en proyectos de Geotermia, Hidrocarburos, Minería e Ingeniería Civil.</p>
             <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 animate-fade-up animate-delay-500">
               <a href="/cotizar" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
@@ -19,10 +19,10 @@
               </a>
             </div>
           </div>
-        </section>
-      </AtomsContainer>
+        </AtomsContainer>
+      </section>
     </div>
-  </section>
+  </div>
 </template>
 
 <script setup lang="ts">
