@@ -24,9 +24,6 @@ const changeLocale = (newLocale: string) => {
         <div class="pt-20 relative">
           <div class="z-[2] w-full lg:h-4/5 md:h-3/4 absolute flex items-center justify-center my-4">
             <div class="p-8">
-              <!--
-              <img class="lg:h-36 md:h-full w-auto animate-fade-up" src="/jarkol/logo/logo-ori.png" alt="Jarkol Technologies">
-              -->
             </div>
           </div>
           <div class="z-[1] bg-white/85">

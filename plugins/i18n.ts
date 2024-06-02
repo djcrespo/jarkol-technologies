@@ -5,7 +5,7 @@ export default defineNuxtPlugin((nuxtApp) => {
     const i18n = createI18n({
         legacy: false,
         globalInjection: true,
-        locale: 'en', // idioma predeterminado
+        locale: 'es', // idioma predeterminado
         messages: {
             en: {
                 language: 'English',
@@ -87,6 +87,36 @@ export default defineNuxtPlugin((nuxtApp) => {
                     vision: {
                         title: 'Vision',
                         text: 'To become one of the leading Mexican companies in promoting the development of technology and strategic tools for the energy industry in Mexico and Latin America.'
+                    }
+                },
+                contact: {
+                    title_1: 'Contact us today and find out how we can take your project to the next level',
+                    info: {
+                        title: 'We Boost Your Success with High Impact Geoscientific Solutions',
+                        text_mail: 'Email'
+                    },
+                    form: {
+                        first_name: 'Name',
+                        last_name: 'Last name',
+                        mail: 'Email',
+                        phone: 'Phone',
+                        subject: 'Subject',
+                        message: 'Message',
+                        button: 'Send'
+                    }
+                },
+                noticies: {
+                    news_1: {
+                        title: 'Geophysical Area Prospecting with Drones',
+                        text: 'Complemented by the Zenmuse L1 LiDAR sensor, Zenmuse P1 camera and GEM Systems magnetometer.'
+                    },
+                    news_2: {
+                        title: 'Discover SUPREME300 from Jarkol Technologies',
+                        text: 'The Revolution in Geothermal Monitoring.'
+                    },
+                    news_3: {
+                        title: 'ExtremeVISION',
+                        text: 'TExtremeVISIONhybrid camera technology that can operate on both standard single-conductor power line and Slickline cable.'
                     }
                 }
             },
@@ -170,6 +200,36 @@ export default defineNuxtPlugin((nuxtApp) => {
                     vision: {
                        title: 'Visión',
                        text:  'Convertirnos en una de las empresas mexicanas líderes en impulsar el desarrollo de tecnología y herramientas estratégicas para la industria de la energía en México y América Latina.'
+                    }
+                },
+                contact: {
+                    title_1: 'Contáctenos hoy y descubra cómo podemos llevar su proyecto al próximo nivel',
+                    info: {
+                        title: 'Impulsamos su Éxito con Soluciones Geocientíficas de Alto Impacto',
+                        text_mail: 'Correo electrónico'
+                    },
+                    form: {
+                        first_name: 'Nombre(s)',
+                        last_name: 'Apellido(s)',
+                        mail: 'Correo electrónico',
+                        phone: 'Teléfono',
+                        subject: 'Asunto',
+                        message: 'Mensaje',
+                        button: 'Enviar'
+                    }
+                },
+                noticies: {
+                    news_1: {
+                        title: 'Prospección Geofísica Área con drones',
+                        text: 'Complementado con el sensor LiDAR Zenmuse L1, la cámara Zenmuse P1 y magnetómetro GEM Systems.'
+                    },
+                    news_2: {
+                        title: 'Descubre SUPREME300 de Jarkol Technologies',
+                        text: 'La Revolución en Monitoreo Geotérmico.'
+                    },
+                    news_3: {
+                        title: 'ExtremeVISION',
+                        text: 'TExtremeVISIONecnología de cámara híbrida que puede funcionar tanto en línea eléctrica monoconductora estándar como en cable Slickline.'
                     }
                 }
             }

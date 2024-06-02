@@ -1,7 +1,9 @@
 <template>
   <section class="lg:pt-0 lg:pb-5 md:pt-24 md:pb-24">
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-10">
-      <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Impulsamos su Éxito con Soluciones Geocientíficas de Alto Impacto</h1>
+      <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+        {{ t('contact.info.title') }}
+      </h1>
     </div>
     <AtomsContainer>
       <div class="grid lg:grid-cols-3 md:grid-cols-1 gap-5 flex justify-center">
@@ -25,7 +27,7 @@
                 <path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"></path>
               </svg>
               <a class="text-lg">
-                Correo electrónico
+                {{ t('contact.info.text_mail') }}
               </a>
             </div>
           </a>
@@ -48,4 +50,7 @@
   </section>
 </template>
 <script setup lang="ts">
+import {useI18n} from "vue-i18n";
+
+const { t, locale } = useI18n()
 </script>
