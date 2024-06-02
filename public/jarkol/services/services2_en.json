@@ -1,0 +1,136 @@
+[
+  {
+    "name": "Seismic Processing",
+    "image": "",
+    "description": "",
+    "points": [
+      "Improvement of subsurface imaging through conventional and spatial seismic attribute sampling",
+      "Structural and stratigraphic continuity at reservoir boundaries",
+      "Stratigraphic level delineation in the depth domain and image enhancement in reservoirs of interest",
+      "Calibration of well trajectories and areas of opportunity for exploration"
+    ]
+  },
+  {
+    "name": "Tectonic Deformation Model Studies",
+    "image": "",
+    "description": "",
+    "points": [
+      "Deformation history in fractured reservoirs",
+      "Development of fracture models in YNF",
+      "Fracture models associated with hydrocarbon production control",
+      "Control of the Water-Oil contact level through understanding the fracture model"
+    ]
+  },
+  {
+    "name": "Petrophysical and Seismic Studies",
+    "image": "",
+    "description": "",
+    "points": [
+      "Identification of vertical and horizontal reservoir structure boundaries through well geophysical logs",
+      "Determination of petrophysical models using subsurface petrophysical properties",
+      "Relationship of petrophysical and seismic models by combining subsurface physical properties",
+      "Determination and location of water-oil contact through well geophysical logs"
+    ]
+  },
+  {
+    "name": "Seismic Inversion Flow",
+    "image": "",
+    "description": "",
+    "points": [
+      "Pre-stack seismic data analysis in the Gathers domain",
+      "Calibration of velocity models derived from RMS velocity picking and well velocities",
+      "Correlation and extraction of representative subsurface wavelets in specific reservoirs through geological and geophysical information",
+      "Determination of inversion seismic models oriented towards reservoir characterization"
+    ]
+  },
+  {
+    "name": "VCDSE Stages and Monitoring and Quality Control",
+    "image": "",
+    "description": "",
+    "points": [
+      "Specialized technical personnel with knowledge and experience in each discipline, highly skilled in the management and operation of specialized software, as well as the ability to interact with different disciplines for efficient project operation",
+      "Structured methodology with organized sequences to ensure the good performance of project activities to meet objectives",
+      "State-of-the-art software, hardware, and methodologies applied to guarantee the best solutions and consequently reduce risk and uncertainty in those solutions",
+      "Ensuring quality processes in the review and validation of results, as well as meeting delivery times of those results, to optimize technical-financial activities for the project"
+    ]
+  },
+  {
+    "name": "Seismic Reflection Studies Applied to Geothermal Reservoir Characterization",
+    "image": "",
+    "description": "",
+    "points": [
+      "The visualization of geological data in the 3D domain allows analysts and interpreters to understand the spatial relationships between different types of subsurface data, e.g., geological, geophysical, and well data",
+      "The results of 3D seismic will allow accurate mapping of the subsurface to locate the most favorable places for geothermal resource exploration",
+      "Examples of 3D seismic applied in: Bavaria-Germany (2019), Switzerland (September 2021)"
+    ]
+  },
+  {
+    "name": "Aerophotogrammetric Studies (Drone Flight)",
+    "image": "",
+    "description": "",
+    "points": []
+  },
+  {
+    "name": "Well Seismic Data Analysis",
+    "image": "",
+    "description": "",
+    "points": [
+      "Seismic waves generated at a certain depth are recorded throughout the survey",
+      "Gathers resulting from the acquisition of Vertical Seismic Profile (VSP-Zero Offset) in wells",
+      "Selection of compressional wave velocity derived from the acquisition of cross-well tomography (Cross-Hole Seismic) for subsurface property characterization"
+    ]
+  },
+  {
+    "name": "Potential Methods Applied to Subsurface Characterization",
+    "image": "",
+    "description": "Identification and visualization of specific anomalies to precisely determine their extent and configuration, i.e., characterizing their geometry for decision-making in exploration and subsurface studies",
+    "points": [
+      "Resistivity",
+      "Velocity",
+      "Induced polarization",
+      "Magnetic susceptibility (terrestrial, aerial)",
+      "Gravimetric data"
+    ]
+  },
+  {
+    "name": "Time Domain Electromagnetic Studies (TEM)",
+    "image": "",
+    "description": "",
+    "points": [
+      "Conductivity and/or resistivity contrasts in the subsurface",
+      "Characterization of subsurface flows in preferential orientations",
+      "Characterization of subsurface anomalies due to the detection of changes in Resistivity and/or Electrical Conductivity"
+    ]
+  },
+  {
+    "name": "EMDF Domain Electromagnetic Studies",
+    "image": "",
+    "description": "",
+    "points": [
+      "Support in the construction of civil works: roads, railways, bridges, gates, dams",
+      "Subsurface studies: Location of cavities (cavernous zones), Location of faults and fractures, measurement of vadose zone thickness, saturated zone"
+    ]
+  },
+  {
+    "name": "Ground Penetrating Radar Studies",
+    "image": "",
+    "description": "",
+    "points": [
+      "Specialized exploration applications with ground-penetrating radar (GPR)",
+      "Profiles obtained with the Ground Penetrating Radar technique (Detection of cavernous zones)",
+      "Conversion domain profiles, Amplitude - Depth (For detection of cavernous zones)"
+    ]
+  },
+  {
+    "name": "Aerial Magnetometry",
+    "image": "",
+    "description": "",
+    "points": [
+      "Geothermal and Hydrocarbon Exploration: identification of geological structures conducive to hydrocarbon accumulation or evaluation of geothermal resources",
+      "Mineral exploration: detection and mapping of magnetically susceptible mineral deposits",
+      "Environmental and natural hazard monitoring: detection of weakness zones that pose risks to the environment or public safety",
+      "Groundwater studies: to understand the characteristics of aquifer systems based on the magnetic permeability of rocks",
+      "Monitoring of underground infrastructure: monitoring of buried pipelines and cables, as well as detecting possible leaks or structural anomalies"
+    ]
+  }
+]
