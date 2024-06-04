@@ -41,8 +41,24 @@
           <textarea v-model="message" id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" :placeholder="t('contact.form.message')"></textarea>
         </div>
         <div class="text-center">
-          <button class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" @click="sendMessage">
-            {{ t('contact.form.button') }}
+          <button class="text-white text-center bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" @click="sendMessage" :disabled="isLoading">
+            <svg v-if="isLoading" class="animate-spin h-5 w-5 mr-3 text-white" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" class="opacity-25"></circle>
+              <path d="M4 12a8 8 0 018-8" stroke="currentColor" stroke-width="4" class="opacity-75"></path>
+            </svg>
+            <p v-else>
+              {{ t('contact.form.button') }}
+            </p>
+          </button>
+        </div>
+
+        <!-- Toast Notification -->
+        <div v-if="isToastVisible" class="fixed bottom-4 right-4 bg-gray-800 text-white px-4 py-2 rounded shadow-lg flex items-center">
+          <span>{{ t('contact.form.message_toast') }}</span>
+          <button @click="isToastVisible = false" class="ml-auto bg-transparent text-white">
+            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
           </button>
         </div>
       </div>
@@ -57,6 +73,8 @@ export default {
   name: 'formContact',
   data () {
     return {
+      isLoading: false,
+      isToastVisible: false,
       person: {
         first_name: '',
         last_name: ''
@@ -78,11 +96,24 @@ export default {
     this.t = t;
   },
   methods: {
+    resetForm () {
+      this.person = {
+        first_name: '',
+        last_name: ''
+      }
+      this.contact = {
+        mail: '',
+        phone: '',
+        subject: ''
+      }
+      this.message = ''
+    },
     async sendMessage () {
       console.log(this.person)
       console.log(this.contact)
       console.log(this.message)
       try {
+        this.isLoading = true
         await this.$axios.post('enviar-mensaje', {
           person: {
             "first_name": this.person.first_name,
@@ -95,7 +126,15 @@ export default {
           },
           message: this.message
         })
+        this.resetForm()
+        this.isLoading = false
+        this.isToastVisible = true
+        setTimeout(() => {
+          this.isToastVisible = false;
+        }, 3000);
       } catch (error) {
+        this.resetForm()
+        this.isLoading = false
         console.log(error)
       }
     }

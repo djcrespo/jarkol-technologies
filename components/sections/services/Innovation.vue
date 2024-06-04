@@ -6,11 +6,11 @@
     </a>
     <div class="p-5">
       <a>
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Tecnología y Servicios Innovadores</h5>
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ t('djimatrice.innovation.title') }}</h5>
       </a>
       <div class="grid grid-cols-1 gap-4">
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          <strong>Cinematografía y Fotografía Aérea</strong>: Uso de cámaras de alta resolución para grabaciones y fotografías aéreas de alta calidad.
+          <strong>{{ t('djimatrice.innovation.text_1.part_1') }}</strong>: {{ t('djimatrice.innovation.text_1.part_2') }}
         </p>
       </div>
     </div>
@@ -18,5 +18,9 @@
 
 
 </template>
+
 <script setup lang="ts">
+import {useI18n} from "vue-i18n";
+
+const { t } = useI18n()
 </script>

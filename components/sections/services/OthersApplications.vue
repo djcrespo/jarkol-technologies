@@ -6,25 +6,29 @@
     </a>
     <div class="p-5">
       <a>
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Aplicaciones Adicionales</h5>
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ t('djimatrice.othersApplications.title') }}</h5>
       </a>
       <div class="grid grid-cols-1 gap-4">
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          <strong>Promoción Turística e Inmobiliaria</strong>: Creación de material visual impactante para la promoción de lugares o propiedades.
+          <strong>{{ t('djimatrice.othersApplications.text_1.part_1') }}</strong>: {{ t('djimatrice.othersApplications.text_1.part_2') }}
         </p>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          <strong>Cobertura de Eventos</strong>: Soporte en la documentación de eventos deportivos, culturales y noticieros, proporcionando perspectivas únicas.
+          <strong>{{ t('djimatrice.othersApplications.text_2.part_1') }}</strong>: {{ t('djimatrice.othersApplications.text_2.part_2') }}
         </p>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          <strong>Telecomunicaciones</strong>: Evaluación rápida de daños y planificación de respuestas ante eventos naturales.
+          <strong>{{ t('djimatrice.othersApplications.text_3.part_1') }}</strong>: {{ t('djimatrice.othersApplications.text_3.part_2') }}
         </p>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          <strong>Monitoreo Ambiental</strong>: Apoyo en la inspección y mantenimiento de infraestructuras de comunicaciones.
+          <strong>{{ t('djimatrice.othersApplications.text_4.part_1') }}</strong>: {{ t('djimatrice.othersApplications.text_4.part_2') }}
         </p>
       </div>
     </div>
   </div>
 
 </template>
+
 <script setup lang="ts">
+import {useI18n} from "vue-i18n";
+
+const { t } = useI18n()
 </script>

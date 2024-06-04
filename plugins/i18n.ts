@@ -102,7 +102,8 @@ export default defineNuxtPlugin((nuxtApp) => {
                         phone: 'Phone',
                         subject: 'Subject',
                         message: 'Message',
-                        button: 'Send'
+                        button: 'Send',
+                        message_toast: 'Message sent'
                     }
                 },
                 noticies: {
@@ -116,7 +117,89 @@ export default defineNuxtPlugin((nuxtApp) => {
                     },
                     news_3: {
                         title: 'ExtremeVISION',
-                        text: 'TExtremeVISIONhybrid camera technology that can operate on both standard single-conductor power line and Slickline cable.'
+                        text: 'Hybrid camera technology that can operate on both standard single-conductor power line and Slickline cable.'                    }
+                },
+                djimatrice: {
+                    header: {
+                        text: 'Complemented by the Zenmuse L1 LiDAR sensor, Zenmuse P1 camera and GEM Systems magnetometer.'
+                    },
+                    mapping: {
+                        title: 'Mapping and topography',
+                        text_1: {
+                            part_1: 'Advanced Reservoir Characterization',
+                            part_2: 'Use of LiDAR and photogrammetry to obtain detailed subsurface and surface models, essential in geothermal and geophysical exploration.'
+                        },
+                        text_2: {
+                            part_1: 'Geological and Topographic Surveys',
+                            part_2: 'Precision in the mapping of complex terrain, facilitating the identification of natural resources.'
+                        }
+                    },
+                    inspection: {
+                        title: 'Inspection and Surveillance',
+                        text_1: {
+                            part_1: 'Infrastructure Inspections',
+                            part_2: 'Detailed evaluation of energy structures, identifying possible risks or maintenance needs.'
+                        },
+                        text_2: {
+                            part_1: 'Wide Area Surveillance',
+                            part_2: 'Aerial monitoring for the security of facilities and projects, including remote or difficult-to-access areas.'
+                        }
+                    },
+                    applications: {
+                        title: 'Applications in Specific Industries',
+                        text_1: {
+                            part_1: 'Mining and Geothermal Energy',
+                            part_2: 'Prospecting and monitoring of operations, improving safety and efficiency.'
+                        },
+                        text_2: {
+                            part_1: 'Construction',
+                            part_2: 'Monitoring progress in projects, using high-resolution 3D images and models.'
+                        },
+                        text_3: {
+                            part_1: 'Agriculture',
+                            part_2: 'Crop monitoring and resource management, optimizing production and sustainability.'
+                        },
+                        text_4: {
+                            part_1: 'Disaster Management',
+                            part_2: 'Rapid damage assessment and response planning to natural events.'
+                        }
+                    },
+                    othersApplications: {
+                        title: 'Additional Applications',
+                        text_1: {
+                            part_1: 'Tourism and Real Estate Promotion',
+                            part_2: 'Creation of striking visual material for the promotion of places or properties.'
+                        },
+                        text_2: {
+                            part_1: 'Event Coverage',
+                            part_2: 'Support in the documentation of sporting, cultural and news events, providing unique perspectives.'
+                        },
+                        text_3: {
+                            part_1: 'Telecommunications',
+                            part_2: 'Rapid damage assessment and response planning to natural events.'
+                        },
+                        text_4: {
+                            part_1: 'Environmental Monitoring',
+                            part_2: 'Support in the inspection and maintenance of communications infrastructure.'
+                        }
+                    },
+                    otherServices: {
+                        title: 'Mapping and topography',
+                        text_1: {
+                            part_1: 'Advanced Reservoir Characterization',
+                            part_2: 'Use of LiDAR and photogrammetry to obtain detailed subsurface and surface models, essential in geothermal and geophysical exploration.'
+                        },
+                        text_2: {
+                            part_1: 'Geological and Topographic Surveys',
+                            part_2: 'Precision in the mapping of complex terrain, facilitating the identification of natural resources.'
+                        }
+                    },
+                    innovation: {
+                        title: 'Innovative Technology and Services',
+                        text_1: {
+                            part_1: 'Cinematography and Aerial Photography',
+                            part_2: 'Use of high-resolution cameras for high-quality recordings and aerial photographs.'
+                        }
                     }
                 }
             },
@@ -215,7 +298,8 @@ export default defineNuxtPlugin((nuxtApp) => {
                         phone: 'Teléfono',
                         subject: 'Asunto',
                         message: 'Mensaje',
-                        button: 'Enviar'
+                        button: 'Enviar',
+                        message_toast: 'Mensaje enviado'
                     }
                 },
                 noticies: {
@@ -229,7 +313,90 @@ export default defineNuxtPlugin((nuxtApp) => {
                     },
                     news_3: {
                         title: 'ExtremeVISION',
-                        text: 'TExtremeVISIONecnología de cámara híbrida que puede funcionar tanto en línea eléctrica monoconductora estándar como en cable Slickline.'
+                        text: 'Tecnología de cámara híbrida que puede funcionar tanto en línea eléctrica monoconductora estándar como en cable Slickline.'
+                    }
+                },
+                djimatrice: {
+                    header: {
+                        text: 'Complementado con el sensor LiDAR Zenmuse L1, la cámara Zenmuse P1 y magnetómetro GEM Systems.'
+                    },
+                    mapping: {
+                        title: 'Mapeo y topografia',
+                        text_1: {
+                            part_1: 'Caracterización Avanzada de Yacimientos',
+                            part_2: 'Uso del LiDAR y fotogrametría para obtener modelos detallados del subsuelo y superficie, esenciales en la exploración geotérmica y geofísica.'
+                        },
+                        text_2: {
+                            part_1: 'Levantamientos Geológicos y Topográficos',
+                            part_2: 'Precisión en la cartografía de terrenos complejos, facilitando la identificación de recursos naturales.'
+                        }
+                    },
+                    inspection: {
+                        title: 'Inspección y Vigilancia',
+                        text_1: {
+                            part_1: 'Inspecciones de Infraestructura',
+                            part_2: 'Evaluación detallada de estructuras energéticas, identificando posibles riesgos o necesidades de mantenimiento.'
+                        },
+                        text_2: {
+                            part_1: 'Vigilancia de Áreas Extensas',
+                            part_2: 'Monitoreo aéreo para la seguridad de instalaciones y proyectos, incluyendo áreas remotas o de difícil acceso.'
+                        }
+                    },
+                    applications: {
+                        title: 'Aplicaciones en Industrias Específicas',
+                        text_1: {
+                            part_1: 'Minería y Geotermia',
+                            part_2: 'Prospección y monitoreo de operaciones, mejorando la seguridad y eficiencia.'
+                        },
+                        text_2: {
+                            part_1: 'Construcción',
+                            part_2: 'Seguimiento de avances en proyectos, mediante imágenes y modelos 3D de alta resolución.'
+                        },
+                        text_3: {
+                            part_1: 'Agricultura',
+                            part_2: 'Monitoreo de cultivos y gestión de recursos, optimizando la producción y sostenibilidad.'
+                        },
+                        text_4: {
+                            part_1: 'Gestión de Desastres',
+                            part_2: 'Evaluación rápida de daños y planificación de respuestas ante eventos naturales.'
+                        }
+                    },
+                    othersApplications: {
+                        title: 'Aplicaciones Adicionales',
+                        text_1: {
+                            part_1: 'Promoción Turística e Inmobiliaria',
+                            part_2: 'Creación de material visual impactante para la promoción de lugares o propiedades.'
+                        },
+                        text_2: {
+                            part_1: 'Cobertura de Eventos',
+                            part_2: 'Soporte en la documentación de eventos deportivos, culturales y noticieros, proporcionando perspectivas únicas.'
+                        },
+                        text_3: {
+                            part_1: 'Telecomunicaciones',
+                            part_2: 'Evaluación rápida de daños y planificación de respuestas ante eventos naturales.'
+                        },
+                        text_4: {
+                            part_1: 'Monitoreo Ambiental',
+                            part_2: 'Apoyo en la inspección y mantenimiento de infraestructuras de comunicaciones.'
+                        }
+                    },
+                    otherServices: {
+                        title: 'Mapeo y topografia',
+                        text_1: {
+                            part_1: 'Caracterización Avanzada de Yacimientos',
+                            part_2: 'Uso del LiDAR y fotogrametría para obtener modelos detallados del subsuelo y superficie, esenciales en la exploración geotérmica y geofísica.'
+                        },
+                        text_2: {
+                            part_1: 'Levantamientos Geológicos y Topográficos',
+                            part_2: 'Precisión en la cartografía de terrenos complejos, facilitando la identificación de recursos naturales.'
+                        }
+                    },
+                    innovation: {
+                        title: 'Tecnología y Servicios Innovadores',
+                        text_1: {
+                            part_1: 'Cinematografía y Fotografía Aérea',
+                            part_2: 'Uso de cámaras de alta resolución para grabaciones y fotografías aéreas de alta calidad.'
+                        }
                     }
                 }
             }

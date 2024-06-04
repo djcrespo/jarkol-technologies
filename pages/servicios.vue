@@ -9,8 +9,6 @@ useHead({
   ],
 })
 
-import services from "public/jarkol/services/services2.json"
-import Service2Card from "~/components/cards/Service2Card.vue"
 import Gallery from "~/components/sections/servicesCompany/Gallery.vue"
 
 </script>

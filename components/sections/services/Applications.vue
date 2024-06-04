@@ -6,23 +6,29 @@
     </a>
     <div class="p-5">
       <a>
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Aplicaciones en Industrias Específicas</h5>
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ t('djimatrice.applications.title') }}</h5>
       </a>
       <div class="grid grid-cols-1 gap-4">
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          <strong>Minería y Geotermia</strong>: Prospección y monitoreo de operaciones, mejorando la seguridad y eficiencia.
+          <strong>{{ t('djimatrice.applications.text_1.part_1') }}</strong>: {{ t('djimatrice.applications.text_1.part_2') }}
         </p>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          <strong>Construcción</strong>: Seguimiento de avances en proyectos, mediante imágenes y modelos 3D de alta resolución.
+          <strong>{{ t('djimatrice.applications.text_2.part_1') }}</strong>: {{ t('djimatrice.applications.text_2.part_2') }}
         </p>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          <strong>Agricultura</strong>: Monitoreo de cultivos y gestión de recursos, optimizando la producción y sostenibilidad.
+          <strong>{{ t('djimatrice.applications.text_3.part_1') }}</strong>: {{ t('djimatrice.applications.text_3.part_2') }}
         </p>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          <strong>Gestión de Desastres</strong>: Evaluación rápida de daños y planificación de respuestas ante eventos naturales.
+          <strong>{{ t('djimatrice.applications.text_4.part_1') }}</strong>: {{ t('djimatrice.applications.text_4.part_2') }}
         </p>
       </div>
     </div>
   </div>
 
 </template>
+
+<script setup lang="ts">
+import {useI18n} from "vue-i18n";
+
+const { t } = useI18n()
+</script>

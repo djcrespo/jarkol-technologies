@@ -6,19 +6,25 @@
     </a>
     <div class="p-5">
       <a>
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Mapeo y topografia</h5>
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          {{ t('djimatrice.otherServices.title') }}
+        </h5>
       </a>
       <div class="grid grid-cols-1 gap-4">
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          <strong>Caracterización Avanzada de Yacimientos</strong>: Uso del LiDAR y fotogrametría para obtener modelos detallados del subsuelo y superficie, esenciales en la exploración geotérmica y geofísica.
+          <strong>{{ t('djimatrice.otherServices.text_1.part_1') }}</strong>: {{ t('djimatrice.otherServices.text_1.part_2') }}
         </p>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          <strong>Levantamientos Geológicos y Topográficos</strong>: Precisión en la cartografía de terrenos complejos, facilitando la identificación de recursos naturales.
+          <strong>{{ t('djimatrice.otherServices.text_2.part_1') }}</strong>: {{ t('djimatrice.otherServices.text_2.part_2') }}
         </p>
       </div>
     </div>
   </div>
 
 </template>
+
 <script setup lang="ts">
+import {useI18n} from "vue-i18n";
+
+const { t } = useI18n()
 </script>
