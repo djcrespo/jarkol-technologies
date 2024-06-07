@@ -30,6 +30,11 @@ const changeLocale = (newLocale: string) => {
             <SectionsHomeGalleryHero class="animate-fade-up" />
           </div>
         </div>
+
+      <div class="py-10 relative">
+        <LazySectionsHomeGalleryOpportunities />
+      </div>
+
         <!-- Seccion de noticias -->
         <div class="pt-30 md:pt-30 bg-[url('public/jarkol/backgrounds/news/img2.jpg')] bg-cover bg-center">
           <div class="bg-jarkolTwo bg-opacity-70 my-4 pb-8">

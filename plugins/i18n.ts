@@ -22,6 +22,12 @@ export default defineNuxtPlugin((nuxtApp) => {
                         subtext_1: 'From addressing personal decisions to reaching important milestones, our job is to guide you on the path to success. As professional engineering consultants, we guarantee excellent results.',
                         subtext_2: 'We are a service company for the Energy and Extractive Industry, with direct experience in Oil and Gas, Mining and Geothermal, particularly in drilling operations, geophysical logging both with cable and during drilling with tools and monitoring of production parameters , focused on the introduction of new, better and more accessible technologies in the Latin American market.',
                         button: 'Learn more'
+                    },
+                    gallery_op: {
+                        text_1: 'Geothermal',
+                        text_2: 'Hydrocarbons',
+                        text_3: 'Mining',
+                        text_4: 'Civil Engineering'
                     }
                 },
                 footer: {
@@ -270,6 +276,12 @@ export default defineNuxtPlugin((nuxtApp) => {
                         subtext_1: 'Desde abordar decisiones personales hasta alcanzar hitos importantes, nuestro trabajo es guiarlo por el camino del éxito. Como consultores de ingeniería profesionales, garantizamos excelentes resultados.',
                         subtext_2: 'Somos una empresa de servicios para la Industria Energética y Extractiva, con experiencia directa en Petróleo y Gas, Minería y Geotérmica, particularmente en operaciones de perforación, registro geofísico tanto con cable como durante la perforación con herramientas y monitoreo de parámetros de producción, enfocados en la introducción de nuevos, Mejores y más accesibles tecnologías en el mercado latinoamericano.',
                         button: 'Conoce más'
+                    },
+                    gallery_op: {
+                        text_1: 'Geotermia',
+                        text_2: 'Hidrocarburos',
+                        text_3: 'Minería',
+                        text_4: 'Ingeniería Civil'
                     }
                 },
                 footer: {
