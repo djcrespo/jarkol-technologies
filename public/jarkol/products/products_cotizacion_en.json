@@ -1,0 +1,195 @@
+[
+  {
+    "producto": "Sondas",
+    "tipo_producto": "Supreme300",
+    "condiciones_adquisicion": "Venta",
+    "preguntas_referencia": [
+      {
+        "pregunta": "Pressure range?",
+        "valores": [10000, 16000, 20000, 25000],
+        "unidad": "psi"
+      },
+      {
+        "pregunta": "Temperature range?",
+        "valores": [150, 177, 200, 350],
+        "unidad": "°C"
+      },
+      {
+        "pregunta": "Monitoring depth?",
+        "valores": [],
+        "unidad": ""
+      }
+    ]
+  },
+  {
+    "producto": "Sondas",
+    "tipo_producto": "ExtremeVISION",
+    "condiciones_adquisicion": "Venta",
+    "preguntas_referencia": [
+      {
+        "pregunta": "Pipe diameter at sensor depth?",
+        "valores": [],
+        "unidad": ""
+      },
+      {
+        "pregunta": "H2S concentration?",
+        "valores": [],
+        "unidad": ""
+      }
+    ]
+  },
+  {
+    "producto": "Sondas",
+    "tipo_producto": "PPS25",
+    "condiciones_adquisicion": "Renta",
+    "preguntas_referencia": [
+      {
+        "pregunta": "Pressure range?",
+        "valores": [10000, 16000, 20000, 25000],
+        "unidad": "psi"
+      },
+      {
+        "pregunta": "Temperature range?",
+        "valores": [150, 177, 200, 350],
+        "unidad": "°C"
+      },
+      {
+        "pregunta": "Monitoring depth?",
+        "valores": [],
+        "unidad": ""
+      }
+    ]
+  },
+  {
+    "producto": "Sondas",
+    "tipo_producto": "PPS25 XM",
+    "condiciones_adquisicion": "",
+    "preguntas_referencia": [
+      {
+        "pregunta": "Pressure range?",
+        "valores": [10000, 16000, 20000, 25000],
+        "unidad": "psi"
+      },
+      {
+        "pregunta": "Temperature range?",
+        "valores": [150, 177, 200, 350],
+        "unidad": "°C"
+      },
+      {
+        "pregunta": "Monitoring depth?",
+        "valores": [],
+        "unidad": ""
+      }
+    ]
+  },
+  {
+    "producto": "Sondas",
+    "tipo_producto": "PPS28",
+    "condiciones_adquisicion": "",
+    "preguntas_referencia": []
+  },
+  {
+    "producto": "Sondas",
+    "tipo_producto": "PPS33",
+    "condiciones_adquisicion": "Venta",
+    "preguntas_referencia": [
+      {
+        "pregunta": "Transducer type:",
+        "valores": ["Sapphire", "Quartz"],
+        "unidad": ""
+      },
+      {
+        "pregunta": "H2S concentration (ppm)?",
+        "valores": [],
+        "unidad": ""
+      }
+    ]
+  },
+  {
+    "producto": "Sondas",
+    "tipo_producto": "PPS71",
+    "condiciones_adquisicion": "",
+    "preguntas_referencia": [
+      {
+        "pregunta": "H2S concentration (ppm)?",
+        "valores": [],
+        "unidad": ""
+      }
+    ]
+  },
+  {
+    "producto": "Sondas",
+    "tipo_producto": "PPS71 Elite",
+    "condiciones_adquisicion": "",
+    "preguntas_referencia": []
+  },
+  {
+    "producto": "CONSUMIBLES",
+    "tipo_producto": "O-Ring",
+    "condiciones_adquisicion": "Venta",
+    "preguntas_referencia": [
+      {
+        "pregunta": "Number of pieces?",
+        "valores": [],
+        "unidad": ""
+      },
+      {
+        "pregunta": "For which probe?",
+        "valores": [],
+        "unidad": ""
+      }
+    ]
+  },
+  {
+    "producto": "CONSUMIBLES",
+    "tipo_producto": "C-Ring",
+    "condiciones_adquisicion": "",
+    "preguntas_referencia": [
+      {
+        "pregunta": "For which probe?",
+        "valores": [],
+        "unidad": ""
+      }
+    ]
+  },
+  {
+    "producto": "CONSUMIBLES",
+    "tipo_producto": "Spinner O-Ring",
+    "condiciones_adquisicion": "",
+    "preguntas_referencia": []
+  },
+  {
+    "producto": "CONSUMIBLES",
+    "tipo_producto": "Otro",
+    "condiciones_adquisicion": "",
+    "preguntas_referencia": [
+      {
+        "pregunta": "Consumable name",
+        "valores": [],
+        "unidad": ""
+      }
+    ]
+  },
+  {
+    "producto": "CONSUMIBLES",
+    "tipo_producto": "Lithium Battery",
+    "condiciones_adquisicion": "",
+    "preguntas_referencia": [
+      {
+        "pregunta": "Battery size",
+        "valores": [],
+        "unidad": ""
+      },
+      {
+        "pregunta": "For which probe?",
+        "valores": [],
+        "unidad": ""
+      },
+      {
+        "pregunta": "Temperature range?",
+        "valores": [],
+        "unidad": ""
+      }
+    ]
+  }
+]

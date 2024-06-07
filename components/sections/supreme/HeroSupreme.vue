@@ -4,8 +4,10 @@
 
       <section class="bg-white dark:bg-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-10">
-          <h3 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Descubre SUPREME300 de Jarkol Technologies: La Revolución en Monitoreo Geotérmico</h3>
-          <!-- <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-30 dark:text-gray-400">Complementado con el sensor LiDAR Zenmuse L1, la cámara Zenmuse P1 y magnetómetro GEM Systems.</p> -->
+          <h3 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+            {{ t('supreme300.title') }}
+          </h3>
+          <!-- <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-30 dark:text-gray-400">Complementado con el sensor LiDAR Zenmuse L1, la cámara Zenmuse P1 y magnetómetro GEM Systems.</p>
           <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
             <a href="/cotizar" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
               Cotizar
@@ -17,6 +19,7 @@
               Contacto
             </a>
           </div>
+          -->
         </div>
       </section>
 
@@ -25,5 +28,7 @@
 </template>
 
 <script setup lang="ts">
-import Cotizar from "~/pages/cotizar.vue";
+import {useI18n} from "vue-i18n";
+
+const { t } = useI18n()
 </script>

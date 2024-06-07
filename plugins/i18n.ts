@@ -199,6 +199,58 @@ export default defineNuxtPlugin((nuxtApp) => {
                         text_1: {
                             part_1: 'Cinematography and Aerial Photography',
                             part_2: 'Use of high-resolution cameras for high-quality recordings and aerial photographs.'
+                        },
+                    }
+                },
+                cotizar: {
+                    title: 'Quote with us',
+                    text_filter: 'Filter by',
+                    select_1: 'Select a',
+                    select_2: 'Select an option',
+                    options: {
+                        value_1: "Service",
+                        value_2: "Product"
+                    },
+                    form: {
+                        title_1: 'Contact details',
+                        person: {
+                            first_name: 'Name',
+                            last_name: 'Last name',
+                            mail: 'Email',
+                            phone: 'Phone',
+                        },
+                        title_2: 'Address',
+                        address: {
+                            address: 'Address',
+                            cp: 'Postal code'
+                        },
+                        button: 'Send'
+                    }
+                },
+                supreme300: {
+                    title: 'Discover SUPREME300 from Jarkol Technologies: The Revolution in Geothermal Monitoring',
+                    description_1: {
+                        title: 'Exceptional Features for Extreme Operations',
+                        description: 'The SUPREME300 is not just a sensor; It is a technological masterpiece, meticulously designed to withstand the most demanding conditions. Capable of operating continuously in temperatures up to 300°C, this pioneering technology ensures accurate and reliable measurements in the most extreme environments, ensuring maximum efficiency and safety for your geothermal project.'
+                    },
+                    description_2: {
+                        title: 'Unprecedented Innovation and Durability',
+                        description: "SUPREME300 technology represents the pinnacle of geothermal engineering," +
+                            " combining robustness, precision and reliability. Its innovative design not only meets today's advanced monitoring needs, but also sets a new standard for performance and durability in the industry."
+                    },
+                    advantages: {
+                        title: 'Competitive Advantages',
+                        ven_1: {
+                            title: 'High Thermal Resistance',
+                            text: 'Continuous operation at extreme temperatures, exceeding the limits of conventional sensors.'
+                        },
+                        come_2: {
+                            title: 'Superior Precision',
+                            text: 'Detailed and accurate monitoring for optimal management of geothermal reservoirs.'
+                        },
+                        ven_3 : {
+                            title: 'Proven Durability',
+                            text: 'Built to withstand the harshest conditions and ensure long-term performance.'
                         }
                     }
                 }
@@ -398,7 +450,59 @@ export default defineNuxtPlugin((nuxtApp) => {
                             part_2: 'Uso de cámaras de alta resolución para grabaciones y fotografías aéreas de alta calidad.'
                         }
                     }
+                },
+                cotizar: {
+                    title: 'Cotice con nosotros',
+                    text_filter: 'Filtrar por',
+                    select_1: 'Selecciona un',
+                    select_2: 'Selecciona una opción',
+                    options: {
+                        value_1: "Servicio",
+                        value_2:  "Producto"
+                    },
+                    form: {
+                        title_1: 'Datos de contacto',
+                        person: {
+                            first_name: 'Nombre(s)',
+                            last_name: 'Apellido(s)',
+                            mail: 'Correo electrónico',
+                            phone: 'Teléfono',
+                        },
+                        title_2: 'Dirección',
+                        address: {
+                            address: 'Dirección',
+                            cp: 'Código postal'
+                        },
+                        button: 'Enviar'
+                    }
+                },
+                supreme300: {
+                    title: 'Descubre SUPREME300 de Jarkol Technologies: La Revolución en Monitoreo Geotérmico',
+                    description_1: {
+                        title: 'Características Excepcionales para Operaciones Extremas',
+                        description: 'El SUPREME300 no es solo un sensor; es una obra maestra tecnológica, diseñada meticulosamente para soportar las condiciones más exigentes. Capaz de operar de manera continua en temperaturas de hasta 300 °C, esta tecnología pionera garantiza mediciones precisas y confiables en los ambientes más extremos, asegurando la máxima eficiencia y seguridad para su proyecto geotérmico.'
+                    },
+                    description_2: {
+                        title: 'Innovación y Durabilidad sin Precedentes',
+                        description: 'La tecnología SUPREME300 representa el pináculo de la ingeniería geotérmica, combinando robustez, precisión y fiabilidad. Su diseño innovador no solo responde a las necesidades actuales de monitoreo avanzado, sino que también establece un nuevo estándar de rendimiento y durabilidad en el sector.'
+                    },
+                    advantages: {
+                        title: 'Ventajas Competitivas',
+                        ven_1: {
+                            title: 'Alta Resistencia Térmica',
+                            text: 'Operación continua a temperaturas extremas, superando los límites de los sensores convencionales.'
+                        },
+                        ven_2: {
+                            title: 'Precisión Superior',
+                            text: 'Monitoreo detallado y exacto para una gestión óptima de yacimientos geotérmicos.'
+                        },
+                        ven_3 : {
+                            title: 'Durabilidad Comprobada',
+                            text: 'Construido para resistir las condiciones más adversas y garantizar un rendimiento a largo plazo.'
+                        }
+                    }
                 }
+
             }
         }
     })

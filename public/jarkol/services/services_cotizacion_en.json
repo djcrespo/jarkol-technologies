@@ -1,0 +1,161 @@
+[
+  {
+    "servicio": "Downhole Logs",
+    "tipoDeServicio": "PT Log",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "Service location / Well location",
+        "valores": []
+      }
+    ]
+  },
+  {
+    "servicio": "Downhole Logs",
+    "tipoDeServicio": "PTS Log",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "Do you need a Steel Line Unit?",
+        "valores": []
+      },
+      {
+        "pregunta": "Do you need a Pressure Control System?",
+        "valores": []
+      }
+    ]
+  },
+  {
+    "servicio": "Downhole Logs",
+    "tipoDeServicio": "PTS-CCL Log",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "Number of Logs",
+        "valores": []
+      }
+    ]
+  },
+  {
+    "servicio": "Downhole Logs",
+    "tipoDeServicio": "PTS-CCL-GR Log",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "Do you need Advanced Processing and Interpretation?",
+        "valores": []
+      },
+      {
+        "pregunta": "Average well depth",
+        "valores": []
+      }
+    ]
+  },
+  {
+    "servicio": "Downhole Logs",
+    "tipoDeServicio": "PTS-CCL-GR Log",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "Expected bottom hole temperature range",
+        "valores": []
+      },
+      {
+        "pregunta": "Expected bottom hole pressure range",
+        "valores": []
+      },
+      {
+        "pregunta": "Surface temperature range",
+        "valores": []
+      },
+      {
+        "pregunta": "Surface pressure range",
+        "valores": []
+      }
+    ]
+  },
+  {
+    "servicio": "Geophysical Exploration",
+    "tipoDeServicio": "Ground Penetrating Radar (GPR)",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "Survey objective?",
+        "valores": []
+      }
+    ]
+  },
+  {
+    "servicio": "Geophysical Exploration",
+    "tipoDeServicio": "Aerial Photogrammetry with Drone",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "Service location",
+        "valores": []
+      }
+    ]
+  },
+  {
+    "servicio": "Geophysical Exploration",
+    "tipoDeServicio": "Aerial Photogrammetry with Drone (LiDAR)",
+    "preguntasDeReferencia": []
+  },
+  {
+    "servicio": "Geophysical Exploration",
+    "tipoDeServicio": "TEM",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "Approximate prospecting area",
+        "valores": [
+          "Hectares",
+          "Square meters"
+        ]
+      }
+    ]
+  },
+  {
+    "servicio": "Geophysical Exploration",
+    "tipoDeServicio": "Electrical Tomography",
+    "preguntasDeReferencia": []
+  },
+  {
+    "servicio": "Geophysical Exploration",
+    "tipoDeServicio": "Cross-hole Seismic",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "Additional information",
+        "valores": []
+      }
+    ]
+  },
+  {
+    "servicio": "Probe Calibration - Conversion",
+    "tipoDeServicio": "Probe Calibration Service",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "Probe type?",
+        "valores": []
+      },
+      {
+        "pregunta": "Last calibration date",
+        "valores": []
+      },
+      {
+        "pregunta": "Pressure range?",
+        "valores": []
+      }
+    ]
+  },
+  {
+    "servicio": "Probe Calibration - Conversion",
+    "tipoDeServicio": "Probe Conversion Service",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "Temperature range?",
+        "valores": []
+      },
+      {
+        "pregunta": "Probe brand for conversion",
+        "valores": []
+      },
+      {
+        "pregunta": "Do you need collection?",
+        "valores": []
+      }
+    ]
+  }
+]
