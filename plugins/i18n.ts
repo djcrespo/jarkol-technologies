@@ -340,7 +340,7 @@ export default defineNuxtPlugin((nuxtApp) => {
                         text_1: "Somos una asociación que se preocupa por el desarrollo tecnológico del país, por eso nos convertimos en uno de los patrocinadores del Capítulo Estudiantil AAAI México, contribuyendo a que más estudiantes adquieran conocimientos sobre inteligencia artificial y otros campos relacionados que están volviéndose más populares.",
                         text_2: "Nos preocupamos por el bienestar de la comunidad que estará a cargo de liderar hacia un futuro mejor en este país, por lo que hemos unido fuerzas con la Fundación de Apoyo a la Juventud, que apoya a jóvenes que se encuentran en situaciones de grave vulnerabilidad y discriminación, acompañándolos en la planificación de su proyecto de vida."
                     },
-                    mision: {
+                    mission: {
                         title: 'Misión',
                         text: 'Proporcionar, importar y desarrollar tecnología para la industria petrolera, geotérmica y minera en el mercado mexicano con el fin de promover y potenciar la competitividad.'
                     },
