@@ -1,5 +1,5 @@
 <template>
-  <section class="lg:pt-0 lg:pb-5 md:pt-24 md:pb-24">
+  <section class="lg:pt-10 lg:pb-5 md:pt-24 md:pb-24">
     <AtomsContainer>
       <div class="grid lg:grid-cols-2 md:grid-cols-1 gap-5 flex justify-center">
         <div class="lg:text-center">

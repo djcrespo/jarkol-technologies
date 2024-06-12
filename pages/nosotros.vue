@@ -12,11 +12,12 @@ useHead({
 
 <template>
   <section class="lg:pt-5 lg:pb-20 md:pt-12 md:pb-24">
-    <SectionsInfoEnterpriseHeroAbout class="animate-fade-up" />
+    <SectionsInfoEnterpriseHeroAbout class="animate-fade-up animate-delay-500" />
     <AtomsContainer>
-      <SectionsInfoEnterprise />
-      <SectionsInfoEnterpriseHeroCommunities class="animate-fade-up animate-delay-400" />
-      <SectionsInfoEnterpriseHeroMisionAndVision class="animate-fade-up animate-delay-500" />
+      <SectionsInfoEnterpriseHeroMisionAndVision class="animate-fade-up animate-delay-600" />
+      <SectionsInfoEnterprise class="animate-fade-up animate-delay-700" />
+      <SectionsInfoEnterpriseHeroCommunities class="animate-fade-up animate-delay-800" />
+      <!--<SectionsInfoEnterpriseHeroMisionAndVision class="animate-fade-up animate-delay-500" />-->
     </AtomsContainer>
   </section>
 </template>

@@ -8,6 +8,7 @@
             <p class="mb-8 text-lg font-normal text-white lg:text-xl sm:px-16 lg:px-30 dark:text-gray-400 animate-fade-up animate-delay-300">
               {{ t('clients.text') }}
             </p>
+            <!--
             <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 animate-fade-up animate-delay-500">
               <a href="/cotizar" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                 {{ t('clients.button_1') }}
@@ -19,6 +20,7 @@
                 {{ t('clients.button_2') }}
               </a>
             </div>
+            -->
           </div>
         </AtomsContainer>
       </section>

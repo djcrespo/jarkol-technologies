@@ -1,7 +1,7 @@
 <template>
-    <section class="pt-10 pb-10 md:pt-24">
+    <section class="pt-5 pb-10 md:pt-24">
         <AtomsContainer>
-            <div class="grid md:grid-cols-2 gap-8 xl:gap-14 relative">
+            <div class="grid lg:grid-cols-2 md:grid-cols-1 gap-8 xl:gap-14 relative">
                 <div class="flex md:h-full">
                     <div
                         class="lg:w-full md:w-auto md:h-auto rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border">

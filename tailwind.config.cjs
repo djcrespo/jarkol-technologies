@@ -13,12 +13,15 @@ module.exports = {
     "content/**/*.md",
     './node_modules/flowbite-vue/**/*.{js,jsx,ts,tsx,vue}',
     './node_modules/flowbite/**/*.{js,jsx,ts,tsx}',
-    "./node_modules/tw-elements/js/**/*.js"
+    "./node_modules/tw-elements/js/**/*.js",
+    // "./src/**/*.{js,ts,jsx,tsx}",
+    // "./node_modules/tw-elements/dist/js/**/*.js"
   ],
   plugins: [
     require('flowbite/plugin'),
     require("tw-elements/plugin.cjs"),
-    require('tailwindcss-animated')
+    require('tailwindcss-animated'),
+    // require('tw-elements/dist/plugin')
   ],
   darkMode: "class",
   theme: {

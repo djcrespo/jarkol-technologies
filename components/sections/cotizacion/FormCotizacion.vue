@@ -12,7 +12,10 @@
   import accessories_en from "public/jarkol/products/accessories_en.json";
 
   const { t, locale } = useI18n()
-  const currentLocale = computed(() => locale.value)
+  const currentLocale: ComputedRef<string> = computed(() => locale.value);
+
+  // Usando el valor de currentLocale como una cadena
+  const localeString: string = currentLocale.value;
 
   // Interfaces
   interface Service {
@@ -64,8 +67,12 @@
   // Data
   const nuxtApp = useNuxtApp()
   const router = useRouter()
-  const servicesData: Service2[] = currentLocale === 'es' ? services_es : services_en;
-  const products2Data: Product2[] = currentLocale === 'es' ? products_es : products_en;
+  const servicesData: ComputedRef<Service2[]> = computed(() => {
+    return currentLocale.value === 'es' ? services_es : services_en
+  });
+  const products2Data: ComputedRef<Product2[]> = computed(() => {
+    return currentLocale.value === 'es' ? products_es : products_en
+  })
 
   const option = ref(false);
   const selectService = ref<Service | null>(null);
@@ -189,7 +196,7 @@
   <section>
     <form class="mx-20 my-10">
 
-      <div class="mx-10">
+      <div class="lg:mx-10 md:mx-2">
         <!-- Seleccionar producto o servicio -->
         <div class="mx-2 mb-5">
           <label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">{{ t('cotizar.select_1') }} {{ option ? t('cotizar.options.value_1') : t('cotizar.options.value_2') }}</label>
@@ -248,12 +255,12 @@
         </div>
       </div>
 
-      <div class="grid grid-cols-2">
-        <div class="mx-10">
+      <div class="grid lg:grid-cols-2 md:grid-cols-1">
+        <div class="lg:mx-10 md:mx-2">
           <!-- Datos generales del cliente -->
           <label class="block mb-2 text-lg font-medium text-gray-900 dark:text-white">{{ t('cotizar.form.title_1') }}</label>
 
-          <div class="mb-5 grid grid-cols-2">
+          <div class="mb-5 grid lg:grid-cols-2 md:grid-cols-1">
             <div class="mx-2">
               <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">{{ t('cotizar.form.person.first_name') }}</label>
               <input v-model="form.client.first_name" type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
@@ -272,10 +279,10 @@
             <input v-model="form.contact.phone" type="phone" id="phone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
           </div>
         </div>
-        <div class="mx-10">
+        <div class="lg:mx-10 md:mx-2">
           <!-- Dirección del cliente -->
           <label class="block mb-2 text-lg font-medium text-gray-900 dark:text-white">{{ t('cotizar.form.title_2') }}</label>
-          <div class="mb-5 grid grid-cols-2">
+          <div class="mb-5 grid lg:grid-cols-2 md:grid-cols-1">
             <div class="mx-2">
               <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">{{ t('cotizar.form.address.address') }}</label>
               <input v-model="form.address.street" type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />
