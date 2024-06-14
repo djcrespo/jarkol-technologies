@@ -6,6 +6,10 @@
       {
         "pregunta": "Localización de los servicios /Ubicación del pozo",
         "valores": []
+      },
+      {
+        "pregunta": "Información adicional",
+        "valores": []
       }
     ]
   },
@@ -20,6 +24,10 @@
       {
         "pregunta": "¿Requiere Sistema de Control de Presión?",
         "valores": []
+      },
+      {
+        "pregunta": "Información adicional",
+        "valores": []
       }
     ]
   },
@@ -29,6 +37,10 @@
     "preguntasDeReferencia": [
       {
         "pregunta": "Cantidad de Registros",
+        "valores": []
+      },
+      {
+        "pregunta": "Información adicional",
         "valores": []
       }
     ]
@@ -43,6 +55,10 @@
       },
       {
         "pregunta": "Profundidad promedio de los pozos",
+        "valores": []
+      },
+      {
+        "pregunta": "Información adicional",
         "valores": []
       }
     ]
@@ -64,7 +80,11 @@
         "valores": []
       },
       {
-        "preguntas": "Rango de presión en superficie",
+        "pregunta": "Rango de presión en superficie",
+        "valores": []
+      },
+      {
+        "pregunta": "Información adicional",
         "valores": []
       }
     ]
@@ -76,6 +96,10 @@
       {
         "pregunta": "¿Objetivo del levantamiento?",
         "valores": []
+      },
+      {
+        "pregunta": "Información adicional",
+        "valores": []
       }
     ]
   },
@@ -86,13 +110,22 @@
       {
         "pregunta": "Localización de los Servicios",
         "valores": []
+      },
+      {
+        "pregunta": "Información adicional",
+        "valores": []
       }
     ]
   },
   {
     "servicio": "Exploración Geofísica",
     "tipoDeServicio": "Fotogrametría área con Dron (LiDAR)",
-    "preguntasDeReferencia": []
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "Información adicional",
+        "valores": []
+      }
+    ]
   },
   {
     "servicio": "Exploración Geofísica",
@@ -101,16 +134,25 @@
       {
         "pregunta": "Área de prospección aproximada",
         "valores": [
-          "Hectareas",
-          "Metros cuadrados"
+          "Hectares",
+          "Square meters"
         ]
+      },
+      {
+        "pregunta": "Información adicional",
+        "valores": []
       }
     ]
   },
   {
     "servicio": "Exploración Geofísica",
     "tipoDeServicio": "Tomografía Eléctrica",
-    "preguntasDeReferencia": []
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "Información adicional",
+        "valores": []
+      }
+    ]
   },
   {
     "servicio": "Exploración Geofísica",
@@ -137,6 +179,10 @@
       {
         "pregunta": "¿Rango de presión?",
         "valores": []
+      },
+      {
+        "pregunta": "Información adicional",
+        "valores": []
       }
     ]
   },
@@ -153,7 +199,11 @@
         "valores": []
       },
       {
-        "preguntas": "¿Requiere recolección?",
+        "pregunta": "¿Requiere recolección?",
+        "valores": []
+      },
+      {
+        "pregunta": "Información adicional",
         "valores": []
       }
     ]

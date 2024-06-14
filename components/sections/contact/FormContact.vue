@@ -1,5 +1,7 @@
 <template>
   <section>
+    <!-- Incluir el componente Popup -->
+    <pop-up :showPopup="showPopup" @close="showPopup = false" />
     <form>
       <div class="grid lg:grid-cols-1 gap-6 mb-6 md:grid-cols-1 animate-fade-left animate-delay-500">
         <div class="grid lg:grid-cols-2 md:grid-cols-1 gap-6">
@@ -42,23 +44,15 @@
         </div>
         <div class="text-center">
           <button class="text-white text-center bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" @click="sendMessage" :disabled="isLoading">
-            <svg v-if="isLoading" class="animate-spin h-5 w-5 mr-3 text-white" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" class="opacity-25"></circle>
-              <path d="M4 12a8 8 0 018-8" stroke="currentColor" stroke-width="4" class="opacity-75"></path>
-            </svg>
-            <p v-else>
-              {{ t('contact.form.button') }}
-            </p>
-          </button>
-        </div>
-
-        <!-- Toast Notification -->
-        <div v-if="isToastVisible" class="fixed bottom-4 right-4 bg-gray-800 text-white px-4 py-2 rounded shadow-lg flex items-center">
-          <span>{{ t('contact.form.message_toast') }}</span>
-          <button @click="isToastVisible = false" class="ml-auto bg-transparent text-white">
-            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-            </svg>
+            <div class="flex items-center">
+              <svg v-if="isLoading" class="animate-spin h-5 w-5 mr-3 text-white" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" class="opacity-25"></circle>
+                <path d="M4 12a8 8 0 018-8" stroke="currentColor" stroke-width="4" class="opacity-75"></path>
+              </svg>
+              <p v-else>
+                {{ t('contact.form.button') }}
+              </p>
+            </div>
           </button>
         </div>
       </div>
@@ -68,11 +62,13 @@
 
 <script>
 import { useI18n } from 'vue-i18n';
+import popUp from '../../popups/popUp.vue'
 
 export default {
   name: 'formContact',
   data () {
     return {
+      showPopup: false,
       isLoading: false,
       isToastVisible: false,
       person: {
@@ -86,6 +82,9 @@ export default {
       },
       message: ''
     }
+  },
+  components: {
+    popUp
   },
   created() {
     const { t } = useI18n();
@@ -128,10 +127,10 @@ export default {
         })
         this.resetForm()
         this.isLoading = false
-        this.isToastVisible = true
+        this.showPopup = true
         setTimeout(() => {
-          this.isToastVisible = false;
-        }, 3000);
+          this.showPopup = false
+        }, 2000);
       } catch (error) {
         this.resetForm()
         this.isLoading = false

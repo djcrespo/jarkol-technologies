@@ -2,7 +2,7 @@
   {
     "producto": "Sondas",
     "tipo_producto": "Supreme300",
-    "condiciones_adquisicion": "Venta",
+    "condiciones_adquisicion": "Sale",
     "preguntas_referencia": [
       {
         "pregunta": "Pressure range?",
@@ -18,13 +18,18 @@
         "pregunta": "Monitoring depth?",
         "valores": [],
         "unidad": ""
+      },
+      {
+        "pregunta": "Additional information",
+        "valores": [],
+        "unidad": ""
       }
     ]
   },
   {
     "producto": "Sondas",
     "tipo_producto": "ExtremeVISION",
-    "condiciones_adquisicion": "Venta",
+    "condiciones_adquisicion": "Sale",
     "preguntas_referencia": [
       {
         "pregunta": "Pipe diameter at sensor depth?",
@@ -35,13 +40,18 @@
         "pregunta": "H2S concentration?",
         "valores": [],
         "unidad": ""
+      },
+      {
+        "pregunta": "Additional information",
+        "valores": [],
+        "unidad": ""
       }
     ]
   },
   {
     "producto": "Sondas",
     "tipo_producto": "PPS25",
-    "condiciones_adquisicion": "Renta",
+    "condiciones_adquisicion": "Rent",
     "preguntas_referencia": [
       {
         "pregunta": "Pressure range?",
@@ -55,6 +65,11 @@
       },
       {
         "pregunta": "Monitoring depth?",
+        "valores": [],
+        "unidad": ""
+      },
+      {
+        "pregunta": "Additional information",
         "valores": [],
         "unidad": ""
       }
@@ -79,6 +94,11 @@
         "pregunta": "Monitoring depth?",
         "valores": [],
         "unidad": ""
+      },
+      {
+        "pregunta": "Additional information",
+        "valores": [],
+        "unidad": ""
       }
     ]
   },
@@ -86,12 +106,18 @@
     "producto": "Sondas",
     "tipo_producto": "PPS28",
     "condiciones_adquisicion": "",
-    "preguntas_referencia": []
+    "preguntas_referencia": [
+      {
+        "pregunta": "Additional information",
+        "valores": [],
+        "unidad": ""
+      }
+    ]
   },
   {
     "producto": "Sondas",
     "tipo_producto": "PPS33",
-    "condiciones_adquisicion": "Venta",
+    "condiciones_adquisicion": "Sale",
     "preguntas_referencia": [
       {
         "pregunta": "Transducer type:",
@@ -100,6 +126,11 @@
       },
       {
         "pregunta": "H2S concentration (ppm)?",
+        "valores": [],
+        "unidad": ""
+      },
+      {
+        "pregunta": "Additional information",
         "valores": [],
         "unidad": ""
       }
@@ -114,6 +145,11 @@
         "pregunta": "H2S concentration (ppm)?",
         "valores": [],
         "unidad": ""
+      },
+      {
+        "pregunta": "Additional information",
+        "valores": [],
+        "unidad": ""
       }
     ]
   },
@@ -121,12 +157,18 @@
     "producto": "Sondas",
     "tipo_producto": "PPS71 Elite",
     "condiciones_adquisicion": "",
-    "preguntas_referencia": []
+    "preguntas_referencia": [
+      {
+        "pregunta": "Additional information",
+        "valores": [],
+        "unidad": ""
+      }
+    ]
   },
   {
-    "producto": "CONSUMIBLES",
+    "producto": "CONSUMABLES",
     "tipo_producto": "O-Ring",
-    "condiciones_adquisicion": "Venta",
+    "condiciones_adquisicion": "Sale",
     "preguntas_referencia": [
       {
         "pregunta": "Number of pieces?",
@@ -137,11 +179,16 @@
         "pregunta": "For which probe?",
         "valores": [],
         "unidad": ""
+      },
+      {
+        "pregunta": "Additional information",
+        "valores": [],
+        "unidad": ""
       }
     ]
   },
   {
-    "producto": "CONSUMIBLES",
+    "producto": "CONSUMABLES",
     "tipo_producto": "C-Ring",
     "condiciones_adquisicion": "",
     "preguntas_referencia": [
@@ -149,29 +196,45 @@
         "pregunta": "For which probe?",
         "valores": [],
         "unidad": ""
-      }
-    ]
-  },
-  {
-    "producto": "CONSUMIBLES",
-    "tipo_producto": "Spinner O-Ring",
-    "condiciones_adquisicion": "",
-    "preguntas_referencia": []
-  },
-  {
-    "producto": "CONSUMIBLES",
-    "tipo_producto": "Otro",
-    "condiciones_adquisicion": "",
-    "preguntas_referencia": [
+      },
       {
-        "pregunta": "Consumable name",
+        "pregunta": "Additional information",
         "valores": [],
         "unidad": ""
       }
     ]
   },
   {
-    "producto": "CONSUMIBLES",
+    "producto": "CONSUMABLES",
+    "tipo_producto": "Spinner O-Ring",
+    "condiciones_adquisicion": "",
+    "preguntas_referencia": [
+      {
+        "pregunta": "Additional information",
+        "valores": [],
+        "unidad": ""
+      }
+    ]
+  },
+  {
+    "producto": "CONSUMABLES",
+    "tipo_producto": "Other",
+    "condiciones_adquisicion": "",
+    "preguntas_referencia": [
+      {
+        "pregunta": "Consumable name",
+        "valores": [],
+        "unidad": ""
+      },
+      {
+        "pregunta": "Additional information",
+        "valores": [],
+        "unidad": ""
+      }
+    ]
+  },
+  {
+    "producto": "CONSUMABLES",
     "tipo_producto": "Lithium Battery",
     "condiciones_adquisicion": "",
     "preguntas_referencia": [
@@ -187,6 +250,11 @@
       },
       {
         "pregunta": "Temperature range?",
+        "valores": [],
+        "unidad": ""
+      },
+      {
+        "pregunta": "Additional information",
         "valores": [],
         "unidad": ""
       }

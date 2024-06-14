@@ -1,9 +1,8 @@
 <template>
-  <div id="carouselExampleCrossfade" class="relative" data-twe-carousel-init data-twe-interval="15000" data-twe-ride="carousel">
-    <!-- Carousel items -->
-    <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
       <!-- First item -->
-      <div class="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[1500ms] ease-in-out motion-reduce:transition-none" data-twe-carousel-fade data-twe-carousel-item data-twe-carousel-active>
+      <div class="swiper-slide">
         <div class="relative">
           <img class="w-full bg-cover" src="/jarkol/bg_v2/buenas3/8.jpg" alt="Jarkol Technologies" />
           <div class="absolute inset-0 bg-black opacity-50"></div>
@@ -15,7 +14,7 @@
         </div>
       </div>
       <!-- Second item -->
-      <div class="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[1500ms] ease-in-out motion-reduce:transition-none" data-twe-carousel-fade data-twe-carousel-item>
+      <div class="swiper-slide">
         <div class="relative">
           <img src="/jarkol/bg_v2/buenas3/2.jpg" class="block w-full" alt="Jarkol Technologies" />
           <div class="absolute inset-0 bg-black opacity-50"></div>
@@ -27,7 +26,7 @@
         </div>
       </div>
       <!-- Third item -->
-      <div class="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[1500ms] ease-in-out motion-reduce:transition-none" data-twe-carousel-fade data-twe-carousel-item>
+      <div class="swiper-slide">
         <div class="relative">
           <img src="/jarkol/bg_v2/buenas3/6.jpg" class="block w-full" alt="Jarkol Technologies" />
           <div class="absolute inset-0 bg-black opacity-50"></div>
@@ -39,7 +38,7 @@
         </div>
       </div>
       <!-- Fourth item -->
-      <div class="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[1500ms] ease-in-out motion-reduce:transition-none" data-twe-carousel-fade data-twe-carousel-item>
+      <div class="swiper-slide">
         <div class="relative">
           <img src="/jarkol/bg_v2/buenas3/4.jpg" class="block w-full" alt="Jarkol Technologies" />
           <div class="absolute inset-0 bg-black opacity-50"></div>
@@ -51,35 +50,65 @@
         </div>
       </div>
     </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
   </div>
 </template>
 
 <script>
 import { onMounted, onUnmounted } from "vue";
+import Swiper from 'swiper/bundle';
 import { useI18n } from 'vue-i18n';
 
 export default {
   name: 'galleryHero',
   async created() {
-    let carouselInstance
     const { t } = useI18n();
-    this.t = t
+    this.t = t;
     console.log("Component is created");
-    if (process.client) {
-      const { Carousel, initTWE } = await import("tw-elements");
-      carouselInstance = initTWE({ Carousel })
-    }
-    // Any other setup code that does not depend on the DOM
   },
   async mounted() {
-    let carouselInstance
     const { t } = useI18n();
-    this.t = t
-    console.log("Component is created");
+    this.t = t;
+    console.log("Component is mounted");
     if (process.client) {
-      const { Carousel, initTWE } = await import("tw-elements");
-      carouselInstance = initTWE({ Carousel })
+      this.swiper = new Swiper('.swiper-container', {
+        loop: true,
+        autoplay: {
+          delay: 15000,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+    }
+  },
+  beforeDestroy() {
+    if (this.swiper) {
+      this.swiper.destroy();
     }
   }
 }
 </script>
+
+<style>
+/* Add required swiper styles here */
+.swiper-container {
+  width: auto;
+  height: auto;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Other styles for the slides */
+}
+.swiper-pagination {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+</style>

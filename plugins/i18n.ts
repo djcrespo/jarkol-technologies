@@ -9,6 +9,7 @@ export default defineNuxtPlugin((nuxtApp) => {
         messages: {
             en: {
                 language: 'English',
+                popup: 'Your message has been sent.',
                 home: {
                     news: 'News',
                     hero: {
@@ -210,6 +211,7 @@ export default defineNuxtPlugin((nuxtApp) => {
                 },
                 cotizar: {
                     title: 'Quote with us',
+                    title_add_info: 'Additional information',
                     text_filter: 'Filter by',
                     select_1: 'Select a',
                     select_2: 'Select an option',
@@ -263,6 +265,7 @@ export default defineNuxtPlugin((nuxtApp) => {
             },
             es: {
                 language: 'Español',
+                popup: 'Su mensaje a sido enviado.',
                 home: {
                     news: 'Novedades',
                     hero: {
@@ -465,6 +468,7 @@ export default defineNuxtPlugin((nuxtApp) => {
                 },
                 cotizar: {
                     title: 'Cotice con nosotros',
+                    title_add_info: 'Información adicional',
                     text_filter: 'Filtrar por',
                     select_1: 'Selecciona un',
                     select_2: 'Selecciona una opción',

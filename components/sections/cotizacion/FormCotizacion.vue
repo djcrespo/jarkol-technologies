@@ -1,201 +1,8 @@
-<script setup lang="ts">
-  import services_es from "public/jarkol/services/services_cotizacion_es.json"
-  import services_en from "public/jarkol/services/services_cotizacion_en.json"
-  import products_en from "public/jarkol/products/products_cotizacion_en.json"
-  import products_es from "public/jarkol/products/products_cotizacion_es.json"
-  import {computed, onMounted, watch} from 'vue'
-  import { initFlowbite } from 'flowbite'
-  import { useNuxtApp } from '#app'
-  import { useRouter } from 'vue-router'
-  import {useI18n} from "vue-i18n";
-  import accessories_es from "public/jarkol/products/accessories_es.json";
-  import accessories_en from "public/jarkol/products/accessories_en.json";
-
-  const { t, locale } = useI18n()
-  const currentLocale: ComputedRef<string> = computed(() => locale.value);
-
-  // Usando el valor de currentLocale como una cadena
-  const localeString: string = currentLocale.value;
-
-  // Interfaces
-  interface Service {
-    servicio: string,
-    tipoDeServicio: string,
-    preguntasDeReferencia: Array<string>
-  }
-
-  interface Service2 {
-    servicio: string,
-    tipoDeServicio: string,
-    preguntasDeReferencia: Array<object>
-  }
-
-  interface Product {
-    producto: string,
-    tipoDeProducto: string,
-    condicionesDeAdquisicion: string,
-    preguntasDeReferencia: Array<string>
-  }
-
-  interface Product2 {
-    producto: string,
-    tipo_producto: string,
-    condiciones_adquisicion: string,
-    preguntas_referencia: Array<object>
-  }
-
-  interface Cotizar {
-    type: string,
-    client: {
-      first_name: string,
-      last_name: string
-    },
-    contact: {
-      phone: string,
-      mail: string,
-      subject: string
-    },
-    address: {
-      street: string,
-      postal_code: string
-    },
-    info: {
-      date: any
-    }
-  }
-
-  // Data
-  const nuxtApp = useNuxtApp()
-  const router = useRouter()
-  const servicesData: ComputedRef<Service2[]> = computed(() => {
-    return currentLocale.value === 'es' ? services_es : services_en
-  });
-  const products2Data: ComputedRef<Product2[]> = computed(() => {
-    return currentLocale.value === 'es' ? products_es : products_en
-  })
-
-  const option = ref(false);
-  const selectService = ref<Service | null>(null);
-  const selectProduct = ref<Product2 | null>(null);
-  let selectProduct2 = ref<any | null>(null);
-  let selectService2 = ref<any | null>(null);
-
-  let formProduct: any = {}
-  let formService: any = {}
-
-  let form: Cotizar = {
-    type: option ? 'Servicio' : 'Producto',
-    client: {
-      first_name: '',
-      last_name: ''
-    },
-    contact: {
-      phone: '',
-      mail: '',
-      subject: 'nueva cotización'
-    },
-    address: {
-      street: '',
-      postal_code: ''
-    },
-    info: {
-      date: new Date()
-    }
-  }
-
-  // Methods
-
-  const reloadPage = () => {
-    router.push({ path: router.currentRoute.value.fullPath }).then(() => {
-      window.location.reload()
-    })
-  }
-
-  const viewValues = async () => {
-    // console.log(form);
-    console.log({
-      person: form.client,
-      contact: form.contact,
-      address: {
-        street: form.address.street,
-        postal_code: String(form.address.postal_code)
-      },
-      objectCotizacion: JSON.stringify(
-          {
-            type: form.type,
-            object: form.type ? formProduct : formService,
-            selectOption: form.type ? selectProduct2 : selectService2
-          }
-      )
-    })
-   try {
-     await nuxtApp.$axios.post('enviar-cotizacion', {
-       person: form.client,
-       contact: form.contact,
-       address: form.address,
-       objectCotizacion: JSON.stringify(
-           {
-             type: form.type,
-             object: form.type ? formProduct : formService,
-             selectOption: form.type ? selectProduct2.value : selectService2.value
-           }
-       )
-     })
-     selectProduct2 = ref<any | null>(null);
-     selectService2 = ref<any | null>(null);
-     formProduct = {}
-     formService = {}
-     form = {
-       type: option ? 'Servicio' : 'Producto',
-       client: {
-         first_name: '',
-         last_name: ''
-       },
-       contact: {
-         phone: '',
-         mail: '',
-         subject: 'nueva cotización'
-       },
-       address: {
-         street: '',
-         postal_code: ''
-       },
-       info: {
-         date: new Date()
-       }
-     }
-     reloadPage()
-   } catch (error) {
-     console.log(error)
-   }
-  }
-
-  const sendCotizacion = async () => {
-    try {
-
-    } catch (error) {
-      console.log(error)
-    }
-  }
-
-  // watch
-  watch(option, (newVal, oldVal) => {
-    if (newVal === true) {
-      selectProduct2 = ref<any | null>(null)
-    } else {
-      selectService2 = ref<any | null>(null)
-    }
-  })
-
-  onMounted(() => {
-    initFlowbite();
-  })
-</script>
-
 <template>
   <section>
+    <!-- Incluir el componente Popup -->
+    <pop-up :showPopup="showPopup" @close="showPopup = false" />
     <form class="mx-20 my-10">
-
       <div class="lg:mx-10 md:mx-2">
         <!-- Seleccionar producto o servicio -->
         <div class="mx-2 mb-5">
@@ -206,7 +13,7 @@
           </select>
           <select v-else id="countries" v-model="selectProduct2" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
             <option selected>{{ t('cotizar.select_2') }}</option>
-            <option v-for="product in products2Data" :value="product" :key="product.producto">{{ product.tipo_producto }}</option>
+            <option v-for="product in productsData" :value="product" :key="product.producto">{{ product.tipo_producto }}</option>
           </select>
         </div>
 
@@ -297,9 +104,172 @@
 
       <div class="w-full text-center">
         <button class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" @click.prevent="viewValues">
-          {{ t('cotizar.form.button') }}
+          <div class="flex items-center">
+            <svg v-if="isLoading" class="animate-spin h-5 w-5 mr-3 text-white" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" class="opacity-25"></circle>
+              <path d="M4 12a8 8 0 018-8" stroke="currentColor" stroke-width="4" class="opacity-75"></path>
+            </svg>
+            <p v-else>
+              {{ t('cotizar.form.button') }}
+            </p>
+          </div>
         </button>
       </div>
     </form>
   </section>
 </template>
+
+<script>
+import { useI18n } from 'vue-i18n';
+import { initFlowbite } from 'flowbite'
+import services_es from "public/jarkol/services/services_cotizacion_es.json"
+import services_en from "public/jarkol/services/services_cotizacion_en.json"
+import products_en from "public/jarkol/products/products_cotizacion_en.json"
+import products_es from "public/jarkol/products/products_cotizacion_es.json"
+import popUp from "~/components/popups/popUp.vue";
+
+export default {
+  name: 'formCotizacion',
+  components: {popUp},
+  created() {
+    if (process.client) {
+      initFlowbite();
+    }
+    const { t, locale } = useI18n();
+    this.t = t;
+    this.servicesData = locale.value === 'es' ? services_es : services_en
+    this.productsData = locale.value === 'es' ? products_es : products_en
+  },
+  mounted() {
+    if (process.client) {
+      initFlowbite();
+    }
+    const { t, locale } = useI18n();
+    this.t = t;
+    this.servicesData = locale.value === 'es' ? services_es : services_en
+    this.productsData = locale.value === 'es' ? products_es : products_en
+    this.$watch(() => locale.value, (newLocale) => {
+      if (newLocale === 'es') {
+        this.servicesData = services_es
+        this.productsData = products_es
+      } else {
+        this.servicesData = services_en
+        this.productsData = products_en
+      }
+    })
+  },
+  data () {
+     return {
+       showPopup: false,
+       isLoading: false,
+       option: false,
+       servicesData: [],
+       productsData: [],
+       selectService2: {},
+       formService: {},
+       selectProduct2: {},
+       formProduct: {},
+       form: {
+         type: 'Producto',
+         client: {
+           first_name: '',
+           last_name: ''
+         },
+         contact: {
+           phone: '',
+           mail: '',
+           subject: 'nueva cotización'
+         },
+         address: {
+           street: '',
+           postal_code: ''
+         },
+         info: {
+           date: new Date()
+         }
+       }
+     }
+  },
+  watch: {
+    option(newVal, oldVal){
+      if (newVal) {
+        this.formService = {}
+        this.formProduct = {}
+        this.selectService2 = {}
+        this.selectProduct2 = {}
+      } else {
+        this.formService = {}
+        this.formProduct = {}
+        this.selectService2 = {}
+        this.selectProduct2 = {}
+      }
+    }
+  },
+  methods: {
+    async viewValues() {
+      this.isLoading = true
+
+      // Opcion seleccionada
+      const option_select = this.option ? this.selectService2 : this.selectProduct2
+
+      // Formuario del objecto seleccionado
+      const form_select = this.option ? this.formService : this.formProduct
+
+      // Información por enviar
+      const object_send = {
+        person: JSON.parse(JSON.stringify(this.form.client)),
+        contact: JSON.parse(JSON.stringify(this.form.contact)),
+        address: JSON.parse(JSON.stringify(this.form.address)),
+        objectCotizacion: JSON.stringify(
+            {
+              type: this.form.type,
+              object: JSON.stringify(form_select),
+              selectOption: JSON.stringify(option_select)
+            }
+        )
+      }
+
+      console.log(object_send)
+
+      try {
+        await this.$axios.post('enviar-cotizacion', object_send)
+
+        this.formService = {}
+        this.formProduct = {}
+        this.selectService2 = {}
+        this.selectProduct2 = {}
+
+        this.option = false
+
+        this.form = {
+          type: 'Producto',
+          client: {
+            first_name: '',
+            last_name: ''
+          },
+          contact: {
+            phone: '',
+            mail: '',
+            subject: 'nueva cotización'
+          },
+          address: {
+            street: '',
+            postal_code: ''
+          },
+          info: {
+            date: new Date()
+          }
+        }
+        this.isLoading = false
+        this.showPopup = true
+        setTimeout(() => {
+          this.showPopup = false
+        }, 2000);
+      } catch (error) {
+        this.isLoading = false
+        console.log(error)
+      }
+    }
+  }
+}
+</script>
