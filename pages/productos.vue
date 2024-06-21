@@ -26,7 +26,7 @@ const toggleSecondProductsSection = () => {
 <template>
   <div>
     <SectionsProductsPrincipalProductsHero class="animate-fade-up" />
-    <AtomsContainer class="pb-3">
+    <AtomsContainer class="pt-10 pb-5 lg:pt-5 lg:pb-0 md:pt-5 mb-0">
       <SectionsProductsPrincipalProductsSection />
     </AtomsContainer>
 
