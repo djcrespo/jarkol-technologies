@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { ref } from 'vue';
+
 useHead({
   title: 'Productos | Jarkol Technologies',
   meta: [
@@ -7,7 +9,18 @@ useHead({
   link: [
     { rel: 'icon', type: 'image/png', href: '/jarkol/logo/jarkol.png' }
   ],
-})
+});
+
+const showFirstProductsSection = ref(false);
+const showSecondProductsSection = ref(false);
+
+const toggleFirstProductsSection = () => {
+  showFirstProductsSection.value = !showFirstProductsSection.value;
+};
+
+const toggleSecondProductsSection = () => {
+  showSecondProductsSection.value = !showSecondProductsSection.value;
+};
 </script>
 
 <template>
@@ -17,13 +30,13 @@ useHead({
       <SectionsProductsPrincipalProductsSection />
     </AtomsContainer>
 
-    <SectionsProductsProductHero class="animate-fade-up" />
-    <AtomsContainer class="pb-3">
+    <SectionsProductsProductHero class="animate-fade-up" @click="toggleFirstProductsSection" />
+    <AtomsContainer v-if="showFirstProductsSection" class="pb-3">
       <SectionsProductsGallery />
     </AtomsContainer>
 
-    <SectionsProductsAccesoriesHero class="animate-fade-up" />
-    <AtomsContainer class="pb-3">
+    <SectionsProductsAccesoriesHero class="animate-fade-up" @click="toggleSecondProductsSection" />
+    <AtomsContainer v-if="showSecondProductsSection" class="pb-3">
       <SectionsProductsAccesoriesGallery />
     </AtomsContainer>
   </div>
