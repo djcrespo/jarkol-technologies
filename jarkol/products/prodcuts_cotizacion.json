@@ -1,0 +1,103 @@
+[
+  {
+    "producto": "Sondas",
+    "tipoDeProducto": "Supreme300",
+    "condicionesDeAdquisicion": "Venta",
+    "preguntasDeReferencia": [
+      "¿Rango de presión?",
+      "¿Rango de temperatura?",
+      "¿Profunidad de monitoreo?"
+    ]
+  },
+  {
+    "producto": "Sondas",
+    "tipoDeProducto": "ExtremeVision",
+    "condicionesDeAdquisicion": null,
+    "preguntasDeReferencia": [
+      "¿Diámetro de la tubería a la profundidad del sensor?",
+      "¿Concentración de H2S?"
+    ]
+  },
+  {
+    "producto": "Sondas",
+    "tipoDeProducto": "PPS25",
+    "condicionesDeAdquisicion": "Renta",
+    "preguntasDeReferencia": [
+      "¿Rango de presión?"
+    ]
+  },
+  {
+    "producto": "Sondas",
+    "tipoDeProducto": "PPS25 XM",
+    "condicionesDeAdquisicion": null,
+    "preguntasDeReferencia": [
+      "¿Rango de temperatura?"
+    ]
+  },
+  {
+    "producto": "Sondas",
+    "tipoDeProducto": "PPS28",
+    "condicionesDeAdquisicion": null,
+    "preguntasDeReferencia": null
+  },
+  {
+    "producto": "Sondas",
+    "tipoDeProducto": "PPS33",
+    "condicionesDeAdquisicion": "Venta",
+    "preguntasDeReferencia": [
+      "Tipo de transductor:"
+    ]
+  },
+  {
+    "producto": "Sondas",
+    "tipoDeProducto": "PPS71",
+    "condicionesDeAdquisicion": null,
+    "preguntasDeReferencia": [
+      "¿Concentración de H2S (ppm)?"
+    ]
+  },
+  {
+    "producto": "Sondas",
+    "tipoDeProducto": "PPS71 Elite",
+    "condicionesDeAdquisicion": null,
+    "preguntasDeReferencia": null
+  },
+  {
+    "producto": "CONSUMIBLES",
+    "tipoDeProducto": "O-Ring",
+    "condicionesDeAdquisicion": "Venta",
+    "preguntasDeReferencia": [
+      "¿Cantidad de piezas?"
+    ]
+  },
+  {
+    "producto": "CONSUMIBLES",
+    "tipoDeProducto": "C-Ring",
+    "condicionesDeAdquisicion": null,
+    "preguntasDeReferencia": [
+      "¿Para qué sonda?"
+    ]
+  },
+  {
+    "producto": "CONSUMIBLES",
+    "tipoDeProducto": "Spinner O-Ring",
+    "condicionesDeAdquisicion": null,
+    "preguntasDeReferencia": null
+  },
+  {
+    "producto": "CONSUMIBLES",
+    "tipoDeProducto": "Otro (introducir nombre)",
+    "condicionesDeAdquisicion": null,
+    "preguntasDeReferencia": null
+  },
+  {
+    "producto": "CONSUMIBLES",
+    "tipoDeProducto": "Batería de Litio",
+    "condicionesDeAdquisicion": null,
+    "preguntasDeReferencia": [
+      "Tamaño de la batería",
+      "¿Para qué sonda?",
+      "Rango de Temperatura?"
+    ]
+  }
+]

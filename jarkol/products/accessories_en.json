@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Upper and Lower Bushings",
+    "description": "",
+    "image": "upperAndLowerBushinas.png",
+    "points": []
+  },
+  {
+    "title": "Bowen Bushings",
+    "description": "",
+    "image": "bowenStyleBushinas.png",
+    "points": []
+  },
+  {
+    "title": "Outer Seals",
+    "description": "",
+    "image": "outerSeals.png",
+    "points": []
+  },
+  {
+    "title": "Pressure Control Crossovers",
+    "description": "",
+    "image": "pressureControlCrossovers.png",
+    "points": []
+  },
+  {
+    "title": "Inner Seals",
+    "description": "",
+    "image": "innerSeals.png",
+    "points": []
+  },
+  {
+    "title": "Packoff and Linewiper Rubbers",
+    "description": "",
+    "image": "packoffAndLinewiperRubbers.png",
+    "points": []
+  },
+  {
+    "title": "Metal C-Ring",
+    "description": "Designed for use in extreme working conditions. By default, Metal C-RINGs for external pressure are activated by system pressure, require low bolt loading, and have good elastic recovery. Due to their special structure and material, Metal C-RINGs can be used in high temperature (up to 450°C), high pressure (up to 25,000 psi), and other extreme static sealing conditions.",
+    "image": "cRing.png",
+    "points": []
+  },
+  {
+    "title": "O-RING for PPS71",
+    "description": "DuPont™ Kalrez® 7090 perfluoroelastomer parts made from the 7090 compound are specifically designed for use in applications requiring high hardness and higher modulus elasticity properties. These special black parts have excellent mechanical properties, including compression resistance, seal force retention, response to temperature cycle effects, and rapid gas decompression resistance.\nKalrez® Spectrum™ 7090 perfluoroelastomer parts are suitable for both static and dynamic sealing applications; especially those requiring extrusion resistance at higher temperatures. They also offer excellent thermal stability and chemical resistance. A maximum continuous service temperature of 325°C (617°F) is suggested. Short-term work at higher temperatures may also be possible.",
+    "image": "oRing.png",
+    "points": []
+  },
+  {
+    "title": "2” O-RING for Winch",
+    "description": "The O-RING 2-217 made of Fluorocarbon has excellent resistance to petroleum products, low compression set, and high temperature resistance.",
+    "image": "oRingJunta.png",
+    "points": []
+  },
+  {
+    "title": "HT Lithium Battery for PPS71",
+    "description": "The C+C Lithium Battery 165°C 01-AC0014-B13 7.2 VDC is designed to work with the PPS71 Elite tool. It has the power necessary to supply all sensors for up to 96 hours, with a capacity of 5.5 Ah. Due to the nature of the 4-pin Lemo connector, it features locking mechanisms to secure the battery to the tool at all times.",
+    "image": "litiumBattery.png",
+    "points": []
+  },
+  {
+    "title": "450° O-Ring Grease",
+    "description": "Ultra SC XP 2 grease is a premium calcium sulfonate-based grease that contains an additive package imparting extreme pressure properties, excellent mechanical stability, high water resistance, anti-rust and antioxidant behavior, high drop point, and strong surface adherence to form a protective film that reduces friction and prevents welding of contacting metal parts. It is used under extreme temperature and load conditions.",
+    "image": "grasaGTornicas.png",
+    "points": []
+  },
+  {
+    "title": "Bullnose Head",
+    "description": "The bullnose for the PPS71 comes in different diameters (for 1.56” and 1.75” housing) and is used when operations do not require the use of a winch to measure flow. Its design helps the tool pass through the well more easily and protects the tip. Made of Inconel 718, it withstands high temperatures.",
+    "image": "bullnose.png",
+    "points": []
+  },
+  {
+    "title": "High-Temperature Propellers for Spinner",
+    "description": "The propellers are interchangeable for different flow rates, and their design allows for easy change with the included impeller puller tool in the PPS71. For the 2.125” spinner, they come in 3P (3 blades), 5P (4 blades), 10P (6 blades), and 20P (6 blades).",
+    "image": "propelasSpinner.png",
+    "points": []
+  },
+  {
+    "title": "Magnets for Propellers",
+    "description": "The magnet, made of a ferromagnetic alloy, is designed to have high adhesion to magnetic elements for many years, regardless of operating temperature. Maximum temperature: Above the operating temperature of the PPS71 tool (Over 350°C).",
+    "image": "imanesPropelas.png",
+    "points": []
+  },
+  {
+    "title": "Magnet Carrier for Spinner",
+    "description": "The magnet carrier, made of non-magnetic stainless steel, is designed to house a magnet and a blanket inside, with its retaining ring and 3 securing screws, two on the side and one on the top; which properly fix them to the shaft and allow simultaneous rotation.",
+    "image": "magnetCarrierForSpinner.png",
+    "points": []
+  },
+  {
+    "title": "37C Retaining Ring",
+    "description": "Beryllium copper combines high strength with non-magnetic and non-sparking properties. It has excellent metallurgical properties for forming and machining. It has numerous special applications, such as in tools for hazardous environments, precision measuring devices, or the aerospace industry. Retaining rings are assembled axially with specialized pliers in a housing or bore and have a conical design that allows the ring to maintain constant pressure against internal components to prevent slippage.",
+    "image": "retainingRing.png",
+    "points": []
+  },
+  {
+    "title": "Spinner Plug",
+    "description": "The spinner connectors for the PPS71 come in different diameters for different uses (for 1.56” and 1.75” tools), allowing for different applications depending on the operation. Its design includes an internal chamber to deposit high-temperature lubricant and lubricate the moving parts of the winch. Their easy handling makes them very useful when changing internal parts on-site.",
+    "image": "spinnerPlug.png",
+    "points": []
+  },
+  {
+    "title": "Battery Spacer",
+    "description": "The spacers for PPS71 batteries help protect the battery during various movements it might experience during operation. \n\nMade of aluminum, they help prevent battery damage due to the material's softness. They also feature a spring to cushion movements during operations. They come in different diameter and length dimensions depending on the tool's sensor configuration. \nFor the Gamma Ray configuration, they have a 1” OD and a length of 9.21”.",
+    "image": "batterySpacer.png",
+    "points": []
+  },
+  {
+    "title": "45C Shaft Retainer",
+    "description": "Beryllium copper combines high strength with non-magnetic and non-sparking properties. It has excellent metallurgical properties for forming and machining. It has numerous special applications, such as in tools for hazardous environments, precision measuring devices, or the aerospace industry. \n\nRetaining rings are assembled axially with specialized pliers in a housing or bore and have a conical design that allows the ring to maintain constant pressure against internal components to prevent slippage.",
+    "image": "retenedorEje45C.png",
+    "points": []
+  },
+  {
+    "title": "High-Temperature Silicone or Oil for Cable Knot (7/32”)",
+    "description": "High-temperature food-grade biobased lubricants are reinforced with synthetic white graphite. This synthetic white graphite will lubricate at extremely high temperatures up to 1,000°C, with intermittent lubrication up to 2,000°C, providing a clean solid lubricant film (whitish in color) after the base oils completely dissipate. \n\nThese biopreferred products are free of volatile organic compounds (VOCs) and provide a self-ignition temperature (ASTM D-659) above 371°C. Additionally, these products offer extreme pressure and improved lubricity compared to black graphite, Teflon, and molybdenum disulfide, which lose their lubrication between 400°C and 500°C.",
+    "image": "siliconAltaTemperatura.png",
+    "points": []
+  },
+  {
+    "title": "Central External Spear Retriever for Wire in Well Interior",
+    "description": "The central spear is designed to recover the broken wire line from the well. It is usually used where attempts to recover with multi-tine wire grabs have been unsuccessful.",
+    "image": "lanzaCentral.png",
+    "points": [
+      "Nominal diameter of 2” (50.8 mm).",
+      "Maximum length of 1,000 mm to 1,500 mm.",
+      "Maximum external diameter of 1.75” (44.45 mm).",
+      "Fishing neck of 1.37” (34.8 mm).",
+      "With hooks (tines) three or more pointing upwards.",
+      "Socket for wire 0.108” (2.75 mm) diameter with 2.5” (63.5 mm) fishing neck.",
+      "Materials: 45/65 HRC high carbon steel, non-magnetic corrosion-resistant alloy, or 4140 grade alloy steel with chrome or nickel plating."
+    ]
+  },
+  {
+    "title": "Upper Gland for 7/32” Wire",
+    "description": "These assemblies are used with sand-line wireline as part of a system to deliver tools downhole and retrieve samples or equipment. The combination of materials provides excellent performance in sour gas (H2S) conditions.",
+    "image": "glandSuperior.png",
+    "points": []
+  }
+]
