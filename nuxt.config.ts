@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    target: 'static',
     runtimeConfig: {
         public: {
             apiBaseUrl: process.env.API_BASE_URL || 'http://localhost:8000/'

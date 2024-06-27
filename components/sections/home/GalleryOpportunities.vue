@@ -36,7 +36,7 @@
     </div>
 
     <div class="relative group overflow-hidden">
-      <img src="/jarkol/GalleryOpportunities/6.jpeg"
+      <img src="/jarkol/GalleryOpportunities/7.jpg"
            class="block transition duration-300 ease-in-out group-hover:scale-110" alt="Jarkol Technologies" />
       <div class="absolute inset-0 bg-black opacity-30"></div>
       <div

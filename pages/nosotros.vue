@@ -15,7 +15,7 @@ useHead({
     <SectionsInfoEnterpriseHeroAbout class="animate-fade-up animate-delay-500" />
     <AtomsContainer>
       <SectionsInfoEnterpriseHeroMisionAndVision class="animate-fade-up animate-delay-600" />
-      <SectionsInfoEnterprise class="animate-fade-up animate-delay-700" />
+      <SectionsInfoEnterprise/>
       <SectionsInfoEnterpriseHeroCommunities class="animate-fade-up animate-delay-800" />
       <!--<SectionsInfoEnterpriseHeroMisionAndVision class="animate-fade-up animate-delay-500" />-->
     </AtomsContainer>

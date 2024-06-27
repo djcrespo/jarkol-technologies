@@ -12,7 +12,7 @@ const { title, description, shortDescription, points, index } = defineProps<{
 </script>
 
 <template>
-  <a :data-modal-target="'modal-informacion-' + index" :data-modal-toggle="'modal-informacion-' + index" class="block max-w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 animate-fade">
+  <a :data-modal-target="'modal-informacion-' + index" :data-modal-toggle="'modal-informacion-' + index" class="block max-w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 animate-fade-up animate-delay-700">
     <div class="transition duration-300 ease-in-out hover:scale-110">
       <div class="flex justify-center items-center">
         <!--<img class="rounded-t-lg" :src="image" :alt="title" height="50%" />-->

@@ -37,11 +37,11 @@ export default defineNuxtPlugin((nuxtApp) => {
                 },
                 header: {
                     page_1: 'Home',
-                    page_2: 'We',
+                    page_2: 'About Us',
                     page_3: 'Products',
                     page_4: 'Services',
                     page_5: 'Customers',
-                    page_6: 'Contact',
+                    page_6: 'Contact Us',
                     page_7: 'Quote'
                 },
                 clients: {
