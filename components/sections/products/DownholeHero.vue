@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[url('public/jarkol/images/img6.jpg')] bg-cover bg-center">
+  <div class="bg-[url('public/jarkol/images/sondas.png')] bg-cover bg-center">
     <div class="bg-[#3B408C] bg-opacity-70">
       <section class="py-20 md:py-16">
         <AtomsContainer>
