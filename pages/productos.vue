@@ -22,16 +22,6 @@ const toggleSecondProductsSection = () => {
   showSecondProductsSection.value = !showSecondProductsSection.value;
 };
 
-const pdfUrl = ref('/jarkol/documents/sondas.pdf');
-
-const downloadPdf = () => {
-  const link = document.createElement('a');
-  link.href = pdfUrl.value;
-  link.download = 'PPS Catalogue-V08.pdf'; // Name of the downloaded file
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-}
 </script>
 
 <template>
@@ -51,6 +41,6 @@ const downloadPdf = () => {
       <SectionsProductsAccesoriesGallery />
     </AtomsContainer>
 
-    <SectionsProductsDownholeHero class="animate-fade-up" @click="downloadPdf" />
+    <SectionsProductsDownholeHero class="animate-fade-up" />
   </div>
 </template>
