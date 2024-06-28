@@ -63,6 +63,39 @@ export default defineNuxtPlugin((nuxtApp) => {
                 },
                 nosotros: {
                     principal_title: 'We Boost Your Success with High Impact Geoscientific Solutions',
+                    extra_title: '100% Mexican company',
+                    extra_subtitle: 'HEADQUARTERS IN VILLAHERMOSA TABASCO, MEX.',
+                    points_info: [
+                        'Strategic Alliances',
+                        'Unparalleled Service',
+                        'Human quality',
+                        'Control by Protocols',
+                        'Operating efficiency',
+                        'Tangible Results',
+                        '1st Level Management',
+                        'Superior Technology'
+                    ],
+                    extra_title_2: 'Processing Center',
+                    extra_subtitle_2: 'OIL Services',
+                    points_info_2: [
+                        'Deposits',
+                        'Geophysics',
+                        'Production & well integrity',
+                        'Productivity',
+                        'Geology',
+                        'Petrophysics',
+                        'Geomechanics',
+                        'Exploration seismic'
+                    ],
+                    extra_object_1: {
+                        short_description: 'Professionals with extensive experience in the energy industry.'
+                    },
+                    extra_object_2: {
+                        short_description: 'Committed to the development of clean energy for our country.'
+                    },
+                    extra_object_3: {
+                        short_description: 'Products and services of the highest quality.'
+                    },
                     object_1: {
                         title: 'Integral Geothermal',
                         short_description: 'Advanced reservoir characterization and geophysical well logs under HPHT conditions.',
@@ -320,6 +353,39 @@ export default defineNuxtPlugin((nuxtApp) => {
                 },
                 nosotros: {
                     principal_title: 'Impulsamos su Éxito con Soluciones Geocientíficas de Alto Impacto',
+                    extra_title: 'Empresa 100% mexicana',
+                    extra_subtitle: 'SEDE EN VILLAHERMOSA TABASCO, MEX.',
+                    points_info: [
+                        'Alianzas Estratégicas',
+                        'Servicio sin Paraleo',
+                        'Calidad Humana',
+                        'Control por Protocolos',
+                        'Eficiencia Operativa',
+                        'Resultados Tangibles',
+                        'Gestión de 1er Nivel',
+                        'Tecnología Superior'
+                    ],
+                    extra_title_2: 'Centro de procesamiento',
+                    extra_subtitle_2: 'OIL Services',
+                    points_info_2: [
+                        'Yacimientos',
+                        'Geofísica',
+                        'Producción & well integrity',
+                        'Productividad',
+                        'Geología',
+                        'Petrofísica',
+                        'Geomecánica',
+                        'Sísmica de exploración'
+                    ],
+                    extra_object_1: {
+                        short_description: 'Profesionales con amplia experiencia en la industria energética.'
+                    },
+                    extra_object_2: {
+                        short_description: 'Comprometidos con el desarrollo de energías limpias para nuestro país.'
+                    },
+                    extra_object_3: {
+                        short_description: 'Productos y servicios de la más alta calidad.'
+                    },
                     object_1: {
                         title: 'Geotermia Integral',
                         short_description: 'Caracterización avanzada de yacimientos y registros geofísicos de pozo en condiciones HPHT.',

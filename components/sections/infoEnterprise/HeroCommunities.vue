@@ -1,5 +1,5 @@
 <template>
-  <section class="lg:pt-0 lg:pb-5 md:pt-24 md:pb-24">
+  <section class="py-4 lg:pt-0 lg:pb-5 md:pt-24 md:pb-24">
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-10">
       <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">{{ t('nosotros.comunidades.title') }}</h1>
     </div>
