@@ -58,7 +58,8 @@ export default defineNuxtPlugin((nuxtApp) => {
                 products: {
                     title: 'We Boost Your Success with High Impact Geoscientific Solutions.',
                     text_1: 'Products',
-                    text_2: 'Accessories'
+                    text_2: 'Accessories',
+                    text_3: 'Downhole Gauges'
                 },
                 nosotros: {
                     principal_title: 'We Boost Your Success with High Impact Geoscientific Solutions',
@@ -314,7 +315,8 @@ export default defineNuxtPlugin((nuxtApp) => {
                 products: {
                     title: 'Impulsamos su Éxito con Soluciones Geocientíficas de Alto Impacto.',
                     text_1: 'Productos',
-                    text_2: 'Accesorios'
+                    text_2: 'Accesorios',
+                    text_3: 'Sondas de Registro de fondo'
                 },
                 nosotros: {
                     principal_title: 'Impulsamos su Éxito con Soluciones Geocientíficas de Alto Impacto',
