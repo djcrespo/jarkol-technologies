@@ -295,6 +295,29 @@ export default defineNuxtPlugin((nuxtApp) => {
                             text: 'Built to withstand the harshest conditions and ensure long-term performance.'
                         }
                     }
+                },
+                extreme: {
+                    title: 'ExtremeVision',
+                    subtitle: 'HD video inside the well in memory mode',
+                    info_part_1: 'Hybrid camera technology that can work both on power line' +
+                        'Standard single conductor as in Slickline cable.',
+                    info_part_2: 'The hybrid camera system\n' +
+                        'combines the practical advantages of\n' +
+                        'the real-time display and the\n' +
+                        'memory recording modes al\n' +
+                        'same time, offering almost zero\n' +
+                        'NPT due to loss of connection.',
+                    title_applications: 'Applications',
+                    applications: [
+                        'Well inspection (well accessories, wellhead equipment, safety valves,' +
+                        'drilling nipples, etc.)',
+                        'Corrosion inspection and control',
+                        'Support for fishing in wells with exact images of the fallen object',
+                        'Visualization and monitoring of inflows and fluid flow',
+                        'Identification of deposits (scales, salts, hydrates, etc.)',
+                        'Gas storage well assemblies',
+                        'Open hole formation images'
+                    ]
                 }
             },
             es: {
@@ -585,8 +608,30 @@ export default defineNuxtPlugin((nuxtApp) => {
                             text: 'Construido para resistir las condiciones más adversas y garantizar un rendimiento a largo plazo.'
                         }
                     }
+                },
+                extreme: {
+                    title: 'ExtremeVision',
+                    subtitle: 'Video HD dentro de pozo en modo memoria',
+                    info_part_1: 'Tecnología de cámara híbrida que puede funcionar tanto en línea eléctrica' +
+                        ' monoconductora estándar como en cable Slickline.',
+                    info_part_2: 'El sistema de cámara híbrida\n' +
+                        'combina las ventajas prácticas de\n' +
+                        'la visualización en tiempo real y los\n' +
+                        'modos de grabación en memoria al\n' +
+                        'mismo tiempo, ofreciendo casi cero\n' +
+                        'NPT por pérdida de conexión.',
+                    title_applications: 'Aplicaciones',
+                    applications: [
+                        'Inspección de pozos (accesorios de pozo, equipos de boca de pozo, válvulas de seguridad,' +
+                        ' niples de perforación, etc.)',
+                        'Inspección y control de la corrosión',
+                        ' Apoyo a la pesca en pozos con imágenes exactas del objeto caído',
+                        'Visualización y supervisión de afluencias y flujo de fluidos',
+                        ' Identificación de depósitos (incrustaciones, sales, hidratos, etc.)',
+                        'Ensamblajes de pozos para almacenamiento de gas',
+                        'Imágenes de formaciones a pozo abierto'
+                    ]
                 }
-
             }
         }
     })
