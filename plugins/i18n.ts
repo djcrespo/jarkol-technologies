@@ -61,7 +61,8 @@ export default defineNuxtPlugin((nuxtApp) => {
                     text_2: 'Accessories',
                     text_3: 'Downhole Gauges',
                     download_catalogue: 'Download catalogue',
-                    loading: 'Downloading...'
+                    loading: 'Downloading...',
+                    success: 'Downloaded successfully'
                 },
                 nosotros: {
                     principal_title: 'We Boost Your Success with High Impact Geoscientific Solutions',
@@ -376,7 +377,8 @@ export default defineNuxtPlugin((nuxtApp) => {
                     text_2: 'Accesorios',
                     text_3: 'Sondas de Registro de fondo',
                     download_catalogue: 'Descargar catálogo',
-                    loading: 'Descargando...'
+                    loading: 'Descargando...',
+                    success: 'Descargado correctamente'
                 },
                 nosotros: {
                     principal_title: 'Impulsamos su Éxito con Soluciones Geocientíficas de Alto Impacto',
