@@ -4,6 +4,7 @@
     <pop-up :showPopup="showPopup" @close="showPopup = false" />
     <form class="mx-20 my-10">
       <div class="lg:mx-10 md:mx-2">
+
         <!-- Seleccionar producto o servicio -->
         <div class="mx-2 mb-5">
           <label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">{{ t('cotizar.select_1') }} {{ option ? t('cotizar.options.value_1') : t('cotizar.options.value_2') }}</label>
@@ -17,7 +18,7 @@
           </select>
         </div>
 
-        <!-- Filtrar (switch para mostrar productos o servicios) -->
+        <!-- Filtrar (switch para mostrar productos o servicios)
         <div class="mx-2 mb-5">
           <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">{{ t('cotizar.text_filter') }}:</label>
           <label class="inline-flex items-center mb-5 cursor-pointer">
@@ -25,6 +26,44 @@
             <div class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:w-5 after:h-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
             <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300">{{ option ? t('cotizar.options.value_1') : t('cotizar.options.value_2') }}</span>
           </label>
+        </div>
+
+        -->
+
+        <div class="mx-2 mb-5 flex space-x-4">
+          <button
+              class="text-white text-center font-medium rounded-lg text-sm sm:w-auto px-5 py-2.5 text-center focus:outline-none"
+              :class="[
+                option
+                  ? 'bg-gray-400 cursor-not-allowed'
+                  : 'bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'
+              ]"
+              @click="option = true"
+              :disabled="option"
+          >
+            <div class="flex items-center">
+              <p>
+                {{ t('cotizar.options.value_1') }}
+              </p>
+            </div>
+          </button>
+
+          <button
+              class="text-white text-center font-medium rounded-lg text-sm sm:w-auto px-5 py-2.5 text-center focus:outline-none"
+              :class="[
+                !option
+                  ? 'bg-gray-400 cursor-not-allowed'
+                  : 'bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'
+              ]"
+              @click="option = false"
+              :disabled="!option"
+          >
+            <div class="flex items-center">
+              <p>
+                {{ t('cotizar.options.value_2') }}
+              </p>
+            </div>
+          </button>
         </div>
 
         <!-- preguntas de los productos -->
