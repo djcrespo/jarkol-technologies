@@ -1,0 +1,90 @@
+[
+  {
+    "name": "CFE",
+    "image": "cfe.png"
+  },
+  {
+    "name": "PEMEX",
+    "image": "Pemex-Logo.png"
+  },
+  {
+    "name": "HALLIBURTON",
+    "image": "Halliburton-Logo.png"
+  },
+  {
+    "name": "GRUPO DRAGON",
+    "image": "dragon.webp"
+  },
+  {
+    "name": "CARSO ENERGY",
+    "image": "carso.webp"
+  },
+  {
+    "name": "IMP",
+    "image": "imp.png"
+  },
+  {
+    "name": "WEATHERFORD",
+    "image": "Weatherford-Logo.png"
+  },
+  {
+    "name": "GEOLIS",
+    "image": "Logo_Geolis_Horizontal-1.png"
+  },
+  {
+    "name": "MC WELL SERVICES",
+    "image": "wellservices.png"
+  },
+  {
+    "name": "VINCO",
+    "image": "vinco.png"
+  },
+  {
+    "name": "ENAL",
+    "image": "enal.png"
+  },
+  {
+    "name": "GEOKERY",
+    "image": "geokeri.webp"
+  },
+  {
+    "name": "IVDAM",
+    "image": "ivdam.png"
+  },
+  {
+    "name": "DIAMANTE",
+    "image": "diamante.png"
+  },
+  {
+    "name": "SERTECPET",
+    "image": "sertecpet.png"
+  },
+  {
+    "name": "PB",
+    "image": "pb.png"
+  },
+  {
+    "name": "CECSA",
+    "image": "cecsa2.png"
+  },
+  {
+    "name": "C.I.E.S.S.A.",
+    "image": "ciessa.png"
+  },
+  {
+    "name": "GEOPROSPECTION",
+    "image": "geoprospection.png"
+  },
+  {
+    "name": "CUBO",
+    "image": "petroleum.png"
+  },
+  {
+    "name": "TP MEXICANA",
+    "image": "tp.png"
+  },
+  {
+    "name": "SERVICIO Y SUMINISTROS BLESS",
+    "image": "b.png"
+  }
+]

@@ -1,0 +1,211 @@
+[
+  {
+    "servicio": "Registros de Fondo",
+    "tipoDeServicio": "Registro PT",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "Localización de los servicios /Ubicación del pozo",
+        "valores": []
+      },
+      {
+        "pregunta": "Información adicional",
+        "valores": []
+      }
+    ]
+  },
+  {
+    "servicio": "Registros de Fondo",
+    "tipoDeServicio": "Registro PTS",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "¿Requiere Unidad de Línea de Acero?",
+        "valores": []
+      },
+      {
+        "pregunta": "¿Requiere Sistema de Control de Presión?",
+        "valores": []
+      },
+      {
+        "pregunta": "Información adicional",
+        "valores": []
+      }
+    ]
+  },
+  {
+    "servicio": "Registros de Fondo",
+    "tipoDeServicio": "Registro PTS-CCL",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "Cantidad de Registros",
+        "valores": []
+      },
+      {
+        "pregunta": "Información adicional",
+        "valores": []
+      }
+    ]
+  },
+  {
+    "servicio": "Registros de Fondo",
+    "tipoDeServicio": "Registro PTS-CCL-GR",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "¿Requiere Procesamiento e Interpretación Avanzada?",
+        "valores": []
+      },
+      {
+        "pregunta": "Profundidad promedio de los pozos",
+        "valores": []
+      },
+      {
+        "pregunta": "Información adicional",
+        "valores": []
+      }
+    ]
+  },
+  {
+    "servicio": "Registros de Fondo",
+    "tipoDeServicio": "Registro PTS-CCL-GR",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "Rango de Temperatura en fondo esperado",
+        "valores": []
+      },
+      {
+        "pregunta": "Rango de Presión en fondo esperado",
+        "valores": []
+      },
+      {
+        "pregunta": "Rango de Temperatura en superficie",
+        "valores": []
+      },
+      {
+        "pregunta": "Rango de presión en superficie",
+        "valores": []
+      },
+      {
+        "pregunta": "Información adicional",
+        "valores": []
+      }
+    ]
+  },
+  {
+    "servicio": "Exploración Geofísica",
+    "tipoDeServicio": "Georadar (GPR)",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "¿Objetivo del levantamiento?",
+        "valores": []
+      },
+      {
+        "pregunta": "Información adicional",
+        "valores": []
+      }
+    ]
+  },
+  {
+    "servicio": "Exploración Geofísica",
+    "tipoDeServicio": "Fotogrametría área con Dron",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "Localización de los Servicios",
+        "valores": []
+      },
+      {
+        "pregunta": "Información adicional",
+        "valores": []
+      }
+    ]
+  },
+  {
+    "servicio": "Exploración Geofísica",
+    "tipoDeServicio": "Fotogrametría área con Dron (LiDAR)",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "Información adicional",
+        "valores": []
+      }
+    ]
+  },
+  {
+    "servicio": "Exploración Geofísica",
+    "tipoDeServicio": "TEM",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "Área de prospección aproximada",
+        "valores": [
+          "Hectares",
+          "Square meters"
+        ]
+      },
+      {
+        "pregunta": "Información adicional",
+        "valores": []
+      }
+    ]
+  },
+  {
+    "servicio": "Exploración Geofísica",
+    "tipoDeServicio": "Tomografía Eléctrica",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "Información adicional",
+        "valores": []
+      }
+    ]
+  },
+  {
+    "servicio": "Exploración Geofísica",
+    "tipoDeServicio": "Sísmica Cross-hole",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "Información adicional",
+        "valores": []
+      }
+    ]
+  },
+  {
+    "servicio": "Calibración - conversiónde sonda",
+    "tipoDeServicio": "Servicio de calibración de sonda",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "¿Tipo de sonda?",
+        "valores": []
+      },
+      {
+        "pregunta": "Fecha de última calibración",
+        "valores": []
+      },
+      {
+        "pregunta": "¿Rango de presión?",
+        "valores": []
+      },
+      {
+        "pregunta": "Información adicional",
+        "valores": []
+      }
+    ]
+  },
+  {
+    "servicio": "Calibración - conversiónde sonda",
+    "tipoDeServicio": "Servicio de conversión de sonda",
+    "preguntasDeReferencia": [
+      {
+        "pregunta": "¿Rango de temperatura?",
+        "valores": []
+      },
+      {
+        "pregunta": "Marca de la sonda para conversión",
+        "valores": []
+      },
+      {
+        "pregunta": "¿Requiere recolección?",
+        "valores": []
+      },
+      {
+        "pregunta": "Información adicional",
+        "valores": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "title": "Bujes superiores e inferiores",
+    "description": "",
+    "image": "upperAndLowerBushinas.png",
+    "points": []
+  },
+  {
+    "title": "Bujes bowen",
+    "description": "",
+    "image": "bowenStyleBushinas.png",
+    "points": []
+  },
+  {
+    "title": "Juntas Exteriores",
+    "description": "",
+    "image": "outerSeals.png",
+    "points": []
+  },
+  {
+    "title": "Cruces de Control de Presión",
+    "description": "",
+    "image": "pressureControlCrossovers.png",
+    "points": []
+  },
+  {
+    "title": "Juntas Interiores",
+    "description": "",
+    "image": "innerSeals.png",
+    "points": []
+  },
+  {
+    "title": "Gomas de Empaquetado y limpieza",
+    "description": "",
+    "image": "packoffAndLinewiperRubbers.png",
+    "points": []
+  },
+  {
+    "title": "Anillo metálico Tipo “C” ",
+    "description": "Diseñado para ser aplicado en condiciones de trabajo extremas. De forma predeterminada, los Metal C-RING para presión externa se activan con la presión del sistema, requieren una carga de atornillado baja y tienen un buen retorno elástico. Debido a su estructura y material especiales, los C-RING metálicos se pueden utilizar en condiciones de trabajo de alta temperatura (hasta 450 °C, alta presión (hasta 25,000 psi), y otras condiciones extremas de trabajo de sellado estático",
+    "image": "cRing.png",
+    "points": []
+  },
+  {
+    "title": "O-RING para PPS71",
+    "description": "Las piezas de perfluoroelastómero DuPont ™ Kalrez® 7090 fabricadas con el compuesto 7090 están diseñadas específicamente para su uso en aplicaciones que requieren propiedades de alta dureza y módulo elasticidad más alto. Estas piezas negras especiales tienen excelentes propiedades mecánicas que incluyen resistencia a la compresión, retención de la fuerza de sellado, respuesta a los efectos del ciclo de temperatura y resistencia a la descompresión rápida del gas.\nLas piezas de perfluoroelastómero Kalrez® Spectrum ™ 7090 son adecuadas para aplicaciones de sellado tanto estáticas como dinámicas; especialmente aplicaciones que requieren resistencia a la extrusión a temperaturas más altas. También ofrecen una excelente estabilidad térmica y resistencia química. Se sugiere una temperatura máxima de servicio continuo de 325 ° C (617 ° F). También pueden ser posible trabajos cortos a temperaturas más altas.",
+    "image": "oRing.png",
+    "points": []
+  },
+  {
+    "title": "Junta tórica de 50.8 mm (2”) para Molinete",
+    "description": "El O-RING 2-217 hecho de Fluorurocarburo tiene excelente resistencia a los productos derivados del petróleo, baja deformación por compresión y resistencia a altas temperaturas.",
+    "image": "oRingJunta.png",
+    "points": []
+  },
+  {
+    "title": "Batería de litio HT para PPS71",
+    "description": "La Batería de Litio C+C 165 °C 01-AC0014-B13 de 7.2 VDC está diseñada para trabajar con la herramienta PPS71 Elite. Posee el poder necesario para alimentar a todos los sensores hasta 96 hrs, con una capacidad de 5.5 Ah. Por la naturaleza del conector Lemo de 4 pines, esta cuenta con seguros de anclaje a la herramienta, para asegurar la fijación de la batería con la herramienta en todo momento.",
+    "image": "litiumBattery.png",
+    "points": []
+  },
+  {
+    "title": "Grasa para Juntas tóricas 450°",
+    "description": "La grasa Ultra SC XP 2 es una grasa Premium especialmente desarrollada a base de Sulfonato de Calcio, que contiene un paquete de aditivos que le imparten propiedades de Extrema Presión, gran estabilidad mecánica, alta capacidad de repeler el agua, excelente comportamiento anti-herrumbre y antioxidante, alto punto de goteo y gran capacidad de adherirse a la superficie y formar una película de protección fuerte para así reducir el cociente de fricción y evitar el soldado de las partes metálicas en contacto, se utiliza bajo condiciones extremas de temperatura y carga.",
+    "image": "grasaGTornicas.png",
+    "points": []
+  },
+  {
+    "title": "Cabezal Bullnose",
+    "description": "El bullnose para la PPS71 viene en diferentes diámetros (para housing 1.56” y 1.75”), y se utiliza cuando hay operaciones que no requieren el uso de un molinete para medir el flujo. Su diseño ayuda a que la herramienta pueda pasar mejor por el pozo, además de cumplir la función de proteger en la punta. Hecho en Inconel 718, resiste altas temperaturas.",
+    "image": "bullnose.png",
+    "points": []
+  },
+  {
+    "title": "Refacciones de Propelas de Alta Temperatura para Spinner",
+    "description": "Las de propelas son intercambiables para diferentes velocidades de flujo, por su diseño son de fácil cambio con la herramienta impeller puller (extractor de impeler) incluida en la PPS71. Para el spinner 2.125 pulg las hay de 3P (3 aletas), 5P (4 aletas), 10P (6 aletas) y 20P (6 aletas)",
+    "image": "propelasSpinner.png",
+    "points": []
+  },
+  {
+    "title": "Imanes para Propelas",
+    "description": "El magneto, hecho de una aleación ferromagnética, está diseñado para tener una alta adherencia a elementos magnéticos constante durante muchos años, sin importar la temperatura de operación. Temperatura máxima: Arriba de la temperatura de operación de la herramienta PPS71 (Más de 350 °C).",
+    "image": "imanesPropelas.png",
+    "points": []
+  },
+  {
+    "title": "Porta Magneto para Spinner",
+    "description": "El porta magneto, hecho de acero inoxidable antimagnético, está diseñado para alojar un magneto y un blanket en su interior, con su debido anillo retenedor y 3 tornillos sujetadores, dos en la parte lateral, y 1 en su parte superior; los cuales hacen que se fijen adecuadamente en la flecha, y permitan girar al mismo tiempo.",
+    "image": "magnetCarrierForSpinner.png",
+    "points": []
+  },
+  {
+    "title": "Anillo Retenedor 37C",
+    "description": "El berilio cobre combina una alta resistencia con cualidades no magnéticas, y no genera chispas. Tiene excelentes propiedades metalúrgicas para su conformado y mecanizado. Posee numerosas aplicaciones especiales, como en herramientas para entornos peligrosos, dispositivos de medición de precisión, o en la industria aeroespacial. Los anillos retenedores se ensamblan axialmente con pinzas especializadas en una carcasa u orificio y tienen un diseño cónico que permite que el anillo mantenga una presión constante contra los componentes internos para evitar el deslizamiento.",
+    "image": "retainingRing.png",
+    "points": []
+  },
+  {
+    "title": "Enchufe Spinner",
+    "description": "Los conectores de spinner para la PPS71 vienen en diferentes diámetros para diferentes usos (para herramienta 1.56” y 1.75”), permitiendo diferentes aplicaciones según la operación a realizar. Su diseño viene con una cámara interna depositar lubricante de alta temperatura y a su vez se lubriquen las piezas con movimiento del molinete. Su fácil manejo los hace muy útiles a la hora de cambiar piezas internas en sitio.",
+    "image": "spinnerPlug.png",
+    "points": []
+  },
+  {
+    "title": "Calza Espaciadora",
+    "description": "Los espaciadores para baterías de la PPS71 ayudan a proteger la batería en los distintos movimientos que pudiera tener dentro de la operación. \n\nHechos de aluminio, ayudan a no golpear la batería debido a la nobleza de su material, así mismo, cuentan con un muelle el cual ayuda a amortiguar los movimientos durante las operaciones. Vienen en distintas dimensiones de diámetro y longitud dependiendo de la configuración de sensores de la herramienta. \nPara el caso de la configuración con Rayos Gamma presenta un OD de 1” y 9.21” de longitud.",
+    "image": "batterySpacer.png",
+    "points": []
+  },
+
+  {
+    "title": "Retenedor del Eje 45C",
+    "description": "El berilio cobre combina una alta resistencia con cualidades no magnéticas, y no generara chispas. Tiene excelentes propiedades metalúrgicas para su conformado y mecanizado. Posee numerosas aplicaciones especiales, como en herramientas para entornos peligrosos, dispositivos de medición de precisión, o en la industria aeroespacial. \n\nLos anillos retenedores se ensamblan axialmente con pinzas especializadas en una carcasa u orificio y tienen un diseño cónico que permite que el anillo mantenga una presión constante contra los componentes internos para evitar el deslizamiento.",
+    "image": "retenedorEje45C.png",
+    "points": []
+  },
+  {
+    "title": "Silicón o aceite de alta temperatura para nudo de cable (7/32”)",
+    "description": "Los lubricantes de alta temperatura de grado alimenticio de base biológica están reforzados con grafito blanco sintético. Este grafito blanco sintético lubricará a temperaturas extremadamente altas de hasta 1,000 °C, con lubricación intermitente hasta 2,000 °C, proporciona una película sólida lubricante limpia (de color blanquecino) después de que los aceites base se disipen completamente. \n\nEstos productos (biopreferidos) están libres de compuestos orgánicos volátiles (COV) y proporcionan una temperatura de autoignición (ASTM D-659) de más de 371 °C. Además, los productos proporcionan presión extrema y lubricidad mejoradas que el grafito negro, el teflón y el disulfuro de molibdeno, los cuales pierden su lubricación entre 400 °C y 500 °C.",
+    "image": "siliconAltaTemperatura.png",
+    "points": []
+  },
+  {
+    "title": "Recuperador con arpón central externo para alambre en interior de pozos",
+    "description": "El arpón central está diseñado para recuperar la línea de alambre rota de el pozo. Normalmente se utiliza donde los intentos de recuperación con alambre de varias puntas las capturas no han tenido éxito.",
+    "image": "lanzaCentral.png",
+    "points": [
+      "Diámetro nominal de 50.8 mm (2”).",
+      "Largo máximo de 1,000 mm hasta 1,500 mm.",
+      "Diámetro máximo externo de 44.45 mm (1.75”).",
+      "Cuello de pesca de 34.8 mm (1.37”).",
+      "Con ganchos (puntas) tres o más que apunten hacia arriba.",
+      "Socket para alambre de 2.33 mm (0.092”) y 2.74 mm (0.108”) de diámetro."
+    ]
+  },
+  {
+    "title": "Recuperador con arpón interno de tres cucharas para alambre en interior de pozos",
+    "description": "El agarre de alambre consiste en elemento superior completo con cuello de pesca y un cuerpo con dos o tres puntas flexibles.\n\nCada puntal tiene varias púas soldadas en el lado interior para atrapar y recuperar el cable.\nEl diseño permite al operador ajustar los extremos de la punta para adaptarse a la ID de tubería, lo que ayuda a evitar que la toma de alambre pase por encima de la línea rota. \nLa toma de alambre se despliega en el pozo unido a una cuerda de herramienta de pesca y herramienta de extracción.",
+    "image": "recLinAcero.png",
+    "points": [
+      "De largo máximo de 1,000 mm hasta 1,500 mm.",
+      "Con conector de alambre superior de 23.83 mm (0.938”) de diámetro 10 UN.",
+      "Diámetro máximo externo de 44.45 mm (1.75”).",
+      "Con cuello de pesca de 34.8 mm (1.37”).",
+      "Con ganchos (puntas) tres o más que apunten hacia arriba.",
+      "Con socket para alambre de 2.33 mm (0.092”) y 2.74 mm (0.108”) de diámetro."
+    ]
+  },
+  {
+    "title": "Muestreador de fondo con zapata de bola para interior de pozo",
+    "description": "Están diseñados para adquirir escombros que causan una obstrucción dentro del pozo.\nEl muestreador consiste en un tubo de rescate, una zapata superior e inferior. El flapper o aleta se abre cuando la boquilla entra en los escombros y luego se cierra cuando sale, atrapando los escombros dentro.",
+    "image": "fondoZapata.png",
+    "points": [
+      "De diámetro nominal de 44.45 mm (1.75”).",
+      "De largo máximo de 1,000 mm hasta 1500 mm",
+      "Con zapata de bola.",
+      "Zapata maquinada con bisel tipo cincel que permite romper la incrustación.",
+      "Con socket para alambre de 2.33 mm (0.092”) y 2.74 mm (0.108”) de diámetro."
+    ]
+  },
+  {
+    "title": "Muestreador de fondo con zapata de aleta para interior de pozo",
+    "description": "Están diseñados para adquirir escombros que causa una obstrucción dentro de pozo.\nEl muestreador consiste en un tubo de rescate, una zapata superior e inferior. La aleta o flapper se abre cuando la boquilla entra en los escombros y luego se cierra cuando sale, atrapando los escombros dentro.",
+    "image": "fondoZapata.png",
+    "points": [
+      "De diámetro nominal de 44.45 mm (1.75”).",
+      "De largo máximo de 1,000 mm hasta 1500 mm",
+      "Con zapata de aleta.",
+      "Zapata maquinado con bisel tipo cincel que permita romper la incrustación.",
+      "Con socket para alambre de 2.33 mm (0.092”) y 2.74 mm (0.108”) de diámetro."
+    ]
+  },
+  {
+    "title": "Estopero Hidráulico para Lubricador",
+    "description": "Diseñado para superar los problemas de manipulación manual causados por el incremento de peso en línea y la incomodidad de los estoperos convencionales.\n\nAdemás de lograr este objetivo, también se introdujeron muchas otras innovaciones, dando como resultado el prensaestopas (estopero) más avanzado que existe.\n\nEl estopero se fabrica en compuesto o aluminio, según la aplicación. Está disponible en diámetros de 16” y 20” para adaptarse a todas las líneas de acero de hasta 0.160” y cada conjunto se suministra con certificación de prueba de carga.",
+    "image": "hidraulicoLubricador.png",
+    "points": [
+      "El cartucho de embalaje ligero separado elimina la necesidad de la parte pesada de la caja de relleno para relacionarse con el lubricador superior.",
+      "Un dispositivo de levas simplifica la carga de alambre en la vaina.",
+      "El cartucho de embalaje contiene cuatro rodillos para garantizar el seguimiento preciso de los cables.",
+      "La velocidad de la bola integral evita el escape de fluidos.",
+      "Supera el problema de manipulación del aumento de peso y la incomodidad de las cajas de relleno convencionales.",
+      "Reduce el peso en un 30%",
+      "Los rodillos ofrecen retención de cables segura y minimizan el uso.",
+      "Paso completo"
+    ]
+  },
+  {
+    "title": "Tuerca unión de apriete a mano de 50.8 mm (2”) para lubricador",
+    "description": "Están diseñados para permitir un fácil montaje y desmontaje de lubricadores o equipos de superficie.",
+    "image": "tuercaUnionLubricador.png",
+    "points": [
+      "Apriete manual 4 TPI (estilo Bowen) - 5k que permite un fácil montaje / desmontaje del lubricador y / o equipo de superficie.",
+      "De diámetro nominal de 50.8 mm (2”).",
+      "Con ranuras para juntas tóricas.",
+      "Juntas tóricas para alta temperaturas (350°C). (incluye 10 juntas de repuesto)",
+      "Clase 3000#.",
+      "Roscaestándar recta en los extremos externos.",
+      "Paso completo."
+    ]
+  },
+  {
+    "title": "Tuerca unión de apriete a mano de 76.2 mm (3”) para lubricador",
+    "description": "Están diseñados para permitir un fácil montaje y desmontaje de lubricadores o equipos de superficie",
+    "image": "tuercaUnionLubricador.png",
+    "points": [
+      "Apriete manual 4 TPI (estilo Bowen) - 5k que permita un fácil montaje / desmontaje del lubricador y / o equipo de superficie.",
+      "De diámetro nominal de 50.8 mm (2”).",
+      "Con ranuras para juntas tóricas.",
+      "Juntas tóricas para alta temperaturas (350°C). (incluye 10 juntas de repuesto)",
+      "Clase 3000#.",
+      "Rosca estándar recta en los extremos externos.",
+      "Paso completo."
+    ]
+  },
+  {
+    "title": "Abrazadera o candado de sujeción para alambre de 2.33 mm (0.0917”) de diámetro",
+    "description": "Las abrazaderas de línea están diseñadas para fijar alrededor del cable para evitar movimientos.\nLas mandíbulas se forran en bronce para evitar daños en el cable cuando se acciona. Principalmente utilizado para mantener la cadena de herramienta estacionaria cuando se amañan hacia arriba/abajo garantizando seguridad.",
+    "image": "abrazaderaSujecion.png",
+    "points": []
+  },
+
+  {
+    "title": "Sensor de Temperatura RTD PT1000; 4-Wire de 350° para herramienta PPS71 de PPS",
+    "description": "Diseñado para una amplia gama de aplicaciones en las que se requiere un esquema de montaje sencillo",
+    "image": "sensorTemperatura.png",
+    "points": []
+  },
+  {
+    "title": "Centralizador de resorte para ajuste para herramienta PPS71",
+    "description": "El centralizador está diseñado para centralizar la herramienta durante las operaciones de línea de acero en la tubería de producción y a la salida de la tubería de revestimiento. Su diseño flexible le permite pasar a través de diámetros interiores (ID) restringidos dentro de la tubería de producción mientras se expande al entrar a la tubería de revestimiento. Los parámetros de funcionamiento de la herramienta le permiten atravesar restricciones y expandirse hasta 7” de diámetro exterior (OD). La tensión del mandril de resorte de arco puede ajustarse para adaptarse al peso de la sarta de herramientas y a las necesidades de centralización.",
+    "image": "centralizadorResorte.png",
+    "points": [
+      "Ajustable para encajar medidas de la cubierta y tuberías diferentes.",
+      "6 resortes realzan la centralización",
+      "Adaptable para parámetros de construcción",
+      "Expansión hasta 7” OD"
+    ]
+  },
+  {
+    "title": "Sensor de presión de silicon-zafiro con rango de 5,000 o 1,000 PSI para herramienta PPS71",
+    "description": "Transductores piezorresistivos OEM de alta presión con una amplia gama de aplicaciones.\n\nLos 7LHP están diseñados para montaje con junta tórica y dependen del aislamiento de tensiones que proporcionan las juntas tóricas para funcionar dentro de las especificaciones indicadas.",
+    "image": "sensorPresion.png",
+    "points": [
+      "Gran estabilidad a largo plazo",
+      "Carcasa robusta de acero inoxidable, Inconel o titanio",
+      "Membrana soldada enrasada frontalmente sin espacios vacíos",
+      "Alta temperatura de funcionamiento de hasta 180 °C",
+      "Comportamiento térmico optimizado"
+    ]
+  }
+]
